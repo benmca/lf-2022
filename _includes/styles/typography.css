@@ -1,0 +1,34 @@
+h1 {
+    font-family: var(--post-header-font);
+}
+h2 {
+    font-weight: 800;
+    font-size: 18px
+}
+h3 {}
+h4 {}
+h5 {}
+h6 {
+    font-family: var(--heading-font);
+    color: var(--heading-color);
+    font-weight: var(--heading-weight);
+    font-size: var(--heading-size);
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+p, li {
+    margin: 1rem 0;
+}
+
+a:not(.action-button) {
+    position: relative;
+    color: black;
+    font-weight: 400;
+    text-decoration: none;
+    -webkit-box-shadow: 0 0.25mm blue;
+    box-shadow: 0 0.25mm blue;
+    padding-bottom: 0.25mm;
+    -webkit-transition: color 0.36s ease-in-out;
+    transition: color 0.36s ease-in-out;
+}
