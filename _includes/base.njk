@@ -12,10 +12,10 @@
   <body>
   <div class="main">
     <div class="nav">
-      {% include "nav.liquid" %}
+      {% include "nav.njk" %}
     </div>
     <div class="container">
-      {{ content }}
+        {{ content | safe }}
     </div>
   </div>
   </body>

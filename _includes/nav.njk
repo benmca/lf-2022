@@ -1,0 +1,7 @@
+<nav>
+
+{% set navTags = ["guitar", "listen"] %}
+{% set postslist = collections.posts %}
+{% set postslistCounter = collections.posts | length %}
+{% include "postslist.njk" %}
+</nav>

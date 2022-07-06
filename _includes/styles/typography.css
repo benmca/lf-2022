@@ -1,5 +1,6 @@
 h1 {
     font-family: var(--post-header-font);
+    font-weight: 500;
 }
 h2 {
     font-weight: 800;
