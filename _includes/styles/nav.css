@@ -20,11 +20,13 @@
     user-select: auto;
     pointer-events: auto;
 }
+
 .block-nav_toggle,
 .block-nav_option,
 .block-nav_detail_item {
     cursor: pointer;
 }
+
 .block-nav_toggle {
     line-height: 0.88;
     z-index: 3;
@@ -73,3 +75,4 @@
     transition: transform 0.33s ease-in;
     background: var(--navajowhite);
 }
+

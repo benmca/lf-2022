@@ -1,0 +1,31 @@
+$toggle: 15vmin;
+
+.block-nav_toggle_23 {
+  z-index: 3;
+  flex: 0 0 auto;
+  position: relative;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+  width: $toggle;
+  height: $toggle;
+  font-size: 5vmin;
+  font-weight: 700;
+  background: rgba(gainsboro, 0.93);
+  transition: background 0.33s ease-in-out;
+  clip-path: circle(6vmin at 50% 50%);
+  &:before {
+    content: "\2630";
+    z-index: 2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 1.1em;
+    transform: translate(-50%, -50%) rotate(0deg);
+    transition: transform 0.33s ease-in;
+}
+  &:hover {
+    background: navajowhite;
+}
+}
