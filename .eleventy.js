@@ -6,6 +6,8 @@ const markdownItAnchor = require("markdown-it-anchor");
 module.exports = function (eleventyConfig) {
 
     // eleventyConfig.addPassthroughCopy("**/*.jpg");
+    eleventyConfig.addPassthroughCopy("js");
+    eleventyConfig.addPassthroughCopy("img");
 
     eleventyConfig.addFilter("readableDate", dateObj => {
         return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat("dd LLL yyyy");

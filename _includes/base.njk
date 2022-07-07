@@ -1,23 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
     <title>Your page title</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="/styles.css" rel="stylesheet">
     <link href="https://use.typekit.net/qdq7scy.css" rel="stylesheet">
-  </head>
+    <script src="/js/base.js" defer></script>
+</head>
 
-  <body>
-  <div class="main">
+<body>
+<div class="main">
     <div class="nav">
-      {% include "nav.njk" %}
+        {% include "nav.njk" %}
     </div>
     <div class="container">
         {{ content | safe }}
     </div>
-  </div>
-  </body>
+</div>
+</body>
 
 </html>

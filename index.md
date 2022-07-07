@@ -5,7 +5,7 @@ layout: base.njk
 
 <div id="home-header">
 
-![The esteemed composer](/images/Ben_on_Orcas.jpg).
+![The esteemed composer](/img/Ben_on_Orcas.jpg).
 
 ###### Ben McAllister
 

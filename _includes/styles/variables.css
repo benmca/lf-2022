@@ -16,4 +16,14 @@
     --heading-color: #000;
     --body-color: #3d3d3d;
 
+    --toggle: 15vmin;
+    --black: #231D1B;
+    --blackFade: rgba(--black, 0.8);
+    --navajowhite: navajowhite;
+    --honeydew: honeydew;
+    --paleGoldenrod: #f5eaaa;
+
+    --bg: white;
+    --text: --blackFade;
+    --contrast: --navajowhite;
 }
