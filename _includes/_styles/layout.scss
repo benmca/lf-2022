@@ -1,0 +1,32 @@
+.main{
+  margin: 10px;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  margin: inherit;
+  z-index: 50;
+}
+
+.nav{
+
+}
+
+.post{
+
+}
+@media (max-width:800px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
+/* home page */
+#home-header{
+  text-align: center  ;
+  margin: inherit;
+}
+#home-body{
+  margin: inherit;
+}
