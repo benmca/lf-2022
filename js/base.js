@@ -1,18 +1,7 @@
-const nav = (document.getElementsByClassName('block-nav_toggle').item(0) || {});
-
-nav.addEventListener('click', e => {
-    nav.toggleAttribute("toggle");
-    if(nav.hasAttribute("toggle")){
-        toggle();
-    } else {
-        untoggle();
-    }
+$(document).ready(function() {
+    $(".block-nav_toggle").click(function () {
+        $(".block-nav_toggle").toggleClass('toggled');
+        $(".block-nav_home").toggleClass('toggled');
+        $(".block-nav_options").toggleClass('toggled');
+    })
 });
-
-function toggle(){
-    nav.classList.add("toggled");
-};
-
-function untoggle(){
-    nav.classList.remove("toggled");
-};

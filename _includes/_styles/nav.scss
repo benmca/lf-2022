@@ -10,7 +10,7 @@ $toggle: 15vmin;
     bottom: 0;
     right: 0;
     width: $toggle;
-    height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
     user-select: none;
     pointer-events: none;
     & * {
@@ -67,7 +67,156 @@ $toggle: 15vmin;
     }
 }
 
+.block-nav_home {
 
+    line-height: 0.88;
+    flex: 0 0 auto;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+    width: $toggle;
+    height: $toggle;
+    transition: transform 0.33s ease-in-out, background 0.24s ease-in;
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-size: 4vmin;
+    font-weight: 400;
+    color: black;
+    opacity: 0;
+    clip-path: none;
+    box-shadow: none;
+    background: rgba(white, 0.8);
+    mix-blend-mode: unset;
+    &:visited {
+        color: black;
+    }
+    &:before {
+        content: unset;
+    }
+    &.toggled:hover {
+        background: darken(white, 16%);
+    }
+    &.toggled {
+        opacity: 1;
+        transform: translate(-200%, 0);
+        transition: transform 0.33s ease-in-out, background 0.24s ease-in;
+        background: rgba(darken(white, 16%), 0.8);
+    }
+}
+.block-nav_options {
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: baseline;
+    //width: calc(100vh - #{$toggle});
+    width: calc((var(--vh, 1vh) * 100) - #{$toggle});
+    min-width: fit-content;
+    height: $toggle;
+    top: 0;
+    left: 0;
+    //transform: rotate(90deg) translate(100vh, 0);
+    //noinspection CssInvalidFunction
+    transform: rotate(90deg) translate(calc(var(--vh, 1vh) * 100), 0);
+    transform-origin: #{ calc($toggle / 2) } #{ calc($toggle / 2) };
+    transition: transform 0.33s ease-in-out,
+    background 0.24s ease-in;
+    background: rgba(darken(gainsboro, 16%), 0);
+    background-clip: content-box;
+    color: rgba(black, 0);
+    &.disabled * {
+        pointer-events: none;
+        user-select: none;
+    }
+    &.toggled * {
+        pointer-events: auto;
+        user-select: auto;
+    }
+    &.toggled {
+        background: rgba(gainsboro, 0.8);
+        //background: rgba(darken(darkkhaki, 16%), 0.62);
+        background-clip: content-box;
+        color: rgba(black, 1);
+        transform: rotate(90deg) translate(0, 0);
+    }
+    &.overflowing {
+        flex-flow: column nowrap;
+        justify-content: flex-end;
+        width: $toggle;
+        //height: calc(100vh - #{$toggle});
+        height: calc((var(--vh, 1vh) * 100) - #{$toggle});
+        transform: translateY(100%);
+        &.toggled {
+            transform: translateY(0);
+        }
+        .block-nav_option {
+            flex: 1 1 auto;
+            display: grid;
+            justify-content: center;
+            align-content: center;
+            height: auto;
+            padding: 0.5em;
+            transform: none;
+        }
+        .block-nav_option:after {
+            display: block;
+            position: absolute;
+            left: calc(4vmin / 2);
+            bottom: calc(((100% - 4vmin) / 2) - 2mm);
+            width: calc(100% - 4vmin);
+            height: 1mm;
+        }
+        & ~ .block-nav_detail {
+            width: calc((200vw / 3) - #{$toggle});
+        }
+    }
+}
+.block-nav_option {
+    $fontSize: 4vmin;
+    flex: 0 0 auto;
+    position: relative;
+    height: 100%;
+    padding: calc((#{$toggle} - #{$fontSize}) / 2);
+    margin: 0;
+    font-size: #{$fontSize};
+    font-weight: 400;
+    transition: transform 0.33s ease-in-out,
+    background 0.48s ease-in-out;
+    transform-origin: right #{calc($toggle / 2)};
+    &:hover {
+        background: #{darken(white, 16%)};
+    }
+    &:after {
+        content: "";
+        opacity: 0;
+        display: block;
+        position: absolute;
+        left: calc((#{$toggle} - #{$fontSize}) / 2);
+        bottom: calc(((100% - #{$fontSize}) / 2) - 1mm);
+        width: calc(100% - (#{$toggle} - #{$fontSize}));
+        height: 100%;
+        border-bottom: 1mm solid currentColor;
+        transform-origin: top right;
+        transform: rotate(-90deg) translate(100%, -100%);
+        transition: opacity 0.33s ease-in-out,
+        transform 0.27s ease-out;
+    }
+    &.toggled {
+        transform: translate(-50%, calc(-50% - 1mm)) rotate(-90deg);
+        background: rgba(darken(white, 16%), 0.8);
+    }
+    &.toggled:hover {
+        background: #{darken(white, 16%)};
+    }
+    &.toggled:after {
+        opacity: 1;
+        transform: rotate(0deg) translate(0%, 0%);
+    }
+}
 
 
 
