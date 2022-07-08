@@ -1,5 +1,8 @@
+@use "variables";
+
+
 h1 {
-    font-family: var(--post-header-font);
+    font-family: $post-header-font;
     font-weight: 500;
 }
 h2 {
@@ -10,10 +13,10 @@ h3 {}
 h4 {}
 h5 {}
 h6 {
-    font-family: var(--heading-font);
-    color: var(--heading-color);
-    font-weight: var(--heading-weight);
-    font-size: var(--heading-size);
+    font-family: $heading-font;
+    color: $heading-color;
+    font-weight: $heading-weight;
+    font-size: $heading-size;
     text-transform: uppercase;
     line-height: 1;
 }

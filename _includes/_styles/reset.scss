@@ -8,11 +8,11 @@
 }
 
 html {
-    font-family: var(--body-font);
-    font-size: var(--font-size);
-    font-weight: var(--body-weight);
-    line-height: var(--line-height);
-    color: var(--body-color);
+    font-family: $body-font;
+    font-size: $font-size;
+    font-weight: $body-weight;
+    line-height: $line-height;
+    color: $body-color;
 }
 
 img {

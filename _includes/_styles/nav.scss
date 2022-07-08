@@ -1,3 +1,5 @@
+$toggle: 15vmin;
+
 .block-nav {
     z-index: 500;
     position: fixed;
@@ -7,7 +9,7 @@
     align-items: flex-end;
     bottom: 0;
     right: 0;
-    width: var(--toggle);
+    width: $toggle;
     height: 100vh;
     user-select: none;
     pointer-events: none;
@@ -32,15 +34,15 @@
     flex-flow: row;
     align-items: center;
     justify-content: center;
-    width: var(--toggle);
-    height: var(--toggle);
+    width: $toggle;
+    height: $toggle;
     font-size: 5vmin;
     font-weight: 700;
     background: rgba(220, 220, 220, 0.93);
     clip-path: circle(6vmin at 50% 50%);
 
     transform: rotate(0deg);
-    transition: background 0.33s ease-in-out;
+    //transition: background 0.33s ease-in-out;
     transition: transform 0.33s ease-in;
 
     &:before {
@@ -56,12 +58,12 @@
     }
 
     &:hover {
-        background: var(--navajowhite);
+        background: $navajowhite;
     }
 
     &.options:hover {
         transition: transform 0.33s ease-in;
-        background: var(--navajowhite);
+        background: $navajowhite;
     }
 }
 
