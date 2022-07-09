@@ -113,14 +113,11 @@ $toggle: 15vmin;
     flex-flow: row nowrap;
     justify-content: flex-end;
     align-items: baseline;
-    //width: calc(100vh - #{$toggle});
     width: calc((var(--vh, 1vh) * 100) - #{$toggle});
     min-width: fit-content;
     height: $toggle;
     top: 0;
     left: 0;
-    //transform: rotate(90deg) translate(100vh, 0);
-    //noinspection CssInvalidFunction
     transform: rotate(90deg) translate(calc(var(--vh, 1vh) * 100), 0);
     transform-origin: #{ calc($toggle / 2) } #{ calc($toggle / 2) };
     transition: transform 0.33s ease-in-out,
@@ -223,4 +220,81 @@ $toggle: 15vmin;
 
 
 
-
+.block-nav_detail {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc(100vmin - #{$toggle} - 72px);
+    max-width: calc(100vw - #{$toggle} - 72px);
+    height: inherit;
+    padding: 0;
+    background: rgba(white, 0.93);
+    overflow-y: scroll;
+    transform: translate(-100%, 0);
+    &.nav-detail-enter-active,
+    &.nav-detail-leave-active {
+        transform: translate(-100%, 0);
+        transition: transform 0.33s ease-in-out,
+        background 0.33s ease-in-out;
+    }
+    &.nav-detail-enter,
+    &.nav-detail-leave-to {
+        transform: translate(0, 0);
+        background: white;
+    }
+    display: none;
+}
+.block-nav_detail_item {
+    position: relative;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 1pc;
+    transition: background 0.33s ease-in-out,
+    box-shadow 0.24s ease-in;
+    //box-shadow: 0 calc(4vmin + 1mm) 0 -4vmin blue;
+    &:hover {
+        background: mix(navajowhite, white, 50%);
+        box-shadow: 0 1mm 0 0 blue;
+    }
+    .title,
+    .description {
+        flex: 0 0 auto;
+    }
+    .title {
+        order: 1;
+        //font-family: anton, sans-serif;
+        //font-size: 8vmin;
+        font-family: gill-sans-nova, sans-serif;
+        font-size: 10mm;
+        text-align: left;
+    }
+    .description {
+        order: 2;
+        margin-right: 1ex;
+        text-align: left;
+    }
+    .author,
+    .date {
+        display: block;
+        font-size: 5mm;
+        margin-top: 0.5em;
+    }
+    @media all and (min-width: 600px) {
+        flex-flow: row nowrap;
+        .title,
+        .description {
+            align-self: center;
+        }
+        .title {
+            order: 2;
+            flex: 1 1 8ch;
+        }
+        .description {
+            order: 1;
+            flex: 1 1 4ch;
+            text-align: right;
+        }
+    }
+}
