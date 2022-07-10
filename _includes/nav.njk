@@ -1,41 +1,27 @@
+{% set navTags = ["guitar", "listen"] %}
+{% set postslist = collections.posts %}
 <nav>
     <div class="block-nav">
         <div class="block-nav_toggle">
         </div>
         <div class="block-nav_options">
-            <h2 class="block-nav_option" data="listen">Listen</h2>
-            <h2 class="block-nav_option" data="guitar">Guitar</h2>
+            {% for t in navTags %}
+                <h2 class="block-nav_option" data="{{ t }}">{{ t }}</h2>
+            {% endfor %}
         </div>
+
         <a href="/"
            class="block-nav_home">Home</a>
-        <div class="block-nav_detail" data="listen">
-            <div class="block-nav_detail_item">
-                <div class="title">Let's see how this Bartók piano sketch sounds on guitar...</div>
-            </div>
-            <div class="block-nav_detail_item router-link-exact-active router-link-active">
-                <div class="title">Demoing Perotin (8 guitars)</div>
-            </div>
-            <div class="block-nav_detail_item">
-                <div class="title">Pull Your Awareness Back to Now</div>
-            </div>
-            <div class="block-nav_detail_item">
-                <div class="title">Reduce</div>
-            </div>
-            <div class="block-nav_detail_item">
-                <div class="title">Repetition and Focus</div>
-            </div>
-            <div class="block-nav_detail_item">
-                <div class="title">Guitar Cult Dispatch: May 2017</div>
-            </div>
-        </div>
-        <div class="block-nav_detail" data="guitar">
-            <div class="block-nav_detail_item">
-                <div class="title">post 1</div>
-            </div>
-            <div class="block-nav_detail_item">
-                <div class="title">post 2</div>
-            </div>
-        </div>
-    </div>
 
+        {% for t in navTags %}
+            <div class="block-nav_detail" data="{{ t }}">
+                {% for post in postslist | itemsByTag(t) | reverse %}
+                    <div class="block-nav_detail_item">
+                        <a href="{{ post.url | url }}"
+                           class="title">{% if post.data.title %}{{ post.data.title }}{% else %}
+                                <code>{{ post.url }}</code>{% endif %}</a>
+                    </div>
+                {% endfor %}
+            </div>
+        {% endfor %}
 </nav>
