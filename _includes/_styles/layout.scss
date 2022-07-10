@@ -26,6 +26,10 @@
 #home-header{
   text-align: center  ;
   margin: inherit;
+  width: inherit;
+  @media (min-width: 800px) {
+    width: 40%;
+  }
 }
 #home-body{
   margin: inherit;

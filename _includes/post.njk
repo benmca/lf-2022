@@ -2,5 +2,12 @@
 layout: base.njk
 ---
 <div class="post">
-    {{ content }}
+    <div class="post_header">
+        <div class="background_image cover"
+             style="background-image: url('{{ bgImg | url }}');"></div>
+        <h1 class="post_title detail_title">{{ title }}</h1>
+    </div>
+    <div class="post_content">
+        {{ content | safe }}
+    </div>
 </div>

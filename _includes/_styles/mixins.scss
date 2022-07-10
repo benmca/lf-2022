@@ -1,0 +1,50 @@
+@mixin hyphenation {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+
+  -webkit-hyphenate-before: 2;
+  -webkit-hyphenate-after: 3;
+  hyphenate-lines: 3;
+}
+
+@mixin viewportFontSize($vp, $min, $max) {
+  // N.B. Include unit when entering $min and $max!
+  // vp:        4.5
+  // min:       21.21px
+  // max:       45px
+  // rangemin:  471.333   (100 / 4.5) * 21.21px
+  // rangemax:  1000      (100 / 4.5) * 45px
+
+  $rangeMin: round(calc((100 / $vp)) * $min);
+  $rangeMax: round(calc((100 / $vp)) * $max);
+
+  font-size: #{$min};
+  // between 471px and 999px Wide, and max 470px High { 4.5vw }
+  @media screen and (min-height: #{$rangeMin})
+                and (max-height: #{$rangeMax - 1})
+                and (max-width: #{$rangeMin - 1}) {
+    font-size: #{$vp}vh;
+  }
+  // between 471px and 999px High, and max 470px Wide ( 4.5vh }
+  @media screen and (min-width: #{$rangeMin})
+                and (max-width: #{$rangeMax - 1})
+                and (max-height: #{$rangeMin - 1}) {
+    font-size: #{$vp}vw;
+  }
+  // between 471px to 99px W and 471px to 999px H { 4.5vmax }
+  @media screen and (min-height: #{$rangeMin})
+                and (max-height: #{$rangeMax - 1})
+                and (min-width: #{$rangeMin})
+                and (max-width: #{$rangeMax - 1}) {
+    font-size: #{$vp}vmax;
+  }
+  @media screen and (min-height: $rangeMax),
+         screen and (min-width: $rangeMax) {
+    font-size: #{$max};
+  }
+}
