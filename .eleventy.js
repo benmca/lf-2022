@@ -28,9 +28,9 @@ module.exports = function (eleventyConfig) {
         }
     });
 
-    // eleventyConfig.addPassthroughCopy("**/*.jpg");
     eleventyConfig.addPassthroughCopy("js");
     eleventyConfig.addPassthroughCopy("img");
+    eleventyConfig.addPassthroughCopy("snd");
 
     eleventyConfig.addFilter("readableDate", dateObj => {
         return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat("dd LLL yyyy");
@@ -83,7 +83,7 @@ module.exports = function (eleventyConfig) {
     // Customize Markdown library and settings:
     let markdownLibrary = markdownIt({
         html: true,
-        linkify: true
+        linkify: false
     });
         // .use(markdownItAnchor, {
     //     permalink: markdownItAnchor.permalink.ariaHidden({

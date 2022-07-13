@@ -52,9 +52,13 @@ h2.block-nav_option {
     padding: 2pc;
     text-align: justify;
     overflow: visible;
+
 }
+
+
 .post_header {
     position: relative;
+    width: 100%;
     .background_image {
         position: absolute;
         top: 0;
@@ -64,13 +68,15 @@ h2.block-nav_option {
         z-index: -1;
         width: 100%;
         height: 100%;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-blend-mode: lighten;
+        background-size: cover;
     }
 }
 
 .post.post_detail .background_image {
     filter: contrast(0.62) brightness(1.2) hue-rotate(330deg) grayscale(0.5);
-    background-blend-mode: lighten;
-    background-size: cover;
 }
 
 .post .post_header {
