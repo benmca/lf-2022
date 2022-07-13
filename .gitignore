@@ -4,4 +4,5 @@ _site
 img
 .idea
 snd
+assets
 package-lock.json
