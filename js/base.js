@@ -9,6 +9,7 @@ $(document).ready(function() {
     });
 
 
+
     $(".block-nav_option").click(function () {
         // if this is toggled, silently fail
         if($(this).not("toggled")){
@@ -21,9 +22,21 @@ $(document).ready(function() {
             $(".block-nav_detail[data=" + selected_tag + "]").scrollTop(0);
             if(!$(".block-nav_scrim").hasClass("toggled")){
                 $(".block-nav_scrim").toggleClass("toggled");
+                toggleBodyFixed();
             }
         }
     });
+
+    function toggleBodyFixed(){
+        if(document.body.style.position == 'fixed'){
+            document.body.style.position = '';
+            console.log('1');
+        }
+        else {
+            document.body.style.position = 'fixed';
+            console.log('2');
+        }
+    };
 
     function toggleBlockNav () {
         $(".block-nav_toggle").toggleClass('toggled');
@@ -34,6 +47,7 @@ $(document).ready(function() {
             $(".block-nav_option").removeClass('toggled');
             $(".block-nav_detail").hide();
             $(".block-nav_scrim").removeClass('toggled');
+            toggleBodyFixed();
         }
     };
 
