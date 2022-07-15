@@ -5,7 +5,7 @@ tags: blog
 layout: post.njk
 bgImg: /img/default-bg.jpg
 ---
-![St Martins Photo](/img/st_martin.jpg)
+![St Martins Photo](/main/img/st_martin.jpg)
 
 [photo above is from St Martin's FB page](https://www.facebook.com/smdpseattle)
 

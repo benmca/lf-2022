@@ -21,7 +21,7 @@ We just moved our piano back home, and I used it to full effect: I
 rested the amp on the sustain pedal, aimed at the soundboard, and
 recorded each part. Lots of resonance.
 
-![Piano setup](/img/perotin-piano.jpg)
+![Piano setup](/main/img/perotin-piano.jpg)
 
 Here’s the vocal version of the whole shebang (way faster than I’m taking it – maybe double-time):
 

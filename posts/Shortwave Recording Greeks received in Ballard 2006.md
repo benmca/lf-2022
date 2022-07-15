@@ -15,7 +15,7 @@ I've been addicted to my shortwave since I first heard the sounds of WWV - the '
 Time Signal:
 
 <audio controls>
-   <source src="/snd/TimeSignal3.mp3" type="audio/mp3">
+   <source src="/main/snd/TimeSignal3.mp3" type="audio/mp3">
 </audio>
 
 I had a podcast going for a little while in 2006, dedicated to sharing this stuff. Here are two 'episodes':

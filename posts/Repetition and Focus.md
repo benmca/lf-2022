@@ -23,11 +23,11 @@ of wander around them, looking for patterns to percolate up that have
 the slightest inkling of musical value to my ears. I always give myself a
 small challenge to keep things fresh – lately, I work through the circle of 5ths in one position, so I might start on Bb ionian:
 
-![Repetition and Focus - Fig. 1](/img/repetition-and-focus-1.png)
+![Repetition and Focus - Fig. 1](/main/img/repetition-and-focus-1.png)
 
 ..then move to F in the same position.
 
-![Repetition and Focus - Fig. 2](/img/repetition-and-focus-2.png)
+![Repetition and Focus - Fig. 2](/main/img/repetition-and-focus-2.png)
 
 And so on. When I started out, I was shown to cycle through intervals
 and sequences in groups of 3 and 4, but I grew to apply that thinking
@@ -37,15 +37,15 @@ with this F scale:
 
 Intervals:
 
-![Repetition and Focus - Fig. 3](/img/repetition-and-focus-3.png)
+![Repetition and Focus - Fig. 3](/main/img/repetition-and-focus-3.png)
 
 Sequences:
 
-![Repetition and Focus - Fig. 4](/img/repetition-and-focus-4.png)
+![Repetition and Focus - Fig. 4](/main/img/repetition-and-focus-4.png)
 
 Notes per string:
 
-![Repetition and Focus - Fig. 5](/img/repetition-and-focus-5.png)
+![Repetition and Focus - Fig. 5](/main/img/repetition-and-focus-5.png)
 
 You get the idea – there are multiple approaches to playing with
 scale material which I permute with groupings of 1-6 (I usually stop
@@ -72,7 +72,7 @@ So: the takeaways for practice time:
 
 Here’s the last one from my notebook:
 
-![Repetition and Focus - Fig. 6](/img/repetition-and-focus-6.png)
+![Repetition and Focus - Fig. 6](/main/img/repetition-and-focus-6.png)
 
 
 

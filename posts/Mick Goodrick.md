@@ -16,7 +16,7 @@ _go ahead and learn all C major, C minor, C augmented and C diminished triage, a
 
 Four staffs lay out the voicing verbosely:
 
-![Goodrick Scan](/img/goodrick-scan.jpeg)
+![Goodrick Scan](/main/img/goodrick-scan.jpeg)
 
 After revisiting my voicings, and practicing the triad row exercise on the following page, I've found a groove in voice leading through what initially sound like arbitrary progressions. Mick lays out a 48 item 'triad row', using every permutation of maj/min/aug/dim across the 12 possible roots, then generates progressions ala circle of fifths, but with varying intervals. I've been struck by how interesting these progression can sound, particularly playing with how you apply the type of triad. Here are the roots according to consistenly applied intervals (all on C):
 

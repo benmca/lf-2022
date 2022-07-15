@@ -15,7 +15,7 @@ I kept myself to a few drum sounds, primary this loop, which comes from [a Jimmy
 
 
 <audio controls>
-   <source src="/snd/jam_remix.mp3" type="audio/mp3">
+   <source src="/main/snd/jam_remix.mp3" type="audio/mp3">
 </audio>
 
 Here's the CM code

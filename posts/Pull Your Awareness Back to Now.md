@@ -10,7 +10,7 @@ bgImg: /img/default-bg.jpg
 # be here now
 # when you need to be.
 
-![Opening of Attention Span](/img/Attention%20Span%20excerpt.png)
+![Opening of Attention Span](/main/img/Attention%20Span%20excerpt.png)
 
 This piece is fun - it's an exercise in awareness, and a challenge to dexterity.
 
@@ -26,7 +26,7 @@ And a slow walk through the piece:
 
 
 <audio controls>
-   <source src="/snd/Nov3No1.mp3" type="audio/mp3">
+   <source src="/main/snd/Nov3No1.mp3" type="audio/mp3">
 </audio>
 
 

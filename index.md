@@ -6,7 +6,7 @@ title: Listen Faster - Music by Ben McAllister
 
 <div id="home-header">
 
-![The esteemed composer](/img/Ben_on_Orcas.jpg).
+![The esteemed composer](/main/img/Ben_on_Orcas.jpg).
 
 ###### Ben McAllister
 

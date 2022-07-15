@@ -111,7 +111,9 @@ module.exports = function (eleventyConfig) {
         markdownTemplateEngine: "njk",
 
         // Pre-process *.html files with: (default: `liquid`)
-        htmlTemplateEngine: "njk"
+        htmlTemplateEngine: "njk",
+
+        pathPrefix: "/main/"
     };
 };
 

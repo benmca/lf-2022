@@ -7,7 +7,7 @@ layout: post.njk
 bgImg: /img/default-bg.jpg
 ---
 
-![MH: Ben at Ok Hotel](/img/MH.OkHotel1.png)
+![MH: Ben at Ok Hotel](/main/img/MH.OkHotel1.png)
 
 I was guitarist for Medicine Hat, a Seattle rock band active in the 1990s during Seattle’s time in the spotlight - a little reflection on an awesome couple of years playing with my best friends.
 mh.jpg
@@ -28,7 +28,7 @@ YOU CLEAR CUT? DUNga DUNga dun DUN. WE SPIKE! YOU CLEAR CUT? DUNga DUNga dun DUN
 
 I pull my stuff out to our van and load back up, sit inside for a moment, take some more wine and listen to the Tchkungdrums through the van wall. There is a break in the sound. Power outage? A lengthy enviro-sermon from the stage? The parking lot is full again with people and the cops have brought reinforcements. The fire breath had caught the ceiling carpet on fire and the show was over. Or paused – I can’t remember. You see, I read too much and often miss out on things like this.
 
-![MH](/img/mh.jpg)
+![MH](/main/img/mh.jpg)
 
 -=-=-
 

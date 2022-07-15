@@ -38,6 +38,6 @@ For now, here are the relevant online resources I’ve been able to identify:
 
 [One python programmer’s notes on learning scheme](http://www.artima.com/weblogs/viewpost.jsp?thread=251474). He’s a good writer so it’s a fun read.
 
-[Main S7 page](https://ccrma.stanford.edu/software/snd/snd/s7.html) - S7 is an extension of Scheme which CM leverages.
+[Main S7 page](https://ccrma.stanford.edu/software/main/snd/snd/s7.html) - S7 is an extension of Scheme which CM leverages.
 
 Two free books! [The Scheme Programming Language](http://www.scheme.com/tspl2d/) and [Practical Common Lisp](http://www.gigamonkeys.com/book/)

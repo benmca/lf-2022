@@ -5,6 +5,10 @@ tags: blog
 layout: post.njk
 bgImg: /img/ruth-1022x1024.jpg
 ---
+<br />
+<iframe width="560" height="315" src="https://www.youtube.com/embed/agu5Xo7alIQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 I first listened to Ruth Crawford Seeger's String Quartet (1931) in a class at the University of Washington in the late 90s with Dr. Diane Thome, who would do much to broaden my musical horizons during my stay there. As a Composition major, I was stewing in music from all periods and genres that year, and began to develop an anxiety when I heard rich, dense music like Seeger's.
 
 On initial listen to some pieces, there is so much that washes over you initially that it can be difficult to let go and absorb the sound viscerally. My mind would kick in heavy once the needle dropped, and my inner reptile would get to work processing sound objects, looking frantically for connections, so that I'd ultimately have something astute to say about the construction of the piece.
@@ -15,4 +19,6 @@ I had the opportunity to speak on a Music Technology panel this past weekend at 
 
 I love this piece - it's allusions to timbre's we'd hear in electronic music 20 years later, it's balance, it's rocking-ness.
 
-![back cover](/img/ruth2-1013x1024.jpg)
+
+![front cover](/main/img/ruth-1022x1024.jpg)
+![back cover](/main/img/ruth2-1013x1024.jpg)

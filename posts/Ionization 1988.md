@@ -5,7 +5,7 @@ tags: blog
 layout: post.njk
 bgImg: /img/ionisation-cover.jpg
 ---
-![Ionisation](/img/ionisation-cover.jpg)
+![Ionisation](/main/img/ionisation-cover.jpg)
 
 I remember hearing Ionisation for the first time in 10th grade. Zappa had crowed about Varèse and I must’ve picked that up somewhere.
 
