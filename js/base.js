@@ -13,31 +13,27 @@ $(document).ready(function() {
     $(".block-nav_option").click(function () {
         // if this is toggled, silently fail
         if($(this).not("toggled")){
-                // block-nav_scrim
             $(".block-nav_detail").hide();
             $(".block-nav_option.toggled").toggleClass("toggled");
             $(this).toggleClass("toggled");
             var selected_tag = $(this).attr("data");
             $(".block-nav_detail[data=" + selected_tag + "]").show();
             $(".block-nav_detail[data=" + selected_tag + "]").scrollTop(0);
+            // only toggle scrim if it's visble
             if(!$(".block-nav_scrim").hasClass("toggled")){
-                $(".block-nav_scrim").toggleClass("toggled");
-                toggleBodyFixed();
+                toggleScrim();
             }
         }
     });
 
-    function toggleBodyFixed(){
-
-        if($(".block-nav_scrim").hasClass('toggled')){
-            if(document.body.style.position == 'fixed'){
-                document.body.style.position = '';
-                console.log('1');
-            }
-            else {
-                document.body.style.position = 'fixed';
-                console.log('2');
-            }
+    function toggleScrim(){
+        if($(".block-nav_scrim").hasClass('toggled')) {
+            document.body.style.position = '';
+            $(".block-nav_scrim").removeClass('toggled');
+        }
+        else {
+            document.body.style.position = 'fixed';
+            $(".block-nav_scrim").addClass('toggled');
         }
     };
 
@@ -47,10 +43,9 @@ $(document).ready(function() {
         $(".block-nav_options").toggleClass('toggled');
         //clear scrim and details
         if(!$(".block-nav_toggle").hasClass("toggled")){
-            toggleBodyFixed();
+            toggleScrim();
             $(".block-nav_option").removeClass('toggled');
             $(".block-nav_detail").hide();
-            $(".block-nav_scrim").removeClass('toggled');
         }
     };
 
