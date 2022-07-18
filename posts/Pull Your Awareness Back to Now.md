@@ -24,10 +24,7 @@ Try to picture playing bars 3-4 while playing bars 1-2. **What do you observe?**
 
 And a slow walk through the piece:
 
-
-<audio controls>
-   <source src="/main/snd/Nov3No1.mp3" type="audio/mp3">
-</audio>
+{% audioPlayer "/main/snd/Nov3No1.mp3" %} 
 
 
 

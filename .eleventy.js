@@ -84,6 +84,12 @@ module.exports = function (eleventyConfig) {
         return filterTagList([...tagSet]);
     });
 
+    // Nunjucks Shortcode
+    eleventyConfig.addNunjucksShortcode("audioPlayer", function(...tracks) {
+        return '<audio controls><source src="' + tracks + '" type="audio/mp3"></audio>';
+    });
+
+
     // Customize Markdown library and settings:
     let markdownLibrary = markdownIt({
         html: true,

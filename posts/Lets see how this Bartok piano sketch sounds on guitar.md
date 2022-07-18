@@ -6,10 +6,7 @@ layout: post.njk
 bgImg: /img/default-bg.jpg
 ---
 
-<br/>
-<audio controls>
-   <source src="/main/snd/Bartok-Sketches-Op9No2SeeSaw.mp3" type="audio/mp3">
-</audio>
+{% audioPlayer "/main/snd/Bartok-Sketches-Op9No2SeeSaw.mp3" %}
 
 We just moved the piano back into the house and I was tapping through some music I got back when I worked at Sunhawk (now Sheet Music Now) in the 90s, and found this little guy:
 

@@ -13,10 +13,7 @@ Working though porting some old instruments which generated [Csound](http://www.
 This example illustrates a few techniques I used in [my piece Anxious from 1999](https://listenfastermusic.bandcamp.com/track/anxious). 
 I kept myself to a few drum sounds, primary this loop, which comes from [a Jimmy Smith tune originally](https://www.youtube.com/watch?v=yt8bRoeq6bc), but was known to me through [Professor Booty](https://www.youtube.com/watch?v=OqajEd_DKgk).
 
-
-<audio controls>
-   <source src="/main/snd/jam_remix.mp3" type="audio/mp3">
-</audio>
+{% audioPlayer "/main/snd/jam_remix.mp3" %}
 
 Here's the CM code
 
