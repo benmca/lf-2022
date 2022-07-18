@@ -3,6 +3,7 @@ const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
 const sass = require("sass");
 const path = require("node:path");
+const nj = require("nunjucks");
 
 module.exports = function (eleventyConfig) {
     eleventyConfig.addTemplateFormats("scss");
@@ -65,28 +66,16 @@ module.exports = function (eleventyConfig) {
 
     // Return the smallest number argument
     eleventyConfig.addFilter("itemsByTag", (array, tag) => {
+        if(tag && array && array.data && array.data.tags) {
+            console.log(tag + ":" + array.data.tags);
+        }
         return (array || []).filter(x => x.data.tags.includes(tag));
     });
 
-    function filterTagList(tags) {
-        return (tags || []).filter(tag => ["all", "nav", "post", "posts"].indexOf(tag) === -1);
-    }
-
-    eleventyConfig.addFilter("filterTagList", filterTagList)
-
-    // Create an array of all tags
-    eleventyConfig.addCollection("tagList", function(collection) {
-        let tagSet = new Set();
-        collection.getAll().forEach(item => {
-            (item.data.tags || []).forEach(tag => tagSet.add(tag));
-        });
-
-        return filterTagList([...tagSet]);
-    });
 
     // Nunjucks Shortcode
-    eleventyConfig.addNunjucksShortcode("audioPlayer", function(...tracks) {
-        return '<audio controls><source src="' + tracks + '" type="audio/mp3"></audio>';
+    eleventyConfig.addNunjucksShortcode("audioPlayer", function(track) {
+        return nj.render('_includes/audioPlayer.njk', {track: track});
     });
 
 
@@ -95,15 +84,7 @@ module.exports = function (eleventyConfig) {
         html: true,
         linkify: false
     });
-        // .use(markdownItAnchor, {
-    //     permalink: markdownItAnchor.permalink.ariaHidden({
-    //         placement: "after",
-    //         class: "direct-link",
-    //         symbol: "#"
-    //     }),
-    //     level: [1,2,3,4],
-    //     slugify: eleventyConfig.getFilter("slugify")
-    // });
+
     eleventyConfig.setLibrary("md", markdownLibrary);
 
     return {

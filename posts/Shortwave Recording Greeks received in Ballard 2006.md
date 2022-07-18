@@ -1,7 +1,7 @@
 ---
 title: "Shortwave Recording - Greeks received in Ballard 2006"
 date: 2010-02-14
-tags: blog, listen
+tags: ['blog', 'listen']
 layout: post.njk
 bgImg: /img/default-bg.jpg
 ---
@@ -14,9 +14,7 @@ I've been addicted to my shortwave since I first heard the sounds of WWV - the '
 
 Time Signal:
 
-<audio controls>
-   <source src="/main/snd/TimeSignal3.mp3" type="audio/mp3">
-</audio>
+{% audioPlayer "/main/snd/TimeSignal3.mp3" %}
 
 I had a podcast going for a little while in 2006, dedicated to sharing this stuff. Here are two 'episodes':
 
