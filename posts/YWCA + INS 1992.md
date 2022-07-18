@@ -5,7 +5,7 @@ tags: blog
 layout: post.njk
 bgImg: /img/default-bg.jpg
 ---
-You may remember my introductory piece, where I microdose and nearly get my hands crushed by a former boxer in an elderly men's shelter in downtown Seattle, early '90s. I was working halftime at that shelter, and half time at the YWCA.
+You may remember an earlier post, where I microdose and nearly get my hands crushed by a former boxer in an elderly men's shelter in downtown Seattle, early '90s. I was working halftime at that shelter, and half time at the YWCA.
 
 A little lay of the land: the YWCA had an eighth story building, each story had its own function. The first floor and the basement for dedicated to physical activities, outreach, contained a gym and a swimming pool, and the front desk. Will get back to the front desk in a minute, because it's where I spent most of my time.  The second floor was a combination of meeting rooms that could be donated to any worthy cause, and administrative offices with tons of sensitive information and cash in various insecure spots.  Third floor was reserved for women and children in crisis. There was one full-time counselor for 40 rims, and s*** was always haywire. The 4th floor was a green-tortoise-style youth hostel, only for women.
 

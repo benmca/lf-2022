@@ -20,7 +20,7 @@ Christ will come again ("AHEM. AHEM.")
 
 
 
-Bainbridge 1977: A piano shows up and there's a 45 on the record player, Mary Hopkins "Those were the days, we thought they'd never end".  I figure this song's from the 1800s, and maybe from that movie Fiddler on the Roof. It is played over and over, mom can't be satisfied with just one spin. She leaves and I discover the 'N' in between 33 and 45 which will keep the sound up, but disengage the motor.  I manage to find the 'la la la la' part at the end and play the record back and forth. La. Al. La. Al. Then I am paddled with the wooden spoon, lightly but not too light - I don't mess with mom's record again. But! I hear a skip I put at the end and hear the backwards Alll's in my head when mommo spins it - way worth it to hear my destructive improvements to Mary's composition.
+Bainbridge 1977: A piano shows up and there's a 45 on the record player, Mary Hopkins "Those were the days my friend, we thought they'd never end".  I figure this song's from the 1800s, and maybe from that movie Fiddler on the Roof. It is played over and over, mom can't be satisfied with just one spin. She leaves and I discover the 'N' in between 33 and 45 which will keep the sound up, but disengage the motor.  I manage to find the 'la la la la' part at the end and play the record back and forth. La. Al. La. Al. Then I am paddled with the wooden spoon, lightly but not too light - I don't mess with mom's record again. But! I hear a skip I put at the end and hear the backwards Alll's in my head when mommo spins it - way worth it to hear my destructive improvements to Mary's composition.
 
 
 

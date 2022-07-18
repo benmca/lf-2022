@@ -59,6 +59,7 @@ module.exports = function (eleventyConfig) {
         return Math.min.apply(null, numbers);
     });
 
+    eleventyConfig.addFilter("friendlyDate", require("./js/filters.js"));
 
     // Return the smallest number argument
     eleventyConfig.addFilter("itemsByTag", (array, tag) => {

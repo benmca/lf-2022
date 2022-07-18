@@ -1,16 +1,16 @@
 ---
-title: Mick Goodrick
+title: Mick Goodrick Triads
 date: 2013-09-30
 tags: guitar
 layout: post.njk
 bgImg: /img/default-bg.jpg
 ---
 
-If you aren't familiar with Mick Goodrick's writing on the guitar, you're missing out. His book The Advancing Guitarist is one I've come back to again and again since I bought it 25 years ago (!) after reading his amazing articles in Guitar Player magazine in the 80s. This book is well known to many, so I won't belabor what so many before me have said, but to sum up: this is the rare (RARE) book that continues to give back no matter how many times one revisits. The only truly humble guitar book I own.
+If you aren't familiar with Mick Goodrick's guitar method, you're missing out. His book _The Advancing Guitarist_ is one I've come back to again and again since I bought it 25 years ago (!) after reading his amazing articles in Guitar Player magazine in the 80s. This book is well known to many, so I won't belabor what so many before me have said, but to sum up: this is the rare (RARE) book that continues to give back no matter how many times one revisits. The only truly humble guitar book I own.
 
 ---
 
-I've been diving deep into his triad material beginning on p. 39 for the last 2 weeks, and have had a series of epiphanies thanks to justâ€¦ taking some hours and doing exactly as Mick suggests. He begins this section by reiterating fundamental music theory around triads - root position, and 1st and 2nd inversions. One page later, the reader is invited to
+I've been diving deep into his triad material beginning on p. 39 for the last 2 weeks, and have had a series of epiphanies, simply taking some hours and doing exactly as Mick suggests. He begins this section by reiterating fundamental music theory around triads - root position, and 1st and 2nd inversions. One page later, the reader is invited to
 
 _go ahead and learn all C major, C minor, C augmented and C diminished triage, all inversions, all registers, all locations, in closed as well as spread voicings that follow._
 
