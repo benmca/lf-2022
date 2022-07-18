@@ -42,6 +42,10 @@ module.exports = function (eleventyConfig) {
         return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat('yyyy-LL-dd');
     });
 
+    eleventyConfig.addFilter('friendlyDate', (dateObj, format) => {
+        return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat(format);
+    });
+
     // Get the first `n` elements of a collection.
     eleventyConfig.addFilter("head", (array, n) => {
         if(!Array.isArray(array) || array.length === 0) {
@@ -58,8 +62,6 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addFilter("min", (...numbers) => {
         return Math.min.apply(null, numbers);
     });
-
-    eleventyConfig.addFilter("friendlyDate", require("./js/filters.js"));
 
     // Return the smallest number argument
     eleventyConfig.addFilter("itemsByTag", (array, tag) => {
