@@ -28,13 +28,16 @@ $(document).ready(function() {
     });
 
     function toggleBodyFixed(){
-        if(document.body.style.position == 'fixed'){
-            document.body.style.position = '';
-            console.log('1');
-        }
-        else {
-            document.body.style.position = 'fixed';
-            console.log('2');
+
+        if($(".block-nav_scrim").hasClass('toggled')){
+            if(document.body.style.position == 'fixed'){
+                document.body.style.position = '';
+                console.log('1');
+            }
+            else {
+                document.body.style.position = 'fixed';
+                console.log('2');
+            }
         }
     };
 
@@ -44,10 +47,10 @@ $(document).ready(function() {
         $(".block-nav_options").toggleClass('toggled');
         //clear scrim and details
         if(!$(".block-nav_toggle").hasClass("toggled")){
+            toggleBodyFixed();
             $(".block-nav_option").removeClass('toggled');
             $(".block-nav_detail").hide();
             $(".block-nav_scrim").removeClass('toggled');
-            toggleBodyFixed();
         }
     };
 
