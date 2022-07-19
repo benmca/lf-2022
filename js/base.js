@@ -43,7 +43,9 @@ $(document).ready(function() {
         $(".block-nav_options").toggleClass('toggled');
         //clear scrim and details
         if(!$(".block-nav_toggle").hasClass("toggled")){
-            toggleScrim();
+            if($(".block-nav_scrim").hasClass('toggled')) {
+                toggleScrim();
+            }
             $(".block-nav_option").removeClass('toggled');
             $(".block-nav_detail").hide();
         }

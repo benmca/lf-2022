@@ -78,6 +78,11 @@ module.exports = function (eleventyConfig) {
         return nj.render('_includes/audioPlayer.njk', {track: track});
     });
 
+    // Nunjucks Shortcode
+    eleventyConfig.addNunjucksShortcode("player", function(track) {
+        return nj.render('_includes/player.njk', {track: track});
+    });
+
 
     // Customize Markdown library and settings:
     let markdownLibrary = markdownIt({
