@@ -14,6 +14,10 @@ I hit play, and a brick hit me in face: it was music couched in metal but chanel
 
 Somewhere along the way, there was a drastic change in mood, and the last Orthrelm recording, OV on Mike Patton’s Ipecac label, is more Steve Reich than the speed surgery of the earlier records. It was a sign of things to come…
 
-I hit Amoeba in San Francisco shortly after hearing about them, and find a copy of [Ocrilim’s](http://ocrilim.blogspot.com/) (then) new album Anoint. Orthrelm felt outside, this feels like home. The spastic focused duo is now just the guitarist, overdubbing himself maybe… 7 layers deep? The frenetic grace in the Orthrelm pieces is now, relatively speaking, a sustained OM. Lines still continue without repeat, but theres a flow to it that makes me think of noh theatre or darker japanese and vietnamese folk music.
+I hit Amoeba in San Francisco shortly after hearing about them, and find a copy of [Ocrilim’s](http://ocrilim.blogspot.com/) (then) new album Anoint. 
+
+<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=1429123437/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://ocrilim.bandcamp.com/album/anoint">Anoint by Ocrilim</a></iframe>
+
+Orthrelm felt outside, this feels like home. The spastic focused duo is now just the guitarist, overdubbing himself maybe… 7 layers deep? The frenetic grace in the Orthrelm pieces is now, relatively speaking, a sustained OM. Lines still continue without repeat, but theres a flow to it that makes me think of noh theatre or darker japanese and vietnamese folk music.
 
 Mick’s drawings appearing on each album are a personal notation of sorts, though more guideline than literal if i understand what he says in John Zorn’s Arcana 2 correctly. He’s one of those musicians, for me, who make me censor myself less. I’m always excited to hear the next thing he puts out. I was really psyched to score vinyl of the 3-lp Purging Trilogy recently – it’s awesome:
