@@ -18,6 +18,9 @@ Time Signal:
 
 I had a podcast going for a little while in 2006, dedicated to sharing this stuff. Here are two 'episodes':
 
+{% audioPlayer "/main/snd/december.mp3" %}
+{% audioPlayer "/main/snd/january2006.mp3" %}
+
 Apparently there was a relay tower in California which repeated a Greek station's daily broadcast. In Ballard, with a minimal antenna (made from a slinky), I was able to pick up audio as strong as a local AM station. With better music.
 
 I have used a number of beats in this clip in films elsewhere. It's one of the main sources of sound in a short I did by Reed O'Berne, Soul Gold.

@@ -26,7 +26,7 @@ $toggle: 15vmin;
 }
 
 .block-nav_toggle {
-    line-height: 0.88;
+    line-height: 1;
     z-index: 3;
     flex: 0 0 auto;
     position: relative;
@@ -69,7 +69,7 @@ $toggle: 15vmin;
 
 .block-nav_home {
 
-    line-height: 0.88;
+    line-height: 1;
     flex: 0 0 auto;
     display: flex;
     flex-flow: row;

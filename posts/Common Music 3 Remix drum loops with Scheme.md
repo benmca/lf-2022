@@ -10,12 +10,22 @@ bgImg: /img/default-bg.jpg
 
 
 Working though porting some old instruments which generated [Csound](http://www.csounds.com/) scores from Common Music 1 to [Common Music 3](http://commonmusic.sourceforge.net/). 
-This example illustrates a few techniques I used in [my piece Anxious from 1999](https://listenfastermusic.bandcamp.com/track/anxious). 
-I kept myself to a few drum sounds, primary this loop, which comes from [a Jimmy Smith tune originally](https://www.youtube.com/watch?v=yt8bRoeq6bc), but was known to me through [Professor Booty](https://www.youtube.com/watch?v=OqajEd_DKgk).
+This example illustrates a few techniques I used in [my piece Anxious from 1999](https://listenfastermusic.bandcamp.com/track/anxious):
+<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=204429516/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/track=2830507778/transparent=true/" seamless><a href="https://listenfastermusic.bandcamp.com/album/my-sound-i-soundtracks">My Sound I: Soundtracks by Ben McAllister</a></iframe>
+
+I kept myself to a few drum sounds, primary this loop, which comes from
+[a Jimmy Smith tune originally](https://www.youtube.com/watch?v=yt8bRoeq6bc):
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yt8bRoeq6bc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+but was known to me through [Professor Booty](https://www.youtube.com/watch?v=OqajEd_DKgk).
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OqajEd_DKgk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Here's the sound this code makes:
 
 {% audioPlayer "/main/snd/jam_remix.mp3" %}
 
-Here's the CM code
+[Here's jam.aif](/main/snd/jam.aif) and the the CM code that references it:
 
 ```
 ; 14 segments for jam.aif

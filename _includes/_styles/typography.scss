@@ -3,7 +3,7 @@
 
 
 h1 {
-    font-family: $post-header-font;
+    font-family: variables.$base-font;
     font-weight: 500;
 }
 h2 {
@@ -13,7 +13,7 @@ h2 {
 h3 {}
 h4 {}
 h5 {
-    font-family: gill-sans-nova-condensed, sans-serif;
+    font-family: variables.$base-font, sans-serif;
     text-transform: uppercase;
     letter-spacing: 0.2em;
     font-weight: 800;
@@ -21,16 +21,20 @@ h5 {
     font-size: 18px;
 }
 h6 {
-    font-family: $heading-font;
-    color: $heading-color;
-    font-weight: $heading-weight;
-    font-size: $heading-size;
+    font-family: variables.$base-font;
+    color: variables.$black;
+    font-weight: 600;
     text-transform: uppercase;
     line-height: 1;
+    font-size: 9vw;
+    @media all and (min-width: 800px) {
+        font-size: 6vw;
+    }
 }
 
 p, li {
     margin: 1rem 0;
+    font-weight: 100;
 }
 
 a:not(.action-button) {

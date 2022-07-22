@@ -55,12 +55,12 @@ around playing slide, ebow, and thumb on my bottom strings
 simultaneously.  Recorded on the back patio of my mother-in-laws in
 Mesa, AZ, while everyone slept Christmas Eve, 2003.
 
-# Track 15: Sleestax
+## Track 15: Sleestax
 
 Tried and tried to get Andy to use this for something, but he never
 did. 4 tracks recorded with my neighbor Todd’s Bass Guitar Synthesizer,
 which I still covet.
 
-# Track 16: Shiny Clean Vocal
+## Track 16: Shiny Clean Vocal
 
 The last bit of Shag stuff, this is my vocal demo of the theme.

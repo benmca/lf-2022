@@ -70,9 +70,9 @@ example Scheme file for others to use.
 
 Links:
 
-The .csd is here
+[The .csd is here](/main/snd/osc-router.csd)
 
-Sample scheme file is here
+[Sample scheme file is here](/main/snd/13-2-osc.scm)
 
 # Scheme file
 
@@ -194,6 +194,6 @@ productive directions. More soon!
 
 Once again, the links:
 
-The .csd is here
+[The .csd is here](/main/snd/osc_router.csd)
 
-Sample scheme file is here
+[Sample scheme file is here](/main/snd/13-2-osc.scm)
