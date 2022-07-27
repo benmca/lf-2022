@@ -16,15 +16,21 @@ While Covid put a huge dent in our recording schedule (we had time booked in Apr
 # Solo:
 
 <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=3669096165/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://listenfastermusic.bandcamp.com/album/alkaline">Alkaline by Ben McAllister</a></iframe>
+<br/>
 <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=1008872984/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://listenfastermusic.bandcamp.com/album/nazca-aerial">Nazca Aerial by Ben McAllister</a></iframe>
 
 # My Sound - sound journal series:
 
 <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=204429516/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://listenfastermusic.bandcamp.com/album/my-sound-i-soundtracks">My Sound I: Soundtracks by Ben McAllister</a></iframe>
+<br/>
 <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=1273021088/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://listenfastermusic.bandcamp.com/album/my-sound-ii-duwamish-project">My Sound II: Duwamish Project by Ben McAllister</a></iframe>
+<br/>
 <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=3540870499/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://listenfastermusic.bandcamp.com/album/my-sound-iii-shag-carpet-sunset-and-others">My Sound III: Shag Carpet Sunset and Others by Ben McAllister</a></iframe>
+<br/>
 <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=2307811038/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://listenfastermusic.bandcamp.com/album/my-sound-iv-collages">My Sound IV: Collages by Ben McAllister</a></iframe>
+<br/>
 <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=2078872762/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://listenfastermusic.bandcamp.com/album/my-sound-v-some-rock">My Sound V: Some Rock by Ben McAllister</a></iframe>
+<br/>
 
 # with Tuktu:
 
@@ -41,13 +47,17 @@ While Covid put a huge dent in our recording schedule (we had time booked in Apr
 # with Wizard Prison:
 
 <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=3986678523/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://wizardprison.bandcamp.com/album/the-early-years-1972-2005">The Early Years 1972 - 2005 by Wizard Prison</a></iframe>
+<br/>
 <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=3172069451/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://wizardprison.bandcamp.com/album/ii">II by Wizard Prison</a></iframe>
+<br/>
 
 
 # as Guitarist with Degenerate Art Ensemble:
 
 <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=3926135722/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://degenerateartensemble.bandcamp.com/album/razor-stitch">Razor Stitch by Degenerate Art Ensemble</a></iframe>
+<br/>
 <iframe style="border-radius:12px; max-width:700px;" src="https://open.spotify.com/embed/album/4IYwrpV3cSrZErbqyp0AqY?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+<br/>
 
 ## (I wrote Ducats and Huoeil on this one:)
 
