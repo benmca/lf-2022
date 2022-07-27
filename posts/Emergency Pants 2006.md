@@ -1,7 +1,7 @@
 ---
 title: "The Emergency Pants Collection (2004)"
 date: 2010-09-25
-tags: blog
+tags: ['blog', 'listen']
 layout: post.njk
 bgImg: /img/default-bg.jpg
 ---

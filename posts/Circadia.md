@@ -1,7 +1,7 @@
 ---
 title: "Circadia Sees the Moon (2006)"
 date: 2010-09-25
-tags: blog
+tags: ['blog', 'listen']
 layout: post.njk
 bgImg: /img/default-bg.jpg
 ---
