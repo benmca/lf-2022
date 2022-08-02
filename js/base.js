@@ -51,5 +51,13 @@ $(document).ready(function() {
         }
     };
 
+    function processImages(){
+
+        $('.post img').each(function(){
+             $(this).replaceWith( '<a href="' + this.src +  '" target="_blank">' + $(this).get(0).outerHTML + '</a>' );
+        });
+    }
+
+    processImages();
 });
 

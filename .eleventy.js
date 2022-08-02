@@ -1,6 +1,5 @@
 const { DateTime } = require("luxon");
 const markdownIt = require("markdown-it");
-const markdownItAnchor = require("markdown-it-anchor");
 const sass = require("sass");
 const path = require("node:path");
 const nj = require("nunjucks");
@@ -89,7 +88,6 @@ module.exports = function (eleventyConfig) {
         html: true,
         linkify: false
     });
-
     eleventyConfig.setLibrary("md", markdownLibrary);
 
     return {
