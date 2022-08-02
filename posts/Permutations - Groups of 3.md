@@ -21,7 +21,7 @@ We can tweak this exercise simply and make it more challenging. Maintaining alte
 
 What's different? Do you notice the alternation in picking that happens in the notes that are circled below? The picking direction alternates, throwing your right hand off initially.  Once you have practiced this slowly, you'll notice your right hand 'remembers' the distance between the sixth string and the others.  
 
-This exercise is always part of my warmup routine. Trying warming this up on one guitar, then switching to another. Do you notice a difference in the string spacing between the two instruments? Switch between a nylon-string classical guitar and a strat for an obvious example. 
+This exercise is always part of my warmup routine. Trying playing this on one guitar, then switching to another. Do you notice a difference in the string spacing between the two instruments? Switch between a nylon-string classical guitar and a Strat for an obvious example. 
 
 
 
