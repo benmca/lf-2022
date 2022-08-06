@@ -18,7 +18,7 @@ Everytime I pick up this E-bow-ish tool called the Wond (made by Paul Vo), somet
 ## 2. Index Study - Pulses (2:05)
 
 These index studies are on a line of thinking that's been with me since college.  Picture 12 records (one per note, A-G#) each fitted with a computer-controlled needle, and imagine being able to precisely drop the needle in somewhat random places, all within as strict or loose a rhythmic plan as you can think of.  That's the place I'm working in in these pieces, and every 'study' is an exploration of this space. Once I'm in the space, I improvise a small form and keep it tight.  I like the resulting sounds and the feeling like I've gone somewhere in a very short time.  
-If you are a nerd like me and want to know more - ask me, or know that [Github](https://github.com/benmca) has my composition library Thuja and some of the code for these pieces at https://github.com/benmca/csound-pieces/tree/master/thuja-ep/books-style. You'll have to hit me up for the 12 audio files (the 'records') :) They're written in Python and Csound.
+If you are a nerd like me and want to know more - ask me, or know that [Github](https://github.com/benmca) has my composition library Thuja and some of the code for these pieces [here](https://github.com/benmca/csound-pieces/tree/master/thuja-ep/books-style). You'll have to hit me up for the 12 audio files (the 'records') :) They're written in Python and Csound.
 
 ## 3. Bach BMV 358 (2:34)
 
@@ -52,7 +52,7 @@ Circular 4-Track again
 
 ## 11. Mandala Drafts (35:29)
 
-I've been collecting these pieces of shifting harmonies in my notebooks over the years, naming them Mandalas for the clear centers and symmetry I hear as they unfold.  I initially got the [Guitar Cult together as an 11-piece](https://vimeo.com/269295546), to play one of the more elaborate of these pieces. I present to you here several other members of the family. 
+I've been collecting these pieces of shifting harmonies in my notebooks over the years, naming them Mandalas for the clear centers and symmetry I hear as they unfold.  I initially got the [Guitar Cult together as an 11-piece](https://www.youtube.com/watch?v=-V9oJ5U5RzQ&list=PL8HqEsHojIXMnMfHhymkVJhvnDAHjzl-G&index=3), to play one of the more elaborate of these pieces. I present to you here several other members of the family. 
 
 
 

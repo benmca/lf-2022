@@ -88,8 +88,7 @@ Using the computer and my programming skills for so much music made
 part of me rebel and crave organics. I set a challenge for myself:
 create pieces solely with my 4 track, the crappiest guitar pedal I had,
 and my piano. Brandon Schaeffer liked them and used them in his
-impossible-to-find Emergency Pants collection of films – maybe he will
-let me post them on Vimeo? The ring modulator you hear on Broken Waltz
+[Emergency Pants collection of films](https://www.youtube.com/playlist?list=PL8HqEsHojIXMPb6sd72UuzhQr7FHIXyo7). The ring modulator you hear on Broken Waltz
 is the only reason I keep that pedal around.
 
 ## 14. Short Waves (2008)
