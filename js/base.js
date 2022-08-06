@@ -1,3 +1,4 @@
+
 $(document).ready(function() {
 
     $(".block-nav_toggle").click(function () {
@@ -57,6 +58,12 @@ $(document).ready(function() {
         });
     }
 
+    function processAbc(){
+        $('.abc').each(function (){
+           ABCJS.renderAbc($(this)[0].id, $(this).data('abc'));
+        });
+    }
     processImages();
+    processAbc();
 });
 

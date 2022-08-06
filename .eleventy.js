@@ -82,6 +82,12 @@ module.exports = function (eleventyConfig) {
         return nj.render('_includes/player.njk', {track: track});
     });
 
+    // Nunjucks Shortcode
+    eleventyConfig.addNunjucksShortcode("abc", function(data) {
+        var id = "abc-id-" + Math.random().toString(16).slice(2);
+        return nj.render('_includes/abcjs.njk', {data: data, id: id});
+    });
+
 
     // Customize Markdown library and settings:
     let markdownLibrary = markdownIt({
