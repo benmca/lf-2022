@@ -26,7 +26,7 @@ Scores and Parts for 3 pieces - Askance, The Rock and Land Bridge Approach - are
 
 [Track](https://listenfastermusic.bandcamp.com/track/land-bridge-approach-for-3-guitars) for Land Bridge Approach available, Nov 2021
 
-[My music featured on Wayward in Limbo audio stream, July 2021](https://listenfastermusic.bandcamp.com/track/land-bridge-approach-for-3-guitars)
+[My music featured on Wayward in Limbo audio stream, July 2021](https://www.listenfaster.com/main/wayward-in-limbo-series-july-2021-liner-notes/)
 
 [Alberto Whitmer, Zach Tremblay, and Max Foreman perform "The Rock (for 3 Guitars)" by Ben McAllister, Spring 2021.](https://www.youtube.com/watch?v=2M7vOIHOeeU)
 
