@@ -272,7 +272,10 @@ $toggle: 15vmin;
         //font-family: anton, sans-serif;
         //font-size: 8vmin;
         font-family: gill-sans-nova, sans-serif;
-        font-size: 10mm;
+        font-size: 4mm;
+ 	@media all and (min-width: 800px) {
+    		font-size: 5mm;
+  	}
         text-align: left;
     }
     .description {

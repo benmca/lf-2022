@@ -36,11 +36,11 @@ What happens when the beat drops (9:38)
 
 ## 7. Land Bridge Approach (11:08)
 
-Drawn from a Tuktu song which opened most of our sets.  I began working on this for the Guitar Cult (usually 6 guitars, a sextet) - it became a Trio through my collaboration w/John Stropes and his students at UWM. My guiding principles here is a democracy of lines - lines that are individually interesting, but crafted to support each other to make a unified whole.
+Drawn from a Tuktu song which opened most of our sets.  I began working on this for the Guitar Cult (usually 6 guitars, a sextet) - it became a Trio through my collaboration w/John Stropes and his students at UWM. My guiding principle here is a democracy of lines - lines that are individually interesting, but crafted to support each other to make a unified whole.
 
 ## 8. Piano Smells Okay (18:27)
 
-This software instrument I've made - I'll call it the Circular 4-track - is meant to combine a few of my favorite things: the simplicity of overdubbing on a 4 track cassette machine (my Yamaha MT410), moving tape across a tape head without the motor running and looping - looping w/device that let me change settings without a bunch of clicks and crap. The spontaneous compositions that result work in a way that feels more pre-composed than improvised on the spot to ME, but sound more planned than I'd think in retrospect. During Covid, I brought the piano home from my stinky practice space under the Red Door in Fremont (RIP).  After airing it out for 2 months and applying all sorts of deodorizing methodologies, my wife Lees insisted it still smelled, but I disagreed. This is my last recording of that piano, as it has since been relocated.
+This software instrument I've made - I'll call it the Circular 4-track - is meant to combine a few of my favorite things: the simplicity of overdubbing on a 4 track cassette machine (my Yamaha MT120), moving tape across a tape head without the motor running and looping - looping w/device that let me change settings without a bunch of clicks and crap. The spontaneous compositions that result work in a way that feels more pre-composed than improvised on the spot to ME, but sound more planned than I'd think in retrospect. During Covid, I brought the piano home from my stinky practice space under the Red Door in Fremont (RIP).  After airing it out for 2 months and applying all sorts of deodorizing methodologies, my wife Lees insisted it still smelled, but I disagreed. This is my last recording of that piano, as it has since been relocated.
 
 ## 9. The Rock (22:05)
 
