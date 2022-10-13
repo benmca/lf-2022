@@ -10,7 +10,7 @@ title: Listen Faster - Music by Ben McAllister
 
 ###### Ben McAllister
 
-## Guitarist | Composer | Obsessive
+## Guitarist | Composer | Agitator
 
 </div>
 
@@ -19,6 +19,21 @@ title: Listen Faster - Music by Ben McAllister
 A composer and guitarist based in Seattle, I've played with a string of boundary-pushing groups 
 including Medicine Hat, Degenerate Art Ensemble, Wizard Prison, C’mon C’mon and Tuktu. 
 I co-host the Articulations podcast w/Joshua Kohl. I’m the founder of the [Guitar Cult](http://theguitarcult.com/), my current focus, a 7-piece electric guitar group interpreting my pieces. I periodically share audio I've made along the way in my My Sounds sound journal series, [available on Bandcamp](https://listenfastermusic.bandcamp.com/).  My guitar music is available from [Stropes Editions](https://www.stropes.com/ben-mcallister/).
+
+# Events
+
+[YouTube Live solo stream](https://www.youtube.com/watch?v=GAL8k0cSFJ8)
+
+Streaming solo set online live September 26, 8pm
+
+[Ben McAllister Solo show + Big Audience Composition Experiment](https://www.waywardmusic.org/?p=7086)
+
+Friday October 14, 7:30pm, $10, Chapel Performance Space, Seattle
+
+[Guitar Cult](https://theguitarcult.com)
+
+Saturday December 3, details TBD, Chapel Performance Space, Seattle
+
 
 # Latest
 
