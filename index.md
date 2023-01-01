@@ -30,9 +30,6 @@ Streaming solo set online live September 26, 8pm
 
 Friday October 14, 7:30pm, $10, Chapel Performance Space, Seattle
 
-[Guitar Cult](https://theguitarcult.com)
-
-Saturday December 3, details TBD, Chapel Performance Space, Seattle
 
 
 # Latest

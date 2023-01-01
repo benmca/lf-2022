@@ -75,4 +75,25 @@ B: Because the social reality that surrounds the scene is not healthy. Not only 
 *p204, Opposition and Collage Forms, Vibrational Clash*
 
 
+"B: The challenge of creativity, as far as I'm concerned, is to move towards the greatest thought that you can think of....
+I'll say it again - the highest thought that you can think of. And even that can be regenerated. Remember, there's the law of material generation. That means it's not about not-generation.
+
+L: So the highest thought could be restructured? A music that played a restructured God? That played a new concept of love? 
+
+B: I'm saying that whatever you think can be manifested. And whatever that is can be regenerated. I imagine. Or I don't imagine. Whatever that is. I'm only dealing with, as a human being, what you can think about on this planet."
+
+*p211,  Higher Thoughts - A Music to Play God*
+
+"I've always respected the science in the music, though I haven't repected some of the related value systems: for instance, the concept of notation–I don't think notation is the problem, it's the concepts that surround notation. Bach, Beethoven, Mozart, all of the master Europeans who solidified Western art music were instrumentalists and improvisers as well as composers. Notation wasn't used then as a choking device to stop the blood, the dynamic, of the culture; it was later, when the technocrats made the process more important than the results, that we got the so-called crisis of Western art music, which is still with us. In fact, we can see the same mindset entering the bebop continuum: now they're making bebop so 'correct', it will be bopbe or something–it won't be the same music that Charlie Parker and John Coltrane player."
+
+*p232, Bopbe*
+
+"It's like, everybody wanted to use freedom as a context to freak out, and that was not what I was talking about. One of the problems with collective improvisation, as far as I'm concerned, is that people who use anarchy or collective improvisation will interpret that to mean 'Now I can kill you'; and I'm saying, wait a minute! OK, it's true that in a free-thought zone, you can think of anything you want to think, but that was not the optimum state of what I had in mind when I said, let's have freedom. I thought any transformational understanding of so-called freedom would imply that you would be free to find those disciplines that suited you, free to understand your own value systems; but not that you would just freak out because 'the teacher's not there'. *The teacher is still there!*
+
+It's one thing to talk about the post-Ayler cycle with respect to the events which took place in the first year, the second year . . . but if you look back at the last twenty years, what has freedom meant? For a great many people, so-called freedom music is more limiting than bebop, because in bebop you can play a ballad or change the tempo or the key. So-called freedom has not helped us as a family, as a collective, to understand responsibility better. Only the master musicians, the ones who really understood what they were doing and who did their homework, have been able to generate forward motion. So the notion of freedom that was being perpetrated in the sixties might not have been the healthiest notion. I say 'healthiest notion' because I'm not opposed to the state of freedom; I believe that with correct information and an understanding of respect for humanity, human beings can rise to their potential. But fixed and open variables, with the fixed variables functioning from fundamental value systems–that's what freedom means to me."
+
+[Stockhausen's comments on a free jazz concert he attended in 1971: 'Everyone played as loud and as fast as possible, and everyone at once...But that's what always happens when people say "Let's be free": it produces chaos and destruction, because they have never learnt to use freedom as a means of restricting oneself, so that others can also be free.']
+
+*p240 Freedom–'Now I Can Kill You'*
+
 

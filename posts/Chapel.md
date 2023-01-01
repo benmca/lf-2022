@@ -10,29 +10,29 @@ These audio files will be used for the Audience Composition Experiment at the Ch
 
 # A
 
-{% audioPlayer "/main/snd/_ebows/a.mp3" %}
+{% audioPlayer "/main/snd/_chapel/a.mp3" %}
 
 # B
 
-{% audioPlayer "/main/snd/_ebows/b.mp3" %}
+{% audioPlayer "/main/snd/_chapel/b.mp3" %}
 
 # C
 
-{% audioPlayer "/main/snd/_ebows/c.mp3" %}
+{% audioPlayer "/main/snd/_chapel/c.mp3" %}
 
 # D
 
-{% audioPlayer "/main/snd/_ebows/d.mp3" %}
+{% audioPlayer "/main/snd/_chapel/d.mp3" %}
 
 # E
 
-{% audioPlayer "/main/snd/_ebows/e.mp3" %}
+{% audioPlayer "/main/snd/_chapel/e.mp3" %}
 
 # F
 
-{% audioPlayer "/main/snd/_ebows/f.mp3" %}
+{% audioPlayer "/main/snd/_chapel/f.mp3" %}
 
 # G
 
-{% audioPlayer "/main/snd/_ebows/g.mp3" %}
+{% audioPlayer "/main/snd/_chapel/g.mp3" %}
 
