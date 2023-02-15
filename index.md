@@ -22,10 +22,6 @@ I co-host the Articulations podcast w/Joshua Kohl. I’m the founder of the [Gui
 
 # Events
 
-[Guitar Cult + Simon Henneman](https://www.waywardmusic.org/?p=7283)
-
-Friday February 17, 8pm, $5-15 Suggested Donation, Chapel Performance Space, Seattle
-
 [YouTube Live solo stream](https://www.youtube.com/watch?v=GAL8k0cSFJ8)
 
 Streaming solo set online live September 26, 8pm
