@@ -20,15 +20,19 @@ A composer and guitarist based in Seattle, I've played with a string of boundary
 including Medicine Hat, Degenerate Art Ensemble, Wizard Prison, C’mon C’mon and Tuktu. 
 I co-host the Articulations podcast w/Joshua Kohl. I’m the founder of the [Guitar Cult](http://theguitarcult.com/), my current focus, a 7-piece electric guitar group interpreting my pieces. I periodically share audio I've made along the way in my My Sounds sound journal series, [available on Bandcamp](https://listenfastermusic.bandcamp.com/).  My guitar music is available from [Stropes Editions](https://www.stropes.com/ben-mcallister/).
 
-# Events
+# Upcoming Events
+
+[Guitar Cult](https://theguitarcult.com) and guests, Thursday September 21, 2023, at the Royal Room, Seattle. 
+
+# Past Events
 
 [YouTube Live solo stream](https://www.youtube.com/watch?v=GAL8k0cSFJ8)
 
-Streaming solo set online live September 26, 8pm
+Streaming solo set online live September 26, 2022 8pm
 
 [Ben McAllister Solo show + Big Audience Composition Experiment](https://www.waywardmusic.org/?p=7086)
 
-Friday October 14, 7:30pm, $10, Chapel Performance Space, Seattle
+Friday October 14, 2022 7:30pm, $10, Chapel Performance Space, Seattle
 
 
 
