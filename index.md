@@ -20,6 +20,8 @@ A composer and guitarist based in Seattle, I've played with a string of boundary
 including Medicine Hat, Degenerate Art Ensemble, Wizard Prison, C’mon C’mon and Tuktu. 
 I co-host the [Articulations podcast](https://www.articulationspodcast.com/) w/Joshua Kohl. I’m the founder of the [Guitar Cult](http://theguitarcult.com/), my current focus, a 7-piece electric guitar group interpreting my pieces. I periodically share audio I've made along the way in my My Sounds sound journal series, [available on Bandcamp](https://listenfastermusic.bandcamp.com/).  My guitar music is available from [Stropes Editions](https://www.stropes.com/ben-mcallister/).
 
+[I've been working in technology for years as a programmer](https://www.linkedin.com/in/listenfaster/), then the bandleader for whatever team I've been on.  I write to think, and the blog here reflects that, not being limited to music. If it pertains specifically to guitar, I put it in that section as well. 
+
 # Upcoming Events
 
 [Ben McAllister Solo + Duet w/Neil Wilson + Audience composition experiment #2]()
@@ -34,7 +36,7 @@ Royal Room, Seattle | Thursday, September 21, time and tickets tbd
 
 [Guitar Cult's](https://theguitarcult.com) triumphant return. Come experience the heightened trance experience of Ben McAllister's guitar group music, featuring the recent addition of the drummer Neil Wilson. More on this show as we put the bill togheter
 
-[Medicine Hat w/Give, more tbd guests]() 
+[Medicine Hat w/Give and Chimestone]() 
 
 Royal Room, Seattle | November 17, 2023 
 

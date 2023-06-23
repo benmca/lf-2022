@@ -36,7 +36,7 @@ $toggle: 15vmin;
     justify-content: center;
     width: $toggle;
     height: $toggle;
-    font-size: 5vmin;
+    font-size: 3vmin;
     font-weight: 700;
     background: rgba(220, 220, 220, 0.93);
     clip-path: circle(6vmin at 50% 50%);
@@ -46,7 +46,8 @@ $toggle: 15vmin;
     transition: transform 0.33s ease-in;
 
     &:before {
-        content: "\2630";
+    //    content: "\2630";
+    	content: "menu";
         z-index: 2;
         position: absolute;
         transition: transform 0.33s ease-in;
