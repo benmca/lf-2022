@@ -12,6 +12,13 @@ $(document).ready(function() {
 
 
     $(".block-nav_option").click(function () {
+        //support a direct link from the menu
+        if($(this).hasClass("no_toggle") && $(this).children('a').length)
+        {
+            location.href = (this).children('a')[0].getUrl();
+            return;
+        }
+        
         // if this is toggled, silently fail
         if($(this).not("toggled")){
             $(".block-nav_detail").hide();

@@ -18,15 +18,31 @@ title: Listen Faster - Music by Ben McAllister
 
 A composer and guitarist based in Seattle, I've played with a string of boundary-pushing groups 
 including Medicine Hat, Degenerate Art Ensemble, Wizard Prison, C’mon C’mon and Tuktu. 
-I co-host the Articulations podcast w/Joshua Kohl. I’m the founder of the [Guitar Cult](http://theguitarcult.com/), my current focus, a 7-piece electric guitar group interpreting my pieces. I periodically share audio I've made along the way in my My Sounds sound journal series, [available on Bandcamp](https://listenfastermusic.bandcamp.com/).  My guitar music is available from [Stropes Editions](https://www.stropes.com/ben-mcallister/).
+I co-host the [Articulations podcast](https://www.articulationspodcast.com/) w/Joshua Kohl. I’m the founder of the [Guitar Cult](http://theguitarcult.com/), my current focus, a 7-piece electric guitar group interpreting my pieces. I periodically share audio I've made along the way in my My Sounds sound journal series, [available on Bandcamp](https://listenfastermusic.bandcamp.com/).  My guitar music is available from [Stropes Editions](https://www.stropes.com/ben-mcallister/).
 
 # Upcoming Events
 
-[Guitar Cult](https://theguitarcult.com) and guests, Thursday September 21, 2023, at the Royal Room, Seattle. 
+[Ben McAllister Solo + Duet w/Neil Wilson + Audience composition experiment #2]()
+
+The Chapel, Seattle | Friday July 21, 2023, 8pm, $10
+
+Another session at the Chapel where I share my explorations in notation and improvising, trying to break out of the repetition we so often fall into playing with loops.  I'll be playing both solo, and with my frequent collaborator, the drummer Neil Wilson.  
+
+[Guitar Cult and Guests]()
+
+Royal Room, Seattle | Thursday, September 21, time and tickets tbd
+
+[Guitar Cult's](https://theguitarcult.com) triumphant return. Come experience the heightened trance experience of Ben McAllister's guitar group music, featuring the recent addition of the drummer Neil Wilson. More on this show as we put the bill togheter
+
+[Medicine Hat w/Give, more tbd guests]() 
+
+Royal Room, Seattle | November 17, 2023 
+
+Our 90s angular hardcore band is reuniting for the first time in 15, for only the second time since our peak in the 90s. We're pretty excited to be getting together to play the [classics from this record](https://listenfastermusic.bandcamp.com/album/medicine-hat). Though we no longer look like we did [this time we were 'on tv'](https://www.youtube.com/watch?v=ZHGJb1pCbWk) - we are still pretty smokin hot, I promise. We will be sharing more here and on the socials as we get closer to show time. Thanks to brother Chris Friel for his positive vibes in getting us together. 
 
 # Past Events
 
-[YouTube Live solo stream](https://www.youtube.com/watch?v=GAL8k0cSFJ8)
+YouTube Live solo stream [(Watch here)](https://www.youtube.com/watch?v=GAL8k0cSFJ8)
 
 Streaming solo set online live September 26, 2022 8pm
 
