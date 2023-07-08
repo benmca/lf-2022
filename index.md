@@ -24,7 +24,9 @@ I co-host the [Articulations podcast](https://www.articulationspodcast.com/) w/J
 
 # Upcoming Events
 
-[Ben McAllister Solo + Duet w/Neil Wilson + Audience composition experiment #2]()
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7SPCHUN4e14" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+[Ben McAllister Solo + Duet w/Neil Wilson + Audience composition experiment #2](https://www.waywardmusic.org/?p=7643)
 
 The Chapel, Seattle | Friday July 21, 2023, 8pm, $10
 
@@ -44,7 +46,7 @@ Our 90s angular hardcore band is reuniting for the first time in 15, for only th
 
 # Past Events
 
-YouTube Live solo stream [(Watch here)](https://www.youtube.com/watch?v=GAL8k0cSFJ8)
+[YouTube Live solo stream (Watch archived video)](https://www.youtube.com/watch?v=GAL8k0cSFJ8)
 
 Streaming solo set online live September 26, 2022 8pm
 
