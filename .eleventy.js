@@ -95,6 +95,7 @@ module.exports = function (eleventyConfig) {
         linkify: false
     });
     eleventyConfig.setLibrary("md", markdownLibrary);
+    eleventyConfig.addWatchTarget("./_includes/_styles");
 
     return {
         // Control which files Eleventy will process

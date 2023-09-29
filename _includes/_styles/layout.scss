@@ -7,6 +7,7 @@
   flex-direction: row;
   margin: inherit;
   z-index: 50;
+
 }
 
 .nav{
@@ -49,7 +50,7 @@
   text-align: justify;
   overflow: visible;
 
-  iframe {
+  & iframe {
     max-width: 700px;
     width: 100%;
   }
