@@ -6,10 +6,11 @@
         {% for t in navTags %}
             <a class="nav-option" href="#{{ t }}-menu" data="{{ t }}">{{ t }}</a>
         {% endfor %}
+        <a class="nav-option" href="{{ '/main/links' }}">links</a>
     </div>
     {% for t in navTags %}
         <div id="{{ t }}-menu" class="menu" data="{{ t }}">
-
+            <a class="nav-option back-btn" href="#">← back</a>
             {% for post in postslist | itemsByTag(t) | reverse %}
                 <div class="menu-item">
                     <a href="{{ post.url | url }}" class="title">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a>

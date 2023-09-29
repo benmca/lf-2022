@@ -37,13 +37,13 @@ p, li {
     font-weight: 100;
 }
 
-a:not(.action-button) {
+a:not(.action-button), a:not(.nav-option), a:not(.title){
     //position: relative;
     color: black;
     font-weight: 400;
     text-decoration: none;
-    //-webkit-box-shadow: 0 0.25mm blue;
-    //box-shadow: 0 0.25mm blue;
+    -webkit-box-shadow: 0 0.25mm blue;
+    box-shadow: 0 0.25mm blue;
     padding-bottom: 0.25mm;
     -webkit-transition: color 0.36s ease-in-out;
     transition: color 0.36s ease-in-out;

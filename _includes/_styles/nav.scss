@@ -26,22 +26,30 @@ $toggle: 15vmin;
         display: flex;
     }
 }
+.nav
+{
+    border-bottom: black solid 1px;
+}
 
-.nav-container{
+.nav-container
+{
     display: flex;
     flex-direction: row;
     //align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     @media (min-width: 800px){
-        justify-content: left;
-
+        width: 75%;
     }
 }
 .nav-option {
     $fontSize: 4vmin;
     position: relative;
     height: 100%;
-    padding: calc((#{$toggle} - #{$fontSize}) / 2);
+    padding:
+            calc(#{$fontSize} / 2)
+            calc(#{$fontSize} / 4)
+            calc(#{$fontSize} / 4)
+            calc(#{$fontSize} / 4);
     margin: 0;
     font-size: #{$fontSize};
     font-weight: 400;
@@ -64,6 +72,10 @@ $toggle: 15vmin;
         height: 100%;
         border-bottom: 1mm solid currentColor;
     }
+}
+
+.back-btn {
+    z-index: 501;
 }
 
 
@@ -101,6 +113,9 @@ $toggle: 15vmin;
     }
     @media (min-width: 600px) {
         flex-flow: row nowrap;
+    }
+    &:hover {
+        background: #{darken(white, 16%)};
     }
 }
 
