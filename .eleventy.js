@@ -3,9 +3,11 @@ const markdownIt = require("markdown-it");
 const sass = require("sass");
 const path = require("node:path");
 const nj = require("nunjucks");
+const pluginRss = require("@11ty/eleventy-plugin-rss");
 
 module.exports = function (eleventyConfig) {
     eleventyConfig.addTemplateFormats("scss");
+    eleventyConfig.addPlugin(pluginRss);
 
     // Creates the extension for use
     eleventyConfig.addExtension("scss", {
@@ -28,7 +30,6 @@ module.exports = function (eleventyConfig) {
         }
     });
 
-    eleventyConfig.addPassthroughCopy("js");
     eleventyConfig.addPassthroughCopy("img");
     eleventyConfig.addPassthroughCopy("snd");
     eleventyConfig.addPassthroughCopy("assets");
