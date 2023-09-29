@@ -6,8 +6,8 @@ title: Listen Faster - Music by Ben McAllister
 
 <div id="home-header">
 
-![The esteemed composer](/main/img/Ben_on_Orcas.jpg).
-
+![The esteemed composer](/main/img/ben-danette-piano-bw.png).
+[*Photo by Danette Davis*](https://www.danettedavis.com/)
 ###### Ben McAllister
 
 ## Guitarist | Composer | Agitator
@@ -24,19 +24,19 @@ I co-host the [Articulations podcast](https://www.articulationspodcast.com/) w/J
 
 # Upcoming Events
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7SPCHUN4e14" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+[![](/main/img/GC-Royal-Room-FB-header.png)](https://www.strangertickets.com/events/141872098/guitar-cultseattle-guitar-circle)
 
-[Ben McAllister Solo + Duet w/Neil Wilson + Audience composition experiment #2](https://www.waywardmusic.org/?p=7643)
+[Guitar Cult and Seattle Guitar Circle](https://www.strangertickets.com/events/141872098/guitar-cultseattle-guitar-circle)
 
-The Chapel, Seattle | Friday July 21, 2023, 8pm, $10
+Royal Room, Seattle | Thursday, September 21
 
-Another session at the Chapel where I share my explorations in notation and improvising, trying to break out of the repetition we so often fall into playing with loops.  I'll be playing both solo, and with my frequent collaborator, the drummer Neil Wilson.  
+(Poster by [Mike Strassburger](https://mikestrassburger.com/))
 
-[Guitar Cult and Guests]()
+[Guitar Cult's](https://theguitarcult.com) triumphant return. Come experience the heightened trance experience of Ben McAllister's guitar group music, featuring the recent addition of the drummer Neil Wilson. 
 
-Royal Room, Seattle | Thursday, September 21, time and tickets tbd
+The guitarists among you will likely that the Seattle Guitar Circle was born from the Guitar Craft classes founded in the 80s by King Crimson's Robert Fripp. Many paths have led these players (some you'll know from those League of Craft Guitarists albums) to the group you'll hear on the 21st, with a unique take on group interaction. I saw them at the Chapel last month and they're cover of Coltrane's Naima was gorgeous.
 
-[Guitar Cult's](https://theguitarcult.com) triumphant return. Come experience the heightened trance experience of Ben McAllister's guitar group music, featuring the recent addition of the drummer Neil Wilson. More on this show as we put the bill togheter
+Being a cult of music worshippers, we appreciate the mystery in all approaches to the guitar; I feel like the universe is bopping my on the head making this bill possible. See you on the 21st.
 
 [Medicine Hat w/Give and Chimestone]() 
 
@@ -45,6 +45,14 @@ Royal Room, Seattle | November 17, 2023
 Our 90s angular hardcore band is reuniting for the first time in 15, for only the second time since our peak in the 90s. We're pretty excited to be getting together to play the [classics from this record](https://listenfastermusic.bandcamp.com/album/medicine-hat). Though we no longer look like we did [this time we were 'on tv'](https://www.youtube.com/watch?v=ZHGJb1pCbWk) - we are still pretty smokin hot, I promise. We will be sharing more here and on the socials as we get closer to show time. Thanks to brother Chris Friel for his positive vibes in getting us together. 
 
 # Past Events
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7SPCHUN4e14" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+[Ben McAllister Solo + Duet w/Neil Wilson + Audience composition experiment #2](https://www.waywardmusic.org/?p=7643)
+
+The Chapel, Seattle | Friday July 21, 2023, 8pm, $10
+
+Another session at the Chapel where I share my explorations in notation and improvising, trying to break out of the repetition we so often fall into playing with loops.  I'll be playing both solo, and with my frequent collaborator, the drummer Neil Wilson.  
 
 [YouTube Live solo stream (Watch archived video)](https://www.youtube.com/watch?v=GAL8k0cSFJ8)
 
