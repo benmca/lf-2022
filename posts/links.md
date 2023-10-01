@@ -10,9 +10,21 @@ eleventyExcludeFromCollections: true
 
 [The Cheapskate's Guide to Computers and the Internet](http://cheapskatesguide.org/)
 
+[Blue Dwarf](http://bluedwarf.top)
+
+[Astral Codex Ten](https://www.astralcodexten.com)
+
 [Hacker News](https://news.ycombinator.com/)
 
 [Hackaday](https://hackaday.com)
+
+[Brutalist](https://brutalist.report/)
+
+## Interesting Reads
+
+[Hunting the Nearly-Invisible Personal Website](https://cheapskatesguide.org/articles/personal-website-hunting.html)
+
+[Graham Lock: “What I Call a Sound”: Anthony Braxton’s Synaesthetic Ideal and Notations for Improvisers](https://www.criticalimprov.com/index.php/csieci/article/view/462/6400)
 
 ## Music 
 
@@ -32,7 +44,7 @@ eleventyExcludeFromCollections: true
 
 [Wiby](https://wiby.me/)
 
-[Million short (when it works)](https://millionshort.com/)
+[Million short](https://millionshort.com/)
 
 [ooh.directory](https://ooh.directory)
 
@@ -41,8 +53,4 @@ eleventyExcludeFromCollections: true
 [CP/M and MP/M at VCF Forums](https://forum.vcfed.org/index.php?forums/cp-m-and-mp-m.37/)
 
 [Tech Tinkering](https://techtinkering.com/)
-
-## Interesting Reads
-
-[Hunting the Nearly-Invisible Personal Website](https://cheapskatesguide.org/articles/personal-website-hunting.html)
 
