@@ -1,7 +1,7 @@
 ---
 title: "About the series, and My Sound I: Music from Circadia, Urban Scarecrow, Emergency Pants "
 date: 2015-01-01
-tags: listen
+tags: blog
 layout: post.njk
 bgImg: /img/default-bg.jpg
 ---

@@ -1,7 +1,7 @@
 ---
 title: Wayward in Limbo Series July 2021 - Liner Notes
 date: 2021-07-08
-tags: listen
+tags: ['blog', 'guitar']
 layout: post.njk
 bgImg: /img/default-bg.jpg
 ---

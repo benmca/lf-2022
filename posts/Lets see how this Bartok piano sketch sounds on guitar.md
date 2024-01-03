@@ -1,7 +1,7 @@
 ---
 title: "Let's see how this Bartók piano sketch sounds on guitar..."
 date: 2018-08-31
-tags: guitar
+tags: ['blog', 'guitar']
 layout: post.njk
 bgImg: /img/default-bg.jpg
 ---

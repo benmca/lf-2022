@@ -1,7 +1,7 @@
 ---
 title: "Guitar Solos: Alkaline and Nazca Aerial"
 date: 2005-06-09
-tags: listen
+tags: ['blog', 'guitar']
 layout: post.njk
 bgImg: /img/default-bg.jpg
 ---

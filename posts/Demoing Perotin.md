@@ -1,7 +1,7 @@
 ---
 title: "Demoing Perotin (8 guitars)"
 date: 2018-08-27
-tags: guitar
+tags: blog
 layout: post.njk
 bgImg: /img/default-bg.jpg
 ---

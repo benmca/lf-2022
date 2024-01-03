@@ -1,7 +1,7 @@
 ---
 title: "Repetition and Focus"
 date: 2018-03-25
-tags: guitar
+tags: ['blog', 'guitar']
 layout: post.njk
 bgImg: /img/default-bg.jpg
 ---

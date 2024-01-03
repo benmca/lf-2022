@@ -10,27 +10,19 @@ title: Listen Faster - Music by Ben McAllister
 [*Photo by Danette Davis*](https://www.danettedavis.com/)
 ###### Ben McAllister
 
-## Guitarist | Composer | Agitator
+## Guitarist | Composer
 
 </div>
 
 <div id="home-body">
 
-A composer and guitarist based in Seattle, I've played with a string of boundary-pushing groups 
-including Medicine Hat, Degenerate Art Ensemble, Wizard Prison, C’mon C’mon and Tuktu. 
-I co-host the [Articulations podcast](https://www.articulationspodcast.com/) w/Joshua Kohl. I’m the founder of the [Guitar Cult](http://theguitarcult.com/), my current focus, a 7-piece electric guitar group interpreting my pieces. I periodically share audio I've made along the way in my My Sounds sound journal series, [available on Bandcamp](https://listenfastermusic.bandcamp.com/).  My guitar music is available from [Stropes Editions](https://www.stropes.com/ben-mcallister/).
 
-[I've been working in technology for years as a programmer](https://www.linkedin.com/in/listenfaster/), then the bandleader for whatever team I've been on.  I write to think, and the blog here reflects that, not being limited to music. If it pertains specifically to guitar, I put it in that section as well. 
 
-# Upcoming Events
+# Recent Activity
 
-[Medicine Hat w/Give and Chimestone]() 
+[Expose interview with Medicine Hat](http://expose.org/index.php/articles/display/from-backwards-brubeck-to-stage-diving-the-medicine-hat-interview-2.html)
 
-Royal Room, Seattle | November 17, 2023 
-
-Our 90s angular hardcore band is reuniting for the first time in 15, for only the second time since our peak in the 90s. We're pretty excited to be getting together to play the [classics from this record](https://listenfastermusic.bandcamp.com/album/medicine-hat). Though we no longer look like we did [this time we were 'on tv'](https://www.youtube.com/watch?v=ZHGJb1pCbWk) - we are still pretty smokin hot, I promise. We will be sharing more here and on the socials as we get closer to show time. Thanks to brother Chris Friel for his positive vibes in getting us together. 
-
-# Latest
+[Expose review's Medicine Hat's debut](http://expose.org/index.php/articles/display/medicine-hat-medicine-hat-2.html)
 
 [Danette Davis's thoughts on Seattle Guitar Circle and Guitar Cult's September 2023 show](https://www.danettedavis.com/journal-silent-girl-with-the-camera/2023/9/23/sweet-dreams-and-wonderous-chaos)
 
@@ -50,9 +42,10 @@ Scores and Parts for 3 pieces - Askance, The Rock and Land Bridge Approach - are
 
 # Projects
 
-[The Guitar Cult:](https://www.theguitarcult.com/) My electric guitar ensemble
+[The Guitar Cult:](https://www.theguitarcult.com/) My electric guitar ensemble.
 
-[The Articulations Podcast:](https://www.articulationspodcast.com/) Joshua Kohl and I interview unique musicians we love.
+[Scores and Parts available through Stropes Editions](https://www.stropes.com/ben-mcallister/)
+
 
 # Previous projects
 
@@ -66,6 +59,11 @@ ben@listenfaster.com
 
 # Past Events
 
+[Medicine Hat w/Give and Chimestone]() 
+
+Royal Room, Seattle | November 17, 2023 
+
+Our 90s angular hardcore band is reuniting for the first time in 15, for only the second time since our peak in the 90s. We're pretty excited to be getting together to play the [classics from this record](https://listenfastermusic.bandcamp.com/album/medicine-hat). Though we no longer look like we did [this time we were 'on tv'](https://www.youtube.com/watch?v=ZHGJb1pCbWk) - we are still pretty smokin hot, I promise. We will be sharing more here and on the socials as we get closer to show time. Thanks to brother Chris Friel for his positive vibes in getting us together. 
 [![](/main/img/GC-Royal-Room-FB-header.png)](https://www.strangertickets.com/events/141872098/guitar-cultseattle-guitar-circle)
 
 [Guitar Cult and Seattle Guitar Circle](https://www.strangertickets.com/events/141872098/guitar-cultseattle-guitar-circle)

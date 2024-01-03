@@ -1,8 +1,9 @@
-{% set navTags = ["guitar", "listen", "blog"] %}
+{% set navTags = ["blog", "1min"] %}
 {% set postslist = collections.posts %}
 <nav>
     <div class="nav-container">
         <a href="/" class="nav-option">home</a>
+        <a class="nav-option" href="{{ '/main/discography/' }}">discography</a>
         {% for t in navTags %}
             <a class="nav-option" href="#{{ t }}-menu" data="{{ t }}">{{ t }}</a>
         {% endfor %}

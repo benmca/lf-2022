@@ -1,7 +1,7 @@
 ---
 title: "Picking in 3s"
 date: 2022-07-27
-tags: guitar
+tags: ['blog', 'guitar']
 layout: post.njk
 bgImg: /img/default-bg.jpg
 ---

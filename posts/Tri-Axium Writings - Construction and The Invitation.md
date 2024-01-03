@@ -8,6 +8,7 @@ bgImg: /img/braxton.jpg
 <br/>
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/dMOcv4msOKo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <br/>
+
 Let's talk a little bit about the **Construction** section, wherein Mr. Braxton explains the paths into his work, literally. The recurring theme to me is approaching "a given concept from as many different standpoints as possible." I want to highlight and respond to a few things he says in this section.
 
 "The thrust of this effort is conceived as a composite attempt to example the whole of earth creativity.... I am not concerned with only some aspect of what seems to be true - I am interested in what seems to be really true." 

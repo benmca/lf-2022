@@ -1,7 +1,7 @@
 ---
 title: "My Sound II: Duwamish Project "
 date: 2015-02-01
-tags: listen
+tags: blog
 layout: post.njk
 bgImg: /img/default-bg.jpg
 ---

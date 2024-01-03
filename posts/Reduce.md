@@ -1,7 +1,7 @@
 ---
 title: "Reduce"
 date: 2018-04-12
-tags: guitar
+tags: ['blog', 'guitar']
 layout: post.njk
 bgImg: /img/default-bg.jpg
 ---

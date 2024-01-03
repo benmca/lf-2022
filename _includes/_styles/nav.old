@@ -1,149 +1,118 @@
 $toggle: 15vmin;
 
-#guitar-menu
-{
-    display: none;
-
-    &:target {
-        display: flex;
-    }
-}
-
-#blog-menu
-{
-    display: none;
-
-    &:target {
-        display: flex;
-    }
-}
-
-#listen-menu
-{
-    display: none;
-
-    &:target {
-        display: flex;
-    }
-}
-.nav
-{
-    border-bottom: black solid 1px;
-}
-
-.nav-container
-{
-    display: flex;
-    flex-direction: row;
-    //align-items: center;
-    justify-content: space-evenly;
-/*
-    @media (min-width: 1600px){
-        width: 75%;
-    }
-*/
-}
-.nav-option {
-    $fontSize: 4vmin;
-    position: relative;
-    height: 100%;
-    padding:
-            calc(#{$fontSize} / 2)
-            calc(#{$fontSize} / 4)
-            calc(#{$fontSize} / 4)
-            calc(#{$fontSize} / 4);
-    margin: 0;
-    font-size: #{$fontSize};
-    font-weight: 400;
-
-
-    transition: transform 0.33s ease-in-out,
-    background 0.48s ease-in-out;
-    transform-origin: right #{calc($toggle / 2)};
-    &:hover {
-        background: #{darken(white, 16%)};
-    }
-    &:after {
-        content: "";
-        opacity: 0;
-        display: block;
-        position: absolute;
-        left: calc((#{$toggle} - #{$fontSize}) / 2);
-        bottom: calc(((100% - #{$fontSize}) / 2) - 1mm);
-        width: calc(100% - (#{$toggle} - #{$fontSize}));
-        height: 100%;
-        border-bottom: 1mm solid currentColor;
-    }
-}
-
-.back-btn {
-    z-index: 501;
-}
-
-
-.menu {
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: none;
-    background: rgba(255, 255, 255, 0.93);
-    overflow-y: scroll;
-    width: 100vw;
-
-    &:target {
-        display: flex;
-        flex-direction: column;
-    }
-}
-
-.menu-item {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    z-index: 501;
-    cursor: pointer;
-    position: relative;
-    & .title {
-        font-size: 5mm;
-        //text-align: left;
-        order: 2;
-        flex: 1 1 8ch;
-        align-self: center;
-    }
-    & a {
-        padding: 1pc;
-    }
-    @media (min-width: 600px) {
-        flex-flow: row nowrap;
-    }
-    &:hover {
-        background: #{darken(white, 16%)};
-    }
-}
-
-.block-nav_detail_item {
-    flex-flow: row nowrap;
-}
-
-
-.scrim {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background: rgba(white, .9);
-    //opacity: 10%;
+.block-nav {
     z-index: 500;
+    position: fixed;
+    display: flex;
+    flex-flow: row;
+    justify-content: stretch;
+    align-items: flex-end;
+    bottom: 0;
+    right: 0;
+    width: $toggle;
+    height: calc(var(--vh, 1vh) * 100);
+    user-select: none;
+    pointer-events: none;
+    & * {
+        user-select: auto;
+        pointer-events: auto;
+    }
 }
 
+.block-nav_toggle,
+.block-nav_option,
+.block-nav_detail_item {
+    cursor: pointer;
+}
 
+.block-nav_toggle {
+    line-height: 1;
+    z-index: 3;
+    flex: 0 0 auto;
+    position: relative;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+    width: $toggle;
+    height: $toggle;
+    font-size: 3vmin;
+    font-weight: 700;
+    background: rgba(220, 220, 220, 0.93);
+    clip-path: circle(6vmin at 50% 50%);
+
+    transform: rotate(0deg);
+    //transition: background 0.33s ease-in-out;
+    transition: transform 0.33s ease-in;
+
+    &:before {
+    //    content: "\2630";
+    	content: "menu";
+        z-index: 2;
+        position: absolute;
+        transition: transform 0.33s ease-in;
+        height: 1.1em;
+    }
+
+    &.toggled {
+        transform: rotate(90deg);
+    }
+
+    &:hover {
+        background: $navajowhite;
+    }
+
+    &.options:hover {
+        transition: transform 0.33s ease-in;
+        background: $navajowhite;
+    }
+}
+
+.block-nav_home {
+
+    line-height: 1;
+    flex: 0 0 auto;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+    width: $toggle;
+    height: $toggle;
+    transition: transform 0.33s ease-in-out, background 0.24s ease-in;
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-size: 4vmin;
+    font-weight: 400;
+    color: black;
+    opacity: 0;
+    clip-path: none;
+    box-shadow: none;
+    background: rgba(white, 0.8);
+    mix-blend-mode: unset;
+    &:visited {
+        color: black;
+    }
+    &:before {
+        content: unset;
+    }
+    &.toggled:hover {
+        background: darken(white, 16%);
+    }
+    &.toggled {
+        opacity: 1;
+        transform: translate(-200%, 0);
+        transition: transform 0.33s ease-in-out, background 0.24s ease-in;
+        background: rgba(darken(white, 16%), 0.8);
+    }
+}
 
 
 .block-nav_options {
     z-index: 1;
     position: absolute;
-    display: inherit;
+    display: flex;
     flex-flow: row nowrap;
     justify-content: flex-end;
     align-items: baseline;
@@ -260,7 +229,7 @@ $toggle: 15vmin;
     left: 0;
     width: calc(100vmin - #{$toggle} - 72px);
     max-width: calc(100vw - #{$toggle} - 72px);
-    //height: inherit;
+    height: inherit;
     padding: 0;
     background: rgba(white, 0.93);
     overflow-y: scroll;
@@ -276,7 +245,7 @@ $toggle: 15vmin;
         transform: translate(0, 0);
         background: white;
     }
-    display: inherit;
+    display: none;
 }
 
 .block-nav_detail_date{
@@ -341,3 +310,34 @@ $toggle: 15vmin;
     }
 }
 
+.block-nav_scrim {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
+    background: rgba(blue, 0.62);
+    z-index: -1;
+    opacity: 0;
+    transform-origin: bottom right;
+    transform: translateX(100%);
+    &.toggled {
+        transform-origin: bottom right;
+        transform: translateX(0);
+        transition: transform 0.33s ease-in-out;
+        opacity: 1;
+    }
+    //&.nav-scrim-enter-active,
+    //&.nav-scrim-leave-active {
+    //    opacity: 1;
+    //    transform: translateX(0);
+    //    transition: transform 0.33s ease-in-out,
+    //    opacity 0.33s ease-in-out;
+    //}
+    //&.nav-scrim-enter,
+    //&.nav-scrim-leave-to {
+    //    opacity: 0;
+    //    transform: translateX(100%);
+    //}
+}

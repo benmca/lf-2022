@@ -1,7 +1,7 @@
 ---
 title: "Guitar Cult Dispatch: May 2017"
 date: 2017-05-31
-tags: guitar
+tags: ['blog', 'guitar']
 layout: post.njk
 bgImg: /img/default-bg.jpg
 ---

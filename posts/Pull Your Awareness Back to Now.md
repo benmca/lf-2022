@@ -1,7 +1,7 @@
 ---
 title: "Pull Your Awareness Back to Now"
 date: 2018-08-14
-tags: guitar
+tags: ['blog', 'guitar']
 layout: post.njk
 bgImg: /img/default-bg.jpg
 ---

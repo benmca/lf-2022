@@ -1,7 +1,7 @@
 ---
 title: "My Sound III: Shag Carpet Sunset and Others"
 date: 2015-03-01
-tags: listen
+tags: blog
 layout: post.njk
 bgImg: /img/default-bg.jpg
 ---

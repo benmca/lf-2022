@@ -1,7 +1,7 @@
 ---
 title: "My Sound IV: Collages + Edits"
 date: 2015-06-01
-tags: listen
+tags: blog
 layout: post.njk
 bgImg: /img/default-bg.jpg
 ---
