@@ -6,27 +6,28 @@ bgImg: /img/default-bg.jpg
 eleventyExcludeFromCollections: true
 ---
 
-## In heavy rotation
 
-[The Cheapskate's Guide to Computers and the Internet](http://cheapskatesguide.org/)
+## Of interest
 
-[Blue Dwarf](http://bluedwarf.top)
+[Manual for the original Teenage Engineering OP-1](https://teenage.engineering/guides/op-1/original)
 
-[Astral Codex Ten](https://www.astralcodexten.com)
-
-[Hacker News](https://news.ycombinator.com/)
-
-[Hackaday](https://hackaday.com)
-
-[Brutalist](https://brutalist.report/)
-
-## Interesting Reads
-
-[Hunting the Nearly-Invisible Personal Website](https://cheapskatesguide.org/articles/personal-website-hunting.html)
+[Manual for the Teenage Engineering EP-133 (KO II)](https://teenage.engineering/guides/ep-133)
 
 [Graham Lock: “What I Call a Sound”: Anthony Braxton’s Synaesthetic Ideal and Notations for Improvisers](https://www.criticalimprov.com/index.php/csieci/article/view/462/6400)
 
+[Stockhausen on Mikrophone + Notation, 2/14/1972 (part 1 of 4)](https://youtu.be/lYmMXB0e17E?si=nTAZaAV9QzPcNarA)
+
+[Stockhausen on Intuitive Music (part 1 of 2)](https://youtu.be/ywx49Qf5bW4?si=d0XHhcur6ZRKot5C)
+
+[Shot-by-shot, then-and-now comparisons of 60s/70s film with those locations currently - lots of Seattle films.](https://www.youtube.com/@Reshoots)
+
+[Whole Earth Index - all the catalogs and more](https://wholeearth.info/)
+
+[Meta (parent co of Facebook) in Myanmar](https://erinkissane.com/meta-in-myanmar-part-i-the-setup)
+
 ## Music 
+
+[Ableton Note](https://www.ableton.com/en/note/)
 
 [Sound American - Archive Page](http://archive.soundamerican.org/sa_archive/index.html)
 
@@ -38,9 +39,11 @@ eleventyExcludeFromCollections: true
 
 ## Alternate Search / Link Aggregators
 
-[Marginalia](https://search.marginalia.nu/)
+[Kagi](https://kagi.com/)
 
 [Hacker News](https://news.ycombinator.com/)
+
+[Marginalia](https://search.marginalia.nu/)
 
 [Wiby](https://wiby.me/)
 
@@ -49,6 +52,8 @@ eleventyExcludeFromCollections: true
 [ooh.directory](https://ooh.directory)
 
 ## Retro Computing stuff
+
+[2 Stop Bits - Retro only HN clone](https://twostopbits.com/news)
 
 [CP/M and MP/M at VCF Forums](https://forum.vcfed.org/index.php?forums/cp-m-and-mp-m.37/)
 
