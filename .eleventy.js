@@ -9,6 +9,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addTemplateFormats("scss");
     eleventyConfig.addPlugin(pluginRss);
 
+
     // Creates the extension for use
     eleventyConfig.addExtension("scss", {
         outputFileExtension: "css", // optional, default: "html"
@@ -46,6 +47,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addFilter('friendlyDate', (dateObj, format) => {
         return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat(format);
     });
+
 
     // Get the first `n` elements of a collection.
     eleventyConfig.addFilter("head", (array, n) => {
@@ -89,6 +91,9 @@ module.exports = function (eleventyConfig) {
         return nj.render('_includes/abcjs.njk', {data: data, id: id});
     });
 
+    eleventyConfig.addCollection("minutes", function(collectionApi) {
+        return collectionApi.getFilteredByTag("1min");
+    });
 
     // Customize Markdown library and settings:
     let markdownLibrary = markdownIt({

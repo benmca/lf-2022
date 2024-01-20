@@ -1,3 +1,5 @@
+@use "variables";
+
 .main{
   margin: 0px 10px 10px 10px;
 }
@@ -143,3 +145,67 @@
   font-size: 15px;
   line-height: 1.8;
 }
+
+
+.daylink {
+    font-family: variables.$base-font;
+    font-weight: 800;
+    font-size: 7vw;
+  @media all and (min-width: 800px) {
+    font-size: 8vw;
+  }
+}
+
+.calendar {
+  display: grid;
+  flex: auto;
+  grid-template-columns: repeat(7, 1fr);
+  list-style-type: none;
+  gap: 1rem;
+  padding: 0;
+  margin: 10px;
+  .header {
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 8;
+  }
+}
+
+.month
+{
+  grid-column-start: 1;
+  grid-column-end: 8;
+  font-family: variables.$base-font;
+  font-weight: 800;
+  font-size: 8vw;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.day {
+  border: 1px solid gray;
+  text-align: center;
+  padding: 0;
+  position: relative;
+  @media all and (min-width: 800px) {
+    padding: 1rem 0;
+  }
+
+  .background_image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-blend-mode: lighten;
+    background-size: cover;
+    opacity: 75%;
+  }
+
+}
+
