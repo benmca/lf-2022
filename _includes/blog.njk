@@ -1,0 +1,13 @@
+---
+layout: base.njk
+---
+<div class="blogmenu">
+  {% for post in collections.minutes %}
+    {% set day = post.data.date | friendlyDate('d') %}
+    <a href="{{ post.url | url }}">
+    {# {{ post.data.date | friendlyDate('EEEE') }}<br> #}
+    {{ post.data.date | friendlyDate('d') }}
+    </a>
+  </div>
+{% endfor %}
+</ul>

@@ -161,13 +161,17 @@
   flex: auto;
   grid-template-columns: repeat(7, 1fr);
   list-style-type: none;
-  gap: 1rem;
+  gap: 1rem .5rem;
+  @media all and (min-width: 800px) {
+    gap: 1rem;
+  }
   padding: 0;
   margin: 10px;
   .header {
     text-align: center;
     grid-column-start: 1;
     grid-column-end: 8;
+    font-size: 5vw;
   }
 }
 
@@ -185,10 +189,19 @@
 .day {
   border: 1px solid gray;
   text-align: center;
-  padding: 0;
+  padding: .1rem .1rem;
+  margin: 0;
+  font-weight: 800;
+
+  a {
+    font-weight: 800;
+    box-shadow: none;
+  }
+
   position: relative;
   @media all and (min-width: 800px) {
     padding: 1rem 0;
+    margin: 1rem 0;
   }
 
   .background_image {
