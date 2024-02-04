@@ -9,6 +9,8 @@ eleventyExcludeFromCollections: true
 
 ## Of interest
 
+[Toplap Mastodon](https://social.toplap.org/home)
+
 [Manual for the original Teenage Engineering OP-1](https://teenage.engineering/guides/op-1/original)
 
 [Manual for the Teenage Engineering EP-133 (KO II)](https://teenage.engineering/guides/ep-133)
@@ -26,6 +28,8 @@ eleventyExcludeFromCollections: true
 [Meta (parent co of Facebook) in Myanmar](https://erinkissane.com/meta-in-myanmar-part-i-the-setup)
 
 ## Music 
+
+[TidalCycles Docs](https://tidalcycles.org/docs/)
 
 [Ableton Note](https://www.ableton.com/en/note/)
 

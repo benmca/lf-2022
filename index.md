@@ -55,7 +55,7 @@ Scores and Parts for 3 pieces - Askance, The Rock and Land Bridge Approach - are
 
 ben@listenfaster.com
 
-[Mailing List Signup](http://eepurl.com/bbcGMr) | [Bandcamp](https://listenfastermusic.bandcamp.com/) | [Soundcloud](https://soundcloud.com/listenfaster/) | [YouTube](https://www.youtube.com/channel/UCWBSD3mHhaImuKrzbQ0zHQA) | [Facebook](https://www.facebook.com/ben.mcallister) | [Github](https://github.com/benmca/)
+[Mailing List Signup](http://eepurl.com/bbcGMr) | [Bandcamp](https://listenfastermusic.bandcamp.com/) | [Soundcloud](https://soundcloud.com/listenfaster/) | [YouTube](https://www.youtube.com/channel/UCWBSD3mHhaImuKrzbQ0zHQA) | [Facebook](https://www.facebook.com/ben.mcallister) | [Github](https://github.com/benmca/) | <a rel="me" href="https://social.toplap.org/@listenfaster">Mastodon</a>
 
 # Past Events
 
