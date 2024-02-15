@@ -7,6 +7,7 @@ layout: base.njk
 </div>
 {% for post in collections.minutes %}
   {% set day = post.data.date | friendlyDate('d') %}
+
   {% set isFirstOfMonth = (day == "1") %}
 
   {% if isFirstOfMonth %}
@@ -16,7 +17,7 @@ layout: base.njk
   {% endif %}
 
  <li class="day" style="{% if isFirstOfMonth %}grid-column-start: {{ (post.data.date | friendlyDate('c')) | int + 1 }};{% endif %}"> 
-  <div class="background_image cover" style="background-image:url('{{ post.data.bgImg | url }}')"></div>
+  <div class="background_image cover" style="background-image:url('{{ post.data.bgImg | url | thumb }}')"></div>
   <div class="daylink">
     <a href="{{ post.url | url }}">
     {# {{ post.data.date | friendlyDate('EEEE') }}<br> #}

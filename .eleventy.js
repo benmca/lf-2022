@@ -6,6 +6,7 @@ const nj = require("nunjucks");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 
 module.exports = function (eleventyConfig) {
+
     eleventyConfig.addTemplateFormats("scss");
     eleventyConfig.addPlugin(pluginRss);
 
@@ -32,6 +33,7 @@ module.exports = function (eleventyConfig) {
     });
 
     eleventyConfig.addPassthroughCopy("img");
+    eleventyConfig.addPassthroughCopy("thumbs");
     eleventyConfig.addPassthroughCopy("snd");
     eleventyConfig.addPassthroughCopy("assets");
 
@@ -48,6 +50,9 @@ module.exports = function (eleventyConfig) {
         return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat(format);
     });
 
+    eleventyConfig.addFilter("thumb", function(string) {
+        return string.replace('/img/','/thumbs/');
+    });
 
     // Get the first `n` elements of a collection.
     eleventyConfig.addFilter("head", (array, n) => {
