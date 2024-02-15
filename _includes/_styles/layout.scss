@@ -58,6 +58,19 @@
   }
 }
 
+.prev_next {
+  text-align: center;
+  line-height: 1.414;
+  margin: 25px 20px 20px 20px;
+
+  & a {
+    border: 1px solid gray;
+    padding: 20px;
+  }
+  @media (min-width: 800px) {
+    font-size: 24px;
+  }
+}
 
 .post_header {
   position: relative;
@@ -76,6 +89,12 @@
     background-blend-mode: lighten;
     background-size: cover;
     opacity: 75%;
+  }
+}
+
+.post_content {
+  & audio {
+    width: 100%;
   }
 }
 
