@@ -1,9 +1,14 @@
 ---
 layout: base.njk
+permalink: /1min/{{postnumber}}/
+
+eleventyComputed:
+    audio: /main/snd/1min/{{ postnumber }}.mp3
+    bgImg: /img/1min/{{ postnumber }}.png
+
 ---
 {% set previousPost = collections.1min | getPreviousCollectionItem(page) %}
 {% set nextPost = collections.1min | getNextCollectionItem(page) %}
-
 
 <div class="post">
     <div class="post_header">
@@ -17,7 +22,7 @@ layout: base.njk
         {% if nextPost %}<a href="{{ nextPost.url | url }}">next</a>{% endif %}
     </div>
     <div class="post_content">
-        <p><audio controls=""><source src="{{ audio | url }}" type="audio/mp3"></audio></p>
+        <p><audio controls=""><source src="{{ audio }}" type="audio/mp3"></audio></p>
     </div>
     <div class="post_content">
         {{ content | safe }}
