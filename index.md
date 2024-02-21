@@ -16,9 +16,26 @@ title: Listen Faster - Music by Ben McAllister
 
 <div id="home-body">
 
+[I've been posting sounds every day in 2024 - tap minutes for more](/main/1min/)
+
+# Projects
+
+[The Guitar Cult:](https://www.theguitarcult.com/) My electric guitar ensemble.
+
+[Scores and Parts available through Stropes Editions](https://www.stropes.com/ben-mcallister/)
 
 
-# Recent Activity
+# Previous projects
+
+[Degenerate Art Ensemble](https://www.degenerateartensemble.com/) | [Tuktu](https://listenfastermusic.bandcamp.com/album/qayaq-1) | [Wizard Prison](https://wizardprison.bandcamp.com/) | [C'mon C'mon](https://cmoncmon.bandcamp.com/) | [Medicine Hat](https://listenfastermusic.bandcamp.com/album/medicine-hat)
+
+# Contact
+
+ben@listenfaster.com
+
+[Mailing List Signup](http://eepurl.com/bbcGMr) | [Bandcamp](https://listenfastermusic.bandcamp.com/) | [Soundcloud](https://soundcloud.com/listenfaster/) | [YouTube](https://www.youtube.com/channel/UCWBSD3mHhaImuKrzbQ0zHQA) | [Facebook](https://www.facebook.com/ben.mcallister) | [Github](https://github.com/benmca/) | <a rel="me" href="https://social.toplap.org/@listenfaster">Mastodon</a>
+
+# Recent
 
 [Exposé interview with Medicine Hat](http://expose.org/index.php/articles/display/from-backwards-brubeck-to-stage-diving-the-medicine-hat-interview-2.html)
 
@@ -39,25 +56,6 @@ Scores and Parts for 3 pieces - Askance, The Rock and Land Bridge Approach - are
 [University of Wisconsin-Milwaukee students Max Foreman, Alberto Whitmer, and Zach Tremblay perform "Askance" by Ben McAllister, Fall 2020.](https://www.youtube.com/watch?v=hmvI6H64SPI)
 
 [Medicine Hat TV appearances (from 1994)  on YouTube](https://www.youtube.com/playlist?list=PL8HqEsHojIXPM3Nn-1xxiXzWyiu_Mn-T6)
-
-# Projects
-
-[The Guitar Cult:](https://www.theguitarcult.com/) My electric guitar ensemble.
-
-[Scores and Parts available through Stropes Editions](https://www.stropes.com/ben-mcallister/)
-
-
-# Previous projects
-
-[Degenerate Art Ensemble](https://www.degenerateartensemble.com/) | [Tuktu](https://listenfastermusic.bandcamp.com/album/qayaq-1) | [Wizard Prison](https://wizardprison.bandcamp.com/) | [C'mon C'mon](https://cmoncmon.bandcamp.com/) | [Medicine Hat](https://listenfastermusic.bandcamp.com/album/medicine-hat)
-
-# Contact
-
-ben@listenfaster.com
-
-[Mailing List Signup](http://eepurl.com/bbcGMr) | [Bandcamp](https://listenfastermusic.bandcamp.com/) | [Soundcloud](https://soundcloud.com/listenfaster/) | [YouTube](https://www.youtube.com/channel/UCWBSD3mHhaImuKrzbQ0zHQA) | [Facebook](https://www.facebook.com/ben.mcallister) | [Github](https://github.com/benmca/) | <a rel="me" href="https://social.toplap.org/@listenfaster">Mastodon</a>
-
-# Past Events
 
 [Medicine Hat w/Give and Chimestone]() 
 

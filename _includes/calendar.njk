@@ -4,6 +4,7 @@ layout: base.njk
 <ul class="calendar">
 <div class="header" >
   <p>A minute of sound a day.</p>
+  <a href="/main/player/" style="font-size: 3vw;">Check out the player.</a>
 </div>
 {% for post in collections.minutes %}
   {% set day = post.data.date | friendlyDate('d') %}
