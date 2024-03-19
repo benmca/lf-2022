@@ -26,20 +26,43 @@ input[type=range]::-ms-range-track {
 
 .player-size {
 	margin: auto;
-
-  	text-align: center;
-	grid-column-start: 1;
-	grid-column-end: 8;
+  text-align: center;
 	font-size: 5vw;
 }
 
+.player {
+  display: grid;
+  flex: auto;
+  list-style-type: none;
+  /*
+  @media all and (min-width: 800px) {
+    gap: 1rem;
+  }
+  */
+  padding: 0;
+  .header {
+    text-align: center;
+    font-size: 5vw;
+  }
+}
+
+
 /* Audio Player */
 .player-wrap {
+  display: grid;
+  flex: auto;
+  list-style-type: none;
+  .header {
+    text-align: center;
+    font-size: 5vw;
+  }
+  text-align: center;
   position: relative;
   margin: 10px auto 10px auto;
   padding: 0;
   width: 100%;
   height: 100%;
+  max-width: 800px;
   min-width: 300px;
   overflow: hidden;
   background: #fff none no-repeat center center;

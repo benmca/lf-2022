@@ -1,13 +1,13 @@
 ---
 layout: base.njk
 ---
-<div class="calendar">
+<div class="player">
 <div class="header" >
   <p>All the minutes: {{ collections.minutes | length }} posts and counting.</p>
   <a href="/main/1min/" style="font-size: 3vw;">Back to minutes.</a>
 </div>
 
-<div class="player-size" >
+{# <div class="player-size" > #}
   <div id="thing" class="player-wrap cover-art dark" data-title="Minutes" data-artist="Ben Mc" style="background-image: url('');">
     <audio preload></audio>
     <div class="player">
@@ -80,7 +80,7 @@ layout: base.njk
       </ol>
     </div>
   </div>
-</div>
+{# </div> #}
 
 <script type="text/javascript" src="/main/js/player.js">
 
