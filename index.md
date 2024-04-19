@@ -38,5 +38,3 @@ ben@listenfaster.com
 
 
 </div>
-
-
