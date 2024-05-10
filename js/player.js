@@ -51,6 +51,7 @@ window.addEventListener('load', function() {
       };
 
       jsPlayer.playClicked = function jsPlayerPlayClicked() {
+        console.log("playClicked");
         jsPlayer.bigPauseButton.style.display = 'block';
         jsPlayer.bigPlayButton.style.display = 'none';
         jsPlayer.pauseButton.style.display = 'block';
@@ -60,6 +61,7 @@ window.addEventListener('load', function() {
         jsPlayer.seekInterval = setInterval(jsPlayer.updateSeek, 500);
       };
       jsPlayer.pauseClicked = function jsPlayerPauseClicked() {
+        console.log("pauseClicked");
         clearInterval(jsPlayer.seekInterval);
         jsPlayer.bigPlayButton.style.display = 'block';
         jsPlayer.bigPauseButton.style.display = 'none';
@@ -69,16 +71,19 @@ window.addEventListener('load', function() {
         jsPlayer.player.pause();
       };
       jsPlayer.mediaEnded = function jsPlayerMediaEnded() {
-        if (jsPlayer.idx + 1 < jsPlayer.trackCount) {
+        if (parseInt(jsPlayer.idx) + 1 < jsPlayer.trackCount) {
+          console.log("mediaEnded:a");
           jsPlayer.idx++;
           jsPlayer.playTrack(jsPlayer.idx);
         } else {
+          console.log("mediaEnded:b");
           jsPlayer.pauseClicked();
           jsPlayer.idx = 0;
           jsPlayer.loadTrack(jsPlayer.idx);
         }
       };
       jsPlayer.loadTracklist = function jsPlayerLoadPlaylist() {
+        console.log("loadTracklist");
         jsPlayer.playlist = jsPlayer.wrapList.tagName ? jsPlayer.wrapList.querySelectorAll('ol > li') : [];
         var len = jsPlayer.playlist.length,
           tmp, i;
@@ -105,6 +110,7 @@ window.addEventListener('load', function() {
         }
       };
       jsPlayer.loadTrack = function jsPlayerLoadTrack(idx) {
+        console.log("loadTrack");
         var len = jsPlayer.playlist ? jsPlayer.playlist.length : 0,
           i;
         for (i = 0; i < len; i++) {
@@ -128,10 +134,12 @@ window.addEventListener('load', function() {
         jsPlayer.idx = idx;
       };
       jsPlayer.playTrack = function jsPlayerPlayTrack(idx) {
+        console.log("playTrack");
         jsPlayer.loadTrack(idx);
         jsPlayer.playClicked();
       };
       jsPlayer.listClicked = function jsPlayerListClicked(event) {
+        console.log("listClicked");
         clearInterval(jsPlayer.seekInterval);
         var parent = event.target.parentNode;
         if (parent.parentNode.tagName.toLowerCase() === 'ol') {
@@ -151,18 +159,22 @@ window.addEventListener('load', function() {
         }
       };
       jsPlayer.seekHeld = function jsPlayerSeekHeld() {
+        console.log("seekHeld");
         jsPlayer.seekBar.parentNode.classList.add('sel');
         clearInterval(jsPlayer.seekInterval);
         jsPlayer.player.pause();
       };
       jsPlayer.seekReleased = function jsPlayerSeekReleased() {
+        console.log("seekReleased");
         if (jsPlayer.player.duration > -1) {
           jsPlayer.player.currentTime = jsPlayer.seekBar.value * jsPlayer.player.duration / 100;
           jsPlayer.seekBar.parentNode.classList.remove('sel');
           if (jsPlayer.playing) {
+            console.log("seekReleased a");
             jsPlayer.player.play();
             jsPlayer.seekInterval = setInterval(jsPlayer.updateSeek, 500);
           } else {
+            console.log("seekReleased b");
             jsPlayer.updateSeek();
           }
         }
