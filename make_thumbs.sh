@@ -26,7 +26,7 @@ find "$SOURCE_DIR" -type f \( -iname "*.jpg" -o -iname "*.png" -o -iname "*.jpeg
     if ! [ -f "$target" ]; then
         # echo "target file doesn't exist - creating"
         echo -n "."
-        convert "$img" -resize 200x200 "$target"
+        magick "$img" -resize 200x200 "$target"
     fi
 done
 
