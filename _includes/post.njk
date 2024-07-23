@@ -10,7 +10,7 @@ layout: base.njk
         <h5 class="post_publish_date">{{ date |  friendlyDate('dd LLLL yyyy') }}</h5>
     </div>
     <div class="post_content">
-        {{ content | safe }}
+        {{ content |  openImagesInNewWindow | safe}}
     </div>
 
 <script>talkyardServerUrl='https://site-1gfho50lo1.talkyard.net';</script>

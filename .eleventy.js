@@ -4,8 +4,20 @@ const sass = require("sass");
 const path = require("node:path");
 const nj = require("nunjucks");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
+const cheerio = require('cheerio');
 
 module.exports = function (eleventyConfig) {
+
+  eleventyConfig.addFilter('openImagesInNewWindow', (content) => {
+    const $ = cheerio.load(content);
+
+    $('img').each((i, img) => {
+      const src = $(img).attr('src');
+      $(img).wrap(`<a href="${src}" target="_blank"></a>`);
+    });
+
+    return $.html();
+  });
 
     eleventyConfig.addTemplateFormats("scss");
     eleventyConfig.addPlugin(pluginRss);
