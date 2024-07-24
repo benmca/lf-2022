@@ -6,24 +6,28 @@ title: Listen Faster - Music by Ben McAllister
 
 <div id="home-header">
 
-![The esteemed composer](/main/img/ben-danette-piano-bw.png).
+![The esteemed composer](/main/img/ben-danette-piano-bw.png)
 [*Photo by Danette Davis*](https://www.danettedavis.com/)
+
 ###### Ben McAllister
 
-## Guitarist | Composer
+I'm an insatiably curious multi-disciplinary artist pulling on threads in music and technology. I play guitar, I compose, I do a lot with computers, I write. I use this site to think through writing and making sound. Check out [minutes](/main/1min/) for a new minute of sound posted every day. I think out loud on my [blog](/main/#blog-menu). 
 
-# Projects
+# Latest Projects (updated July 2024) 
 
-[The Guitar Cult:](https://www.theguitarcult.com/) My electric guitar ensemble.
+Since we've begun moving from Seattle to Olalla, my [minutes](/main/1min/) have been keeping me grounded by steadily outputting *something* every day. It's a sketchbook and a window into how my ear and brain work. 
 
-[Scores and Parts available through Stropes Editions](https://www.stropes.com/ben-mcallister/)
+I have unfinished business getting a recording together of [The Guitar Cult](https://www.theguitarcult.com/), my electric guitar ensemble. Look at the [Discography](/discography/) page for demos and [YouTube](https://www.youtube.com/channel/UCWBSD3mHhaImuKrzbQ0zHQA) for more - the videos made by the University of Wisconsin guitar ensemble are especially beautiful.
 
+[Scores and Parts of my pieces are available through Stropes Editions](https://www.stropes.com/ben-mcallister/)
 
-# Previous projects
+Day job: [I work here](https://fiuturx.com) where we record data that, basically, points to responsible behavior in energy production. There's a lot going on there. I work with a lot of friends. If i didn't know how to pull bands together to make music, I wouldn't know how to get teams of engineers together to move toward a goal. It seems like the same thing to me. 
+
+# Past groups, ever a part of my being
 
 [Degenerate Art Ensemble](https://www.degenerateartensemble.com/) | [Tuktu](https://listenfastermusic.bandcamp.com/album/qayaq-1) | [Wizard Prison](https://wizardprison.bandcamp.com/) | [C'mon C'mon](https://cmoncmon.bandcamp.com/) | [Medicine Hat](https://listenfastermusic.bandcamp.com/album/medicine-hat)
 
-# Contact
+# Email me and let's talk about it
 
 ben@listenfaster.com
 
@@ -34,7 +38,7 @@ ben@listenfaster.com
 
 <div id="home-body">
 
-
+<!--
 <div class="player">
 <div class="header" >
   <p>{{ collections.minutes | length }} minutes and counting.</p>
@@ -116,6 +120,8 @@ ben@listenfaster.com
 <script type="text/javascript" src="/main/js/player.js">
 
 </script>
+-->
+
 </div>
 
 </div>

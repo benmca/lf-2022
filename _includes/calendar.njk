@@ -1,30 +1,51 @@
----
-layout: base.njk
----
-<ul class="calendar">
-<div class="header" >
-  <p>A minute of sound a day.</p>
-  <a href="/main/player/" style="font-size: 3vw;">Check out the player.</a>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>{{ title }}</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="/main/style/styles.css" rel="stylesheet">
+    <link rel = "icon" href ="https://listenfaster.com/favicon.png" type = "image/ping">
+    <script type="text/javascript" src="/main/js/player.js"></script>
+</head>
+
+
+<body>
+<div class="main">
+    <div class="nav">
+        {% include "nav.njk" %}
+    </div>
+    <div class="container-calendar" >
+    <ul class="calendar">
+    <div class="header" >
+      <p>A minute of sound a day.</p>
+      <a href="/main/player/" style="font-size: 3vw;">Check out the player.</a>
+    </div>
+    {% for post in collections.minutes %}
+      {% set day = post.data.date | friendlyDate('d') %}
+
+      {% set isFirstOfMonth = (day == "1") %}
+
+      {% if isFirstOfMonth %}
+      <div class="month">
+        {{ post.data.date | friendlyDate('MMMM') }}, {{ post.data.date | friendlyDate('yyyy') }}
+      </div>
+      {% endif %}
+
+     <li class="day" style="{% if isFirstOfMonth %}grid-column-start: {{ (post.data.date | friendlyDate('c')) | int + 1 }};{% endif %}"> 
+      <div class="background_image cover" style="background-image:url('{{ post.data.bgImg | url | thumb }}')"></div>
+      <div class="daylink">
+        <a href="{{ post.url | url }}">
+        {# {{ post.data.date | friendlyDate('EEEE') }}<br> #}
+        {{ post.data.date | friendlyDate('d') }}
+        </a>
+      </div>
+      </li>  
+    {% endfor %}
+    </ul>
+
+    </div>
 </div>
-{% for post in collections.minutes %}
-  {% set day = post.data.date | friendlyDate('d') %}
+</body>
 
-  {% set isFirstOfMonth = (day == "1") %}
-
-  {% if isFirstOfMonth %}
-  <div class="month">
-    {{ post.data.date | friendlyDate('MMMM') }}, {{ post.data.date | friendlyDate('yyyy') }}
-  </div>
-  {% endif %}
-
- <li class="day" style="{% if isFirstOfMonth %}grid-column-start: {{ (post.data.date | friendlyDate('c')) | int + 1 }};{% endif %}"> 
-  <div class="background_image cover" style="background-image:url('{{ post.data.bgImg | url | thumb }}')"></div>
-  <div class="daylink">
-    <a href="{{ post.url | url }}">
-    {# {{ post.data.date | friendlyDate('EEEE') }}<br> #}
-    {{ post.data.date | friendlyDate('d') }}
-    </a>
-  </div>
-  </li>  
-{% endfor %}
-</ul>
