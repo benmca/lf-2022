@@ -11,17 +11,19 @@ title: Listen Faster - Music by Ben McAllister
 
 ###### Ben McAllister
 
-I'm an insatiably curious multi-disciplinary artist pulling on threads in music and technology. I play guitar, I compose, I do a lot with computers, I write. I use this site to think through writing and making sound. Check out [minutes](/main/1min/) for a new minute of sound posted every day. I think out loud on my [blog](/main/#blog-menu). 
+I'm an insatiably curious multi-disciplinary artist pulling on threads in music and technology. I play guitar, I compose, I do a lot with computers, I write. I use this site to think, though writing posts and making sounds. Check out [minutes](/main/1min/) for a new minute of sound posted every day. I think out loud on my [blog](/main/#blog-menu). 
 
-# Latest Projects (updated July 2024) 
+# Latest Projects (updated Summer 2024) 
 
-Since we've begun moving from Seattle to Olalla, my [minutes](/main/1min/) have been keeping me grounded by steadily outputting *something* every day. It's a sketchbook and a window into how my ear and brain work. 
+We've moved from Seattle to Olalla this past month, and my [minutes](/main/1min/) have been keeping me grounded by steadily outputting *something* every day. It's a sketchbook and a window into how my ear and brain work. 
 
-I have unfinished business getting a recording together of [The Guitar Cult](https://www.theguitarcult.com/), my electric guitar ensemble. Look at the [Discography](/discography/) page for demos and [YouTube](https://www.youtube.com/channel/UCWBSD3mHhaImuKrzbQ0zHQA) for more - the videos made by the University of Wisconsin guitar ensemble are especially beautiful.
+**The Guitar Cult**: I have unfinished business getting a recording together of [The Guitar Cult](https://www.theguitarcult.com/), my electric guitar ensemble. Look at the [Discography](/main/discography/) page for demos and [YouTube](https://www.youtube.com/channel/UCWBSD3mHhaImuKrzbQ0zHQA) for more - the videos made by the University of Wisconsin guitar ensemble are especially beautiful.
+
+**Chiwas**: I'm working on a band with my man Jason from Medicine Hat, and I'm looking into creating visuals for our show. This is getting me into all kinds of software where audio or midi triggers sound. Also I am looking to create an immersive VR experience for us. Temporarily it's called Chiwas, maybe permanently? [This](/189/) is one of my favorite Chiwas demos. 
+
+**Day job**: [I work here.](https://fiuturx.com) Our platform tracks lots of data that, at the end of the day, indicates responsible behavior in energy production. There's a lot going on under the hood though - I'll spare you the details for now. I'm stoked to be working with a lot of people I consider friends. If I didn't know how to pull bands together to make music, I wouldn't know how to get teams of engineers together to move toward a goal. It seems like the same thing to me. 
 
 [Scores and Parts of my pieces are available through Stropes Editions](https://www.stropes.com/ben-mcallister/)
-
-Day job: [I work here](https://fiuturx.com) where we record data that, basically, points to responsible behavior in energy production. There's a lot going on there. I work with a lot of friends. If i didn't know how to pull bands together to make music, I wouldn't know how to get teams of engineers together to move toward a goal. It seems like the same thing to me. 
 
 # Past groups, ever a part of my being
 
