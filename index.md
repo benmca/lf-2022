@@ -33,7 +33,7 @@ We've moved from Seattle to Olalla this past month, and my [minutes](/main/1min/
 
 ben@listenfaster.com
 
-[Mailing List Signup](http://eepurl.com/bbcGMr) | [Bandcamp](https://listenfastermusic.bandcamp.com/) | [Soundcloud](https://soundcloud.com/listenfaster/) | [YouTube](https://www.youtube.com/channel/UCWBSD3mHhaImuKrzbQ0zHQA) | [Facebook](https://www.facebook.com/ben.mcallister) | [Github](https://github.com/benmca/) | <a rel="me" href="https://social.toplap.org/@listenfaster">Mastodon</a>
+[Mailing List Signup](http://eepurl.com/bbcGMr) | [Bandcamp](https://listenfastermusic.bandcamp.com/) | [Soundcloud](https://soundcloud.com/listenfaster/) | [YouTube](https://www.youtube.com/channel/UCWBSD3mHhaImuKrzbQ0zHQA) | <a rel="me" href="https://www.facebook.com/ben.mcallister">Facebook</a> | <a rel="me" href="https://github.com/benmca/">Github</a> [Github](https://github.com/benmca/) | <a rel="me" href="https://social.toplap.org/@listenfaster">Mastodon</a> | <a rel="me" href="https://www.linkedin.com/in/listenfaster/">LinkedIn</a>
 
 
 </div>
