@@ -11,7 +11,7 @@ title: Listen Faster - Music by Ben McAllister
 
 ###### Ben McAllister
 
-I'm an insatiably curious multi-disciplinary artist pulling on threads in music and technology. I play guitar, I compose, I do a lot with computers, I write. I use this site to think, though writing posts and making sounds. Check out [minutes](/main/1min/) for a new minute of sound posted every day. I think out loud on my [blog](/main/#blog-menu). 
+I'm an insatiably curious multi-disciplinary artist pulling on threads in music and technology. I play guitar, I compose, I do a lot with computers, I write. I use this site to think, through writing [posts](/main/#blog-menu) and making sounds. Check out [minutes](/main/1min/) for a new minute of sound posted every day. I think out loud on my [blog](/main/#blog-menu). 
 
 # Latest Projects (updated Summer 2024) 
 
