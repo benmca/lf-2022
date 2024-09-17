@@ -6,28 +6,13 @@ bgImg: /img/default-bg.jpg
 eleventyExcludeFromCollections: true
 ---
 
-
-[Exposé interview with Medicine Hat](http://expose.org/index.php/articles/display/from-backwards-brubeck-to-stage-diving-the-medicine-hat-interview-2.html)
-
-[Exposé review's Medicine Hat's debut](http://expose.org/index.php/articles/display/medicine-hat-medicine-hat-2.html)
-
-[Danette Davis's thoughts on Seattle Guitar Circle and Guitar Cult's September 2023 show](https://www.danettedavis.com/journal-silent-girl-with-the-camera/2023/9/23/sweet-dreams-and-wonderous-chaos)
-
-[Danette Davis's thoughts on our July 2023 duo show](https://www.danettedavis.com/journal-silent-girl-with-the-camera/2023/7/23/stereophonic-sound)
-
-Scores and Parts for 3 pieces - Askance, The Rock and Land Bridge Approach - are now available through [Stropes Editions](https://www.stropes.com/ben-mcallister/), March 2022
-
-[Track](https://listenfastermusic.bandcamp.com/track/land-bridge-approach-for-3-guitars) for Land Bridge Approach available, Nov 2021
-
-[My music featured on Wayward in Limbo audio stream, July 2021](https://www.listenfaster.com/main/wayward-in-limbo-series-july-2021-liner-notes/)
-
-[Alberto Whitmer, Zach Tremblay, and Max Foreman perform "The Rock (for 3 Guitars)" by Ben McAllister, Spring 2021.](https://www.youtube.com/watch?v=2M7vOIHOeeU)
-
-[University of Wisconsin-Milwaukee students Max Foreman, Alberto Whitmer, and Zach Tremblay perform "Askance" by Ben McAllister, Fall 2020.](https://www.youtube.com/watch?v=hmvI6H64SPI)
-
-[Medicine Hat TV appearances (from 1994) on YouTube](https://www.youtube.com/playlist?list=PL8HqEsHojIXPM3Nn-1xxiXzWyiu_Mn-T6)
-
 ## Of interest
+
+[Yancey Strickler's blog](https://www.ystrickler.com/)
+
+[Metalabel Substack](https://metalabel.substack.com/)
+
+[Interdependence Podcast w/Holly Herndon and Mat Dryhurst](https://metalabel.substack.com/)
 
 [Toplap Mastodon](https://social.toplap.org/home)
 
@@ -83,3 +68,24 @@ Scores and Parts for 3 pieces - Askance, The Rock and Land Bridge Approach - are
 
 [Tech Tinkering](https://techtinkering.com/)
 
+## me-related
+
+[Exposé interview with Medicine Hat](http://expose.org/index.php/articles/display/from-backwards-brubeck-to-stage-diving-the-medicine-hat-interview-2.html)
+
+[Exposé review's Medicine Hat's debut](http://expose.org/index.php/articles/display/medicine-hat-medicine-hat-2.html)
+
+[Danette Davis's thoughts on Seattle Guitar Circle and Guitar Cult's September 2023 show](https://www.danettedavis.com/journal-silent-girl-with-the-camera/2023/9/23/sweet-dreams-and-wonderous-chaos)
+
+[Danette Davis's thoughts on our July 2023 duo show](https://www.danettedavis.com/journal-silent-girl-with-the-camera/2023/7/23/stereophonic-sound)
+
+Scores and Parts for 3 pieces - Askance, The Rock and Land Bridge Approach - are now available through [Stropes Editions](https://www.stropes.com/ben-mcallister/), March 2022
+
+[Track](https://listenfastermusic.bandcamp.com/track/land-bridge-approach-for-3-guitars) for Land Bridge Approach available, Nov 2021
+
+[My music featured on Wayward in Limbo audio stream, July 2021](https://www.listenfaster.com/main/wayward-in-limbo-series-july-2021-liner-notes/)
+
+[Alberto Whitmer, Zach Tremblay, and Max Foreman perform "The Rock (for 3 Guitars)" by Ben McAllister, Spring 2021.](https://www.youtube.com/watch?v=2M7vOIHOeeU)
+
+[University of Wisconsin-Milwaukee students Max Foreman, Alberto Whitmer, and Zach Tremblay perform "Askance" by Ben McAllister, Fall 2020.](https://www.youtube.com/watch?v=hmvI6H64SPI)
+
+[Medicine Hat TV appearances (from 1994) on YouTube](https://www.youtube.com/playlist?list=PL8HqEsHojIXPM3Nn-1xxiXzWyiu_Mn-T6)
