@@ -113,12 +113,27 @@ module.exports = function (eleventyConfig) {
         return collectionApi.getFilteredByTag("1min");
     });
 
+    eleventyConfig.addFilter("urlencode", function(value) {
+        return encodeURIComponent(value);
+      });
+
     // Customize Markdown library and settings:
     let markdownLibrary = markdownIt({
         html: true,
         linkify: false
     });
     eleventyConfig.setLibrary("md", markdownLibrary);
+
+    // Tags
+    eleventyConfig.addCollection('tagList', collection => {
+        const tagsSet = new Set();
+        collection.getAll().forEach(item => {
+            if (!item.data.tags) return;
+            item.data.tags.filter(tag => !['posts', 'all', '1min', 'listen', 'blog'].includes(tag)).forEach(tag => tagsSet.add(tag));
+        });
+        return Array.from(tagsSet).sort();
+    });
+
 
     return {
         // Control which files Eleventy will process

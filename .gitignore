@@ -7,3 +7,5 @@ thumbs
 snd
 assets
 package-lock.json
+test
+.vscode

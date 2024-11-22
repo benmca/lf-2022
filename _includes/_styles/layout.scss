@@ -261,3 +261,28 @@
 
 }
 
+
+.tagitems {
+  display: grid;
+  flex: auto;
+  grid-template-columns: 1;
+  ul {
+    list-style-type: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  gap: 1rem .5rem;
+  @media all and (min-width: 800px) {
+    gap: 1rem;
+  }
+  padding: 0;
+  margin: 10px;
+  width: 100%;
+  .header {
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 8;
+    font-size: 5vw;
+  }
+}
