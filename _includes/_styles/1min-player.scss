@@ -288,7 +288,13 @@ input[type=range]::-ms-range-track {
 /* Cover Art (optional playlist) */
 .player-wrap.cover-art.enabled {
   min-height: 250px;
+  &.tagpage {
+    min-height: 0px;
+    max-height: 175px;
+  }
 }
+
+
 .player-wrap.cover-art.enabled:after, .player-wrap.cover-art.enabled:before {
   content: "";
   display: block;
@@ -505,7 +511,6 @@ input[type=range]::-ms-range-track {
 .player-wrap.button-only.enabled .big-play-pause :hover:before {
   background-color: #46aaff;
 }
-
 /* >> input[type="range"] class: seek-bar */
 input.seek-bar[type=range] {
   box-sizing: border-box;

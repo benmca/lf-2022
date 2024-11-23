@@ -5,9 +5,16 @@ layout: base.njk
 <div class="post">
     <div class="post_header">
         <div class="background_image cover"
-             style="background-image: url('{{ bgImg | url }}');"></div>
+        style="background-image: url('{{ bgImg | url }}');"></div>
         <h1 class="post_title detail_title">{{ title }}</h1>
         <h5 class="post_publish_date">{{ date |  friendlyDate('dd LLLL yyyy') }}</h5>
+    </div>
+    <div class="post_content">
+        {% for t in tags %}
+            {% if t in collections.tagList %}
+                <a href='/main{{ "/tags/" + t | url }}/'>{{ t }}</a>
+            {% endif %}
+        {% endfor %}
     </div>
     <div class="post_content">
         {{ content |  openImagesInNewWindow | safe}}
