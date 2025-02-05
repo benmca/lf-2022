@@ -13,13 +13,17 @@ title: Listen Faster - Music by Ben McAllister
 
 I'm an insatiably curious multi-disciplinary artist pulling on threads in music and technology. I play guitar, I compose, I do a lot with computers, I write. I use this site to think, through writing [posts](/main/#blog-menu) and making sounds/demos/audio experiments. Check out [minutes](/main/1min/) for a new minute of sound posted every day. I think out loud on my [blog](/main/#blog-menu). 
 
-# Latest Projects (updated Summer 2024)
+# Latest Projects (updated Winter 2025)
 
-We've moved from Seattle to Olalla this past month, and my [minutes](/main/1min/) have been keeping me grounded by steadily outputting *something* every day. It's a sketchbook and a window into how my ear and brain work. 
+We've moved from Seattle to Olalla last year, and I [posted one sound per day](/main/1min/). The practice continues out of joyful habit, and now I'm ruminating on this years challenge. I'm starting a [tech-focused weekly log / blog here](https//benmca.net), and I'm thinking of other compulsions to indulge in as the calendar turns. Including:
 
-**The Guitar Cult**: I have unfinished business getting a recording together of [The Guitar Cult](https://www.theguitarcult.com/), my electric guitar ensemble. Look at the [Discography](/main/discography/) page for demos and [YouTube](https://www.youtube.com/channel/UCWBSD3mHhaImuKrzbQ0zHQA) for more - the videos made by the University of Wisconsin guitar ensemble are especially beautiful.
+**Stropes Foundation Archives**: [The Stropes Foundation](https://www.stropesfoundation.org/) is custodian of a massive archive of fingerstyle guitar recordings and artifacts. I'm working with mentor and publisher [John Stropes](https://stropes.com) to sort things out and make them accessible as we prepare to publish transcriptions by Leo Kottke, Michael Hedges and others this year. I should have some new pieces [up there](https://www.stropes.com/ben-mcallister/) soon, myself. 
 
-**Chiwas**: I'm working on a band with my man Jason from Medicine Hat, and I'm looking into creating visuals for our show. This is getting me into all kinds of software where audio or midi triggers sound. Also I am looking to create an immersive VR experience for us. Temporarily it's called Chiwas, maybe permanently? [This](/189/) is one of my favorite Chiwas demos. 
+**The Guitar Cult**: [The Guitar Cult](https://www.theguitarcult.com/), my electric guitar ensemble. We plan to regroup and get recordings of my pieces captured before summertime. 
+
+**Chiwas**: [This](/189/) is one of my favorite Chiwas demos. A project with brother Jason Thomson, bass player from [Medicine Hat](https://listenfastermusic.bandcamp.com/album/medicine-hat).
+
+**Medicine Hat**: Speaking of Jason, [Medicine Hat](https://listenfastermusic.bandcamp.com/album/medicine-hat) got together for a well-attended reunion in 2023 and again on Jan 18. We have one or two unrecorded tunes we may be recording this winter, if the scheduling fates allow. In the meantime, check [that link](https://listenfastermusic.bandcamp.com/album/medicine-hat) or [look at our soon-to-be-migrated facebook page](https://www.facebook.com/MedicineHatSeattle). 
 
 **Day job**: [I work here.](https://fiuturx.com) Our platform tracks lots of data that, at the end of the day, indicates responsible behavior in energy production. There's a lot going on under the hood though - I'll spare you the details for now. I'm stoked to be working with a lot of people I consider friends. If I didn't know how to pull bands together to make music, I wouldn't know how to get teams of engineers together to move toward a goal. It seems like the same thing to me. 
 
@@ -33,8 +37,7 @@ We've moved from Seattle to Olalla this past month, and my [minutes](/main/1min/
 
 ben@listenfaster.com
 
-[Mailing List Signup](http://eepurl.com/bbcGMr) | [Bandcamp](https://listenfastermusic.bandcamp.com/) | [Soundcloud](https://soundcloud.com/listenfaster/) | [YouTube](https://www.youtube.com/channel/UCWBSD3mHhaImuKrzbQ0zHQA) | <a rel="me" href="https://www.facebook.com/ben.mcallister">Facebook</a> | <a rel="me" href="https://github.com/benmca/">Github</a> [Github](https://github.com/benmca/) | <a rel="me" href="https://social.toplap.org/@listenfaster">Mastodon</a> | <a rel="me" href="https://www.linkedin.com/in/listenfaster/">LinkedIn</a>
-
+[Mailing List Signup](http://eepurl.com/bbcGMr) | [Bandcamp](https://listenfastermusic.bandcamp.com/) | [Soundcloud](https://soundcloud.com/listenfaster/) | [YouTube](https://www.youtube.com/channel/UCWBSD3mHhaImuKrzbQ0zHQA) | <a rel="me" href="https://www.facebook.com/ben.mcallister">Facebook</a> |  [Github](https://github.com/benmca/) | <a rel="me" href="https://mas.to/@benmca">Mastodon</a> | <a rel="me" href="https://www.linkedin.com/in/listenfaster/">LinkedIn</a>
 
 </div>
 

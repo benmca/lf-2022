@@ -33,15 +33,24 @@
           {{ post.data.date | friendlyDate('MMMM') }}, {{ post.data.date | friendlyDate('yyyy') }}
         </div>
       {% endif %}
-       <!-- <li class="day" style="{% if isFirstOfMonth %}grid-column-start: {{ (post.data.date | friendlyDate('c')) | int + 1 }};{% endif %}">  -->
-      {%  set offset =  post.data.date | friendlyDate('c') | int %}
-      {%  set offset_incr =  offset + 1 %}
+      <!-- post.data.date | friendlyDate('c') : {{ (post.data.date | friendlyDate('c')) }} -->
+       <!-- <li class="day" style="{% if isFirstOfMonth %}grid-column-start: {{ (post.data.date | friendlyDate('c')) | int + 1 % 7 }};{% endif %}">  -->
+      {%  set offset =  post.data.date | friendlyDate('c') | int  %}
+      {% if offset == 7 %}
+        {% set offset = 1 %}
+      {% else %}
+        {% set offset = offset + 1 %}
+      {% endif %}
+      {# {%  set offset_incr =  offset + 1 %}
       {%  set offset_modded =  offset_incr % 7 %}
+      {% if offset_modded == 0 %}
+        {% set offset_modded = 1 %}
+      {% endif %} #}
        <!-- <div>offset: {{ offset }}</div> -->
        <!-- <div>offset_incr: {{ offset_incr }}</div> -->
        <!-- <div>offset_modded: {{ offset_modded }}</div> -->
 
-       <li class="day" style="{% if isFirstOfMonth %}grid-column-start: {{ offset_modded }};{% endif %}"> 
+       <li class="day" style="{% if isFirstOfMonth %}grid-column-start: {{ offset }};{% endif %}"> 
         <div class="background_image cover" style="background-image:url('{{ post.data.bgImg | url | thumb }}')"></div>
         <div class="daylink">
           <a href="{{ post.url | url }}">
