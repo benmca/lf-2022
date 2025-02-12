@@ -5,6 +5,8 @@ const path = require("node:path");
 const nj = require("nunjucks");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const cheerio = require('cheerio');
+const { el } = require("date-fns/locale");
+const { weeksToDays, monthsInQuarter, isFirstDayOfMonth } = require("date-fns");
 
 module.exports = function (eleventyConfig) {
 
@@ -129,11 +131,51 @@ module.exports = function (eleventyConfig) {
         const tagsSet = new Set();
         collection.getAll().forEach(item => {
             if (!item.data.tags) return;
-            item.data.tags.filter(tag => !['posts', 'all', '1min', 'listen', 'blog'].includes(tag)).forEach(tag => tagsSet.add(tag));
+            item.data.tags.filter(tag => !['posts', 'all', '1min', 'listen', 'blog', '2025.02.break'].includes(tag)).forEach(tag => tagsSet.add(tag));
         });
         return Array.from(tagsSet).sort();
     });
 
+    // Tags
+    eleventyConfig.addCollection('minutesByMonth', collection => {
+        const months = new Set();
+        let week = new Array(7);
+        week.fill(null);
+        let month = new Set();
+
+        items = collection.getFilteredByTag("1min").forEach(item => {
+            dayOfMonth = parseInt(DateTime.fromJSDate(item.date, {zone: 'utc'}).toFormat('d'));
+            dayOfWeek = parseInt(DateTime.fromJSDate(item.date, {zone: 'utc'}).toFormat('c'));
+            if(dayOfWeek == 7) dayOfWeek = 1; else dayOfWeek = dayOfWeek+1;
+            item.dayOfWeek = dayOfWeek;
+            
+            if(dayOfMonth == 1) {
+                month = new Set();
+                month.date = item.date;
+                months.add(month);
+
+                week = new Array(7);
+                week.fill(null);
+                month.add(week);
+           } else if(dayOfWeek == 1){
+                week = new Array(7);
+                week.fill(null);
+                month.add(week);
+            }
+            
+            week[dayOfWeek-1] = item;
+        });
+        months.forEach(month => {
+            month.forEach(week => {
+               week.forEach(day => {
+                if(day && day.data.tags.includes('break')){
+                    day.isBreak = true;
+                }
+               });
+            });
+        });
+        return Array.from(months).sort((a, b) => b.date -a.date);
+    });
 
     return {
         // Control which files Eleventy will process

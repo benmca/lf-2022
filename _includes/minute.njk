@@ -7,43 +7,57 @@ eleventyComputed:
     bgImg: /img/1min/{{ postnumber }}.png
 
 ---
+
 {% set previousPost = collections.1min | getPreviousCollectionItem(page) %}
 {% set nextPost = collections.1min | getNextCollectionItem(page) %}
-
 <div class="post">
     <div class="post_header">
-        <div class="background_image cover"
-             style="background-image: url('{{ bgImg | url }}');"></div>
+        {% if '2025.02.break' in tags %}
+            {% set bgImg = '/img/1min/2025.02.break.png' %}
+        {% endif %}
+        <div class="background_image cover" style="background-image: url('{{ bgImg | url }}');"></div>
         <h1 class="post_title detail_title">{{ title }}</h1>
     </div>
     <div class="prev_next">
-        {% if previousPost %}<a href="{{ previousPost.url | url}}">prev</a>{% endif %}
-        {% if nextPost %}<a href="{{ nextPost.url | url }}">next</a>{% endif %}
-    </div>
-    <div class="post_content">
-        <p><audio controls src="{{ audio }}" type="audio/mpeg"></audio></p>
-    </div>
-    <div class="post_content">
-    {% for t in tags %}
-        {% if t in collections.tagList %}
-            <a href='/main{{ "/tags/" + t | url }}/'>{{ t }}</a>
+        {% if previousPost %}
+            <a href="{{ previousPost.url | url }}">prev</a>
         {% endif %}
-    {% endfor %}
+        {% if nextPost %}
+            <a href="{{ nextPost.url | url }}">next</a>
+        {% endif %}
+    </div>
+    <div class="post_content">
+        {% if '2025.02.break' in tags %}
+            <p>
+                <audio controls src="/main/snd/1min/2025.02.break.mp3" type="audio/mpeg"></audio>
+            </p>
+        {% else %}
+            <p>
+                <audio controls src="{{ audio }}" type="audio/mpeg"></audio>
+            </p>
+        {% endif %}
+    </div>
+    <div class="post_content">
+        {% for t in tags %}
+            {% if t in collections.tagList %}
+                <a href='/main{{ "/tags/" + t | url }}/'>{{ t }}</a>
+            {% endif %}
+        {% endfor %}
     </div>
     <div class="post_content">
         {{ content | safe }}
     </div>
     <div class="post_content">
-        <img src="{{ bgImg | url }}" />
-    </div>    
-<script>talkyardServerUrl='https://site-1gfho50lo1.talkyard.net';</script>
-<script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
-<!-- You can specify a per page discussion id on the next line, if your URLs might change. -->
-<div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
-<noscript>Please enable Javascript to view comments.</noscript>
-<p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
-<a href="https://www.talkyard.io">Talkyard</a>.</p>
-</div>
-
-    
+        <img src="{{ bgImg | url }}"/>
+    </div>
+    <script>
+        talkyardServerUrl = 'https://site-1gfho50lo1.talkyard.net';
+    </script>
+    <script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+    <!-- You can specify a per page discussion id on the next line, if your URLs might change. -->
+    <div class="talkyard-comments" data-discussion-id="" style="margin-top: 45px;">
+        <noscript>Please enable Javascript to view comments.</noscript>
+        <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+            <a href="https://www.talkyard.io">Talkyard</a>.</p>
+    </div>
 </div>
