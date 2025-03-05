@@ -27,6 +27,11 @@
   position: relative;
   flex-flow: column nowrap;
   justify-content: flex-start;
+
+  @media all and (min-width: 800px) {
+    width: 80%;
+    margin: auto;
+  }
   width: 100%;
 }
 
@@ -191,7 +196,7 @@
     font-weight: 800;
     font-size: 7vw;
   @media all and (min-width: 800px) {
-    font-size: 8vw;
+    font-size: 6vw;
   }
 }
 
@@ -239,8 +244,6 @@
 
   position: relative;
   @media all and (min-width: 800px) {
-    padding: 1rem 0;
-    margin: 1rem 0;
   }
 
   .background_image {
