@@ -33,6 +33,9 @@ window.addEventListener('load', function() {
         nextButton: (jsPlayer.querySelector('.next-button') || {
           style: {}
         }),
+        shuffleButton: (jsPlayer.querySelector('.shuffle-button') || {
+          style: {}
+        }),
         playlistButton: (jsPlayer.querySelector('.playlist-button') || {
           style: {}
         }),
@@ -56,6 +59,7 @@ window.addEventListener('load', function() {
         jsPlayer.bigPlayButton.style.display = 'none';
         jsPlayer.pauseButton.style.display = 'block';
         jsPlayer.playButton.style.display = 'none';
+        jsPlayer.shuffleButton.style.display = 'block';
         jsPlayer.playing = true;
         jsPlayer.player.play();
         jsPlayer.seekInterval = setInterval(jsPlayer.updateSeek, 500);
@@ -66,6 +70,7 @@ window.addEventListener('load', function() {
         jsPlayer.bigPlayButton.style.display = 'block';
         jsPlayer.bigPauseButton.style.display = 'none';
         jsPlayer.playButton.style.display = 'block';
+        jsPlayer.shuffleButton.style.display = 'block';
         jsPlayer.pauseButton.style.display = 'none';
         jsPlayer.playing = false;
         jsPlayer.player.pause();
@@ -215,6 +220,28 @@ window.addEventListener('load', function() {
           window.location.href = jsPlayer.posturl;
         }
       };
+      jsPlayer.shuffleButtonClicked = function shuffleButtonClicked(){
+        let shuffledTracks = [];
+        let shuffledPlaylist = Array.from(jsPlayer.playlist); // Convert NodeList to Array
+    
+        // Create an array of indices and shuffle them
+        let indices = Array.from({ length: jsPlayer.tracks.length }, (_, i) => i);
+        for (let i = indices.length - 1; i > 0; i--) {
+            let j = Math.floor(Math.random() * (i + 1));
+            [indices[i], indices[j]] = [indices[j], indices[i]];
+        }
+    
+        // Apply shuffled order to both tracks and playlist
+        indices.forEach((newIndex, i) => {
+            shuffledTracks[i] = jsPlayer.tracks[newIndex];
+            shuffledPlaylist[i] = jsPlayer.playlist[newIndex];
+        });
+    
+        // Update playlist and track order
+        jsPlayer.tracks = shuffledTracks;
+        jsPlayer.playlist = shuffledPlaylist;
+        jsPlayer.loadTracklist();
+      };
       jsPlayer.playlistButtonClicked = function jsPlayerPlaylistButtonClicked() {
         jsPlayer.wrap.classList.toggle('show-list');
         jsPlayer.playlistButton.style.backgroundImage = (jsPlayer.wrap.classList.contains('show-list') && jsPlayer.wrap.style.backgroundImage) ? jsPlayer.wrap.style.backgroundImage : '';
@@ -275,6 +302,9 @@ window.addEventListener('load', function() {
             }
             if (jsPlayer.playlistButton.tagName) {
               jsPlayer.playlistButton.addEventListener('click', jsPlayer.playlistButtonClicked, true);
+            }
+            if (jsPlayer.shuffleButton.tagName) {
+              jsPlayer.shuffleButton.addEventListener('click', jsPlayer.shuffleButtonClicked, true);
             }
             if (jsPlayer.seekBar.tagName) {
               jsPlayer.seekBar.addEventListener('mousedown', jsPlayer.seekHeld, true);

@@ -107,6 +107,7 @@ input[type=range]::-ms-range-track {
 .player-wrap .pause-button,
 .player-wrap .prev-button,
 .player-wrap .next-button,
+.player-wrap .shuffle-button,
 .player-wrap .playlist-button {
   position: absolute;
   left: 0;
@@ -124,6 +125,7 @@ input[type=range]::-ms-range-track {
 .player-wrap .pause-button:before,
 .player-wrap .prev-button:before,
 .player-wrap .next-button:before,
+.player-wrap .shuffle-button:before,
 .player-wrap .playlist-button:before {
   content: "";
   position: absolute;
@@ -136,6 +138,7 @@ input[type=range]::-ms-range-track {
 }
 .player-wrap .prev-button,
 .player-wrap .next-button,
+.player-wrap .shuffle-button,
 .player-wrap .playlist-button {
   display: none;
 }
@@ -177,6 +180,7 @@ input[type=range]::-ms-range-track {
 .player-wrap .pause-button:hover,
 .player-wrap .prev-button:hover,
 .player-wrap .next-button:hover,
+.player-wrap .shuffle-button:hover,
 .player-wrap .playlist-button:hover {
   color: #46aaff;
 }
@@ -184,6 +188,7 @@ input[type=range]::-ms-range-track {
 .player-wrap .pause-button:hover:before,
 .player-wrap .prev-button:hover:before,
 .player-wrap .next-button:hover:before,
+.player-wrap .shuffle-button:hover:before,
 .player-wrap .playlist-button:hover:before {
   background-color: rgba(70, 170, 255, 0.1);
 }
@@ -191,8 +196,8 @@ input[type=range]::-ms-range-track {
   left: auto;
   right: 0;
 }
+.player-wrap .shuffle-button,
 .player-wrap .playlist-button {
-  color: #888;
   border-radius: 15%;
 }
 .player-wrap .seek-wrap {
@@ -334,6 +339,7 @@ input[type=range]::-ms-range-track {
 .player-wrap.cover-art.enabled .play-pause,
 .player-wrap.cover-art.enabled .prev-button,
 .player-wrap.cover-art.enabled .next-button,
+.player-wrap.cover-art.enabled .shuffle-button,
 .player-wrap.cover-art.enabled .playlist-button {
   display: none;
 }
@@ -374,6 +380,7 @@ input[type=range]::-ms-range-track {
 .player-wrap.cover-art.enabled.list-view .play-pause,
 .player-wrap.cover-art.enabled.list-view .prev-button,
 .player-wrap.cover-art.enabled.list-view .next-button,
+.player-wrap.cover-art.enabled.list-view .shuffle-button,
 .player-wrap.cover-art.enabled.list-view .playlist-button {
   position: absolute;
   top: 10%;
@@ -382,13 +389,18 @@ input[type=range]::-ms-range-track {
   height: 2em;
 }
 .player-wrap.cover-art.enabled.list-view .play-pause {
-  left: 56%;
+  left: 68%;
 }
 .player-wrap.cover-art.enabled.list-view .prev-button {
-  left: 31%;
+  left: 48%;
 }
 .player-wrap.cover-art.enabled.list-view .next-button {
-  left: 79%;
+  left: 85%;
+}
+.player-wrap.cover-art.enabled.list-view .shuffle-button {
+  left: 28%;
+  background: none no-repeat center center;
+  background-size: cover;
 }
 .player-wrap.cover-art.enabled.list-view .playlist-button {
   left: 8%;
