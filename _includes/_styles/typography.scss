@@ -25,8 +25,9 @@ h6 {
     color: variables.$black;
     font-weight: 600;
     text-transform: uppercase;
+    text-align: center;
     line-height: 1;
-    font-size: 9vw;
+    font-size: 7vw;
     @media all and (min-width: 800px) {
         font-size: 6vw;
     }

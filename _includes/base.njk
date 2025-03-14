@@ -18,6 +18,22 @@
     <meta property="og:image:width" content="375" /> 
     <link rel="webmention" href="https://webmention.io/mxb.dev/webmention">
 -->
+    <script>
+
+        const images = [
+        "/main/img/notations/symbol.png",
+        "/main/img/notations/notation-2.png",
+        "/main/img/notations/notation-1.png",
+        "/main/img/notations/ben-ocrilim-1.png",
+        "/main/img/notations/symbol-designed.png"
+        ];
+
+        const randomIndex = Math.floor(Math.random() * images.length);
+        document.addEventListener("DOMContentLoaded", function(){
+            document.getElementById("randomImage").src = images[randomIndex];
+        });
+
+    </script>
     <meta property="og:url" content="{{ "https://listenfaster.com/main" + page.url }}" />
 
 </head>

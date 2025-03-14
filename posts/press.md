@@ -1,5 +1,5 @@
 ---
-title: "Press"
+title: "Mentions"
 date: 2024-01-01
 layout: post.njk
 bgImg: /img/default-bg.jpg
@@ -16,6 +16,6 @@ permalink: /press/
 
 [Expose review's Medicine Hat's debut](http://expose.org/index.php/articles/display/medicine-hat-medicine-hat-2.html)
 
-[Seattle Weekly Article on Degenerate Art Orchestra show, with a nod to my piece Bizzy Bizzy](https://www.seattleweekly.com/arts/degenerate-pleasures/)
+[Seattle Weekly Article on Degenerate Art Orchestra show, with a big nod to my piece Bizzy Bizzy](https://www.seattleweekly.com/arts/degenerate-pleasures/)
 
 

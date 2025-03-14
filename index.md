@@ -6,8 +6,11 @@ title: Listen Faster - Music by Ben McAllister
 
 <div id="home-header">
 
-![The esteemed composer](/main/img/ben-danette-piano-bw.png)
-[*Photo by Danette Davis*](https://www.danettedavis.com/)
+<p><img id="randomImage" src="" alt=""></p>
+
+
+<!-- ![The esteemed composer](/main/img/symbol-designed.png) -->
+<!-- [*Photo by Danette Davis*](https://www.danettedavis.com/) -->
 
 ###### Ben McAllister
 
@@ -126,6 +129,8 @@ ben@listenfaster.com
 
 </script>
 -->
+
+
 
 </div>
 

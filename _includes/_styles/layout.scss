@@ -45,6 +45,9 @@
 
   & img {
     max-width: 300px;
+    margin:auto;
+    @media all and (max-width: 800px) {
+    }
   }
 
 
