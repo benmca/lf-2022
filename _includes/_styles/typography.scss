@@ -27,9 +27,14 @@ h6 {
     text-transform: uppercase;
     text-align: center;
     line-height: 1;
-    font-size: 7vw;
-    @media all and (min-width: 800px) {
-        font-size: 6vw;
+    @media all and  (max-width:800px) {
+        font-size: 36px;
+    }
+    @media all and (min-width: 801px)  and (max-width:1140px){
+        font-size: 44px;
+    }
+    @media all and (min-width: 1141px){
+        font-size: 44px;
     }
 }
 
