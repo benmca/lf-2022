@@ -14,7 +14,7 @@
       <div class="container-calendar">
         <ul class="calendar">
           <div class="header">
-            <p>Each day:<br/>a photo, a thought, a sound.</p>
+            <p>Daily sounds</p>
           </div>
           {% for m in collections.minutesByMonth %}
             <div class="month">
@@ -28,6 +28,8 @@
                   <li class="day" style="grid-column-start:{{ d.dayOfWeek }}">
                     {% if '2025.02.break' in d.data.tags %}
                       <div class="background_image cover" style="background-image:url('{{ '/img/1min/2025.02.break.png' | url | thumb }}')"></div>
+                    {% elseif '2025.05.break' in d.data.tags %}
+                      <div class="background_image cover" style="background-image:url('{{ '/img/1min/2025.05.break.png' | url | thumb }}')"></div>
                     {% else %}
                       <div class="background_image cover" style="background-image:url('{{ d.data.bgImg | url | thumb }}')"></div>
                     {% endif %}

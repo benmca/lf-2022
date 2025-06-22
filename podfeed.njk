@@ -1,0 +1,62 @@
+---json
+{
+  "permalink": "minutes.xml",
+  "eleventyExcludeFromCollections": true,
+  "metadata": {
+    "title": "Olallan",
+    "subtitle": "Daily audio from Composer/Programmer/Guitar Ben McAllister",
+    "language": "en",
+    "url": "https://listenfaster.com/main/minutes.xml",
+    "author": {
+      "name": "Ben McAllister",
+      "email": "ben@listenfaster.com"
+    }
+  }
+}
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Minutes</title>
+    <googleplay:author>Ben McAllister</googleplay:author>
+    <rawvoice:rating>TV-G</rawvoice:rating>
+    <rawvoice:location>Olalla, Washington</rawvoice:location>
+    <rawvoice:frequency>Daily</rawvoice:frequency>
+    <author>Ben McAllister</author>
+    <itunes:author>Ben McAllister</itunes:author>
+    <itunes:email>ben@listenfaster.com</itunes:email>
+    <itunes:category text="Music" />
+    <image>
+      <url>https://www.listenfaster.com/main/img/ben-danette-piano-bw.png</url>
+      <title>Minutes</title>
+      <link>https://www.listenfaster.com/main/</link>
+    </image>
+    <itunes:owner>
+      <itunes:name>Ben McAllister</itunes:name>
+      <itunes:email>ben@listenfaster.com</itunes:email>
+    </itunes:owner>
+    <itunes:keywords>music, sound, composer, composition, guitar, csound</itunes:keywords>
+    <copyright>Listenfaster Music, 2024</copyright>
+    <description>Daily sound journal from composer/guitarist Ben McAllister</description>
+    <googleplay:image href="https://www.listenfaster.com/main/img/ben-danette-piano-bw-podcast.png" />
+    <language>en-us</language>
+    <itunes:explicit>no</itunes:explicit>
+    <pubDate></pubDate>
+    <link>https://www.listenfaster.com/main/minutes.xml</link>
+    <itunes:image href="https://www.listenfaster.com/main/img/ben-danette-piano-bw.png" />
+  {%- for post in collections.posts | reverse %}
+  {%- set absoluteAudioUrl = "http://listenfaster.com/main/snd/1min/" + post.data.postnumber + ".mp3" %}
+  <item>
+    <author>Ben McAllister</author>
+    <itunes:author>Ben McAllister</itunes:author>
+    <title>{{ post.data.title }}</title>
+    <pubDate>{{ post.date | dateToRfc3339 }}</pubDate>
+    <enclosure url="{{ absoluteAudioUrl }}" type="audio/mpeg" length="34216300" />
+    <itunes:duration>1:00</itunes:duration>
+    <guid isPermaLink="false"></guid>
+    <itunes:explicit>no</itunes:explicit>
+    <description>{{ post.templateContent }}</description>
+  </item>
+  {%- endfor %}
+  </channel>
+</rss>

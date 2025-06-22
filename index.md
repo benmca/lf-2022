@@ -16,19 +16,37 @@ title: Listen Faster - Music by Ben McAllister
 
 Half the time I will just say: "I don't know, I'm just a guitar player", the other half of the time, I will say:</br></br>
 
-I'm an insatiably curious multi-disciplinary artist pulling on threads in music and technology. I play guitar, I compose, I do a lot with computers, I write. I use this site to think, through writing [posts](/main/#blog-menu) and making sounds/demos/audio experiments. Check out [minutes](/main/1min/) for a new minute of sound posted every day. I think out loud on my [blog](/main/#blog-menu). 
+I'm an insatiably curious multi-disciplinary artist pulling on threads in music and technology. I play guitar, I compose, I do a lot with computers, I write. I use this site to think, through writing [posts](/main/#blog-menu) and making sounds/demos/audio experiments. Check out [minutes](/main/1min/) for a new minute of sound every day. I think out loud on my [blog](/main/#blog-menu). 
+
+# Like what you hear? Drop me a line:
+
+ben_at_listenfaster.com
+
+# 2025 Shows
+
+## [**Caudal Peduncle**](https://caudalpeduncle.com/)
+
+- Saturday April 26 at Darrel's Tavern
+- Saturday June 14 at Slim's Last Chance
+- Saturday August 2 at Sunset Tavern
+
+## [**Medicine Hat**](https://listenfastermusic.bandcamp.com/album/medicine-hat)
+
+- Saturday August 9 at Showbox Downtown - opening for Blackhappy!
 
 # Latest Projects (updated Spring 2025)
 
 There's a ton going on all of a sudden, just when I thought I was going to be feeling like a lazy-ass:</br>
 
-**Medicine Hat**: [Medicine Hat](https://listenfastermusic.bandcamp.com/album/medicine-hat), got together for a well-attended reunion in 2023 and again back in Jan of 2025. We are looking at a vinyl reissue of our first record on [Latent Print](http://latentprintrecords.com/), as well as writing and recording new EP material. [It might sound like this](/main/435/). There's a big show in the works in August, soon to be confirmed. In the meantime, check [that link](https://listenfastermusic.bandcamp.com/album/medicine-hat) or [look at our soon-to-be-migrated facebook page](https://www.facebook.com/MedicineHatSeattle). 
+[**Caudal Peduncle**](https://caudalpeduncle.com/): I'm stepping into Bob's shoes and taking over guitar in Cousin Mike's glam punk goodtimes band. I need clothes! 
 
-**Stropes Foundation Archives**: [The Stropes Foundation](https://www.stropesfoundation.org/) is custodian of a massive archive of fingerstyle guitar recordings and artifacts. I'm working with mentor and publisher [John Stropes](https://stropes.com) to sort things out and make them accessible as we prepare to publish transcriptions by Leo Kottke, Michael Hedges and others this year. I should have some new pieces [up there](https://www.stropes.com/ben-mcallister/) soon, myself. 
+[**Medicine Hat**](https://listenfastermusic.bandcamp.com/album/medicine-hat): we got together for a well-attended reunion in 2023 and again back in Jan of 2025. We are looking at a vinyl reissue of our first record on [Latent Print](http://latentprintrecords.com/), as well as writing and recording new EP material. [It might sound like this](/main/435/). There's a big show in the works in August, soon to be confirmed. In the meantime, check [that link](https://listenfastermusic.bandcamp.com/album/medicine-hat) or [look at our soon-to-be-migrated facebook page](https://www.facebook.com/MedicineHatSeattle). 
 
-**The Guitar Cult**: [The Guitar Cult](https://www.theguitarcult.com/), my electric guitar ensemble. Recording in progress.
+[**Stropes Foundation Archives**]:(https://www.stropesfoundation.org/) is custodian of a massive archive of fingerstyle guitar recordings and artifacts. I'm working with mentor and publisher [John Stropes](https://stropes.com) to sort things out and make them accessible as we prepare to publish transcriptions by Leo Kottke, Michael Hedges and others this year. I should have some new pieces [up there](https://www.stropes.com/ben-mcallister/) soon, myself. 
 
-**Chiwas**: [Chiwas is up on Bandcamp](https://chiwas.bandcamp.com/). [This](/189/) is one of my favorite Chiwas demos. It's a new project from brother Jason Thomson, bass player from [Medicine Hat](https://listenfastermusic.bandcamp.com/album/medicine-hat), I occasionally play on 'em.
+[**The Guitar Cult**](https://www.theguitarcult.com/), my electric guitar ensemble. Recording in progress.
+
+[**Chiwas**](https://chiwas.bandcamp.com/). [This](/189/) is one of my favorite Chiwas demos. It's a new project from brother Jason Thomson, bass player from [Medicine Hat](https://listenfastermusic.bandcamp.com/album/medicine-hat), I occasionally play on 'em.
 
 **Day job**: [I work here.](https://fiuturx.com) Our platform tracks lots of data that, at the end of the day, indicates responsible behavior in energy production. There's a lot going on under the hood though - I'll spare you the details for now. I'm stoked to be working with a lot of people I consider friends. If I didn't know how to pull bands together to make music, I wouldn't know how to get teams of engineers together to move toward a goal. It seems like the same thing to me. 
 
@@ -38,9 +56,7 @@ There's a ton going on all of a sudden, just when I thought I was going to be fe
 
 [Degenerate Art Ensemble](https://www.degenerateartensemble.com/) | [Tuktu](https://listenfastermusic.bandcamp.com/album/qayaq-1) | [Wizard Prison](https://wizardprison.bandcamp.com/) | [C'mon C'mon](https://cmoncmon.bandcamp.com/) | [Medicine Hat](https://listenfastermusic.bandcamp.com/album/medicine-hat)
 
-# Email me and let's talk about it
 
-ben@listenfaster.com
 
 [Mailing List Signup](http://eepurl.com/bbcGMr) | [Bandcamp](https://listenfastermusic.bandcamp.com/) | [Soundcloud](https://soundcloud.com/listenfaster/) | [YouTube](https://www.youtube.com/channel/UCWBSD3mHhaImuKrzbQ0zHQA) | <a rel="me" href="https://www.facebook.com/ben.mcallister">Facebook</a> |  [Github](https://github.com/benmca/) | <a rel="me" href="https://mas.to/@benmca">Mastodon</a> | <a rel="me" href="https://www.linkedin.com/in/listenfaster/">LinkedIn</a>
 

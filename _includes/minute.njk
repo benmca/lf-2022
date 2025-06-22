@@ -4,6 +4,7 @@ permalink: /1min/{{postnumber}}/
 
 eleventyComputed:
     audio: /main/snd/1min/{{ postnumber }}.mp3
+    last_year_this_timeaudio: /main/snd/1min/{{ postnumber-365 }}.mp3
     bgImg: /img/1min/{{ postnumber }}.png
 
 ---
@@ -14,6 +15,9 @@ eleventyComputed:
     <div class="post_header">
         {% if '2025.02.break' in tags %}
             {% set bgImg = '/img/1min/2025.02.break.png' %}
+        {% elseif '2025.05.break' in tags %}
+            {% set lastyear = postnumber - 365 %}
+            {% set bgImg = '/img/1min/' + lastyear + '.png' %}
         {% endif %}
         <div class="background_image cover" style="background-image: url('{{ bgImg | url }}');"></div>
         <h1 class="post_title detail_title">{{ title }}</h1>
@@ -26,10 +30,17 @@ eleventyComputed:
             <a href="{{ nextPost.url | url }}">next</a>
         {% endif %}
     </div>
+    <div class="prev_next">
+        <a class="prev_next" href="{{ '/main/1min/' }}">Calendar view</a>
+    </div>
     <div class="post_content">
         {% if '2025.02.break' in tags %}
             <p>
                 <audio controls src="/main/snd/1min/2025.02.break.mp3" type="audio/mpeg"></audio>
+            </p>
+        {% elseif '2025.05.break' in tags %}
+            <p>
+                <audio controls src="{{ last_year_this_timeaudio }}" type="audio/mpeg"></audio>
             </p>
         {% else %}
             <p>
@@ -39,8 +50,10 @@ eleventyComputed:
     </div>
     <div class="post_content">
         {% for t in tags %}
-            {% if t in collections.tagList %}
-                <a href='/main{{ "/tags/" + t | url }}/'>{{ t }}</a>
+            {% if t != "2025.05.break"%}
+                {% if t in collections.tagList %}
+                    <a href='/main{{ "/tags/" + t | url }}/'>{{ t }}</a>
+                {% endif %}
             {% endif %}
         {% endfor %}
     </div>

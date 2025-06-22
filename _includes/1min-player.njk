@@ -3,8 +3,7 @@ layout: base.njk
 ---
 <div class="player">
 <div class="header" >
-  <p>All the minutes: {{ collections.minutes | length }} posts and counting.</p>
-  <a href="/main/1min/" style="font-size: 3vw;">Go to the calendar of minutes.</a>
+  <a href="/main/1min/" style="font-size: 3vw;">Calendar view</a>
 </div>
 
   <div id="thing" class="player-wrap cover-art dark" data-title="Minutes" data-artist="Ben Mc" style="background-image: url('');">
@@ -71,9 +70,11 @@ layout: base.njk
       <h2>Daily Minutes</h2>
       <ol>
         {% for post in collections.minutes | reverse %}
-        <li>
-          <a href="{{ post.data.audio }}" data-artist="Ben McAllister" data-posturl="{{ post.url | url }}" data-imgurl="{{ post.data.bgImg | url  }}">{{ post.data.date |  friendlyDate('dd LLLL yyyy') }}</a>
-        </li>
+          {% if '2025.05.break' not in post.data.tags %}
+            <li>
+              <a href="{{ post.data.audio }}" data-artist="Ben McAllister" data-posturl="{{ post.url | url }}" data-imgurl="{{ post.data.bgImg | url  }}">{{ post.data.date |  friendlyDate('dd LLLL yyyy') }}</a>
+            </li>  
+          {% endif %}
         {% endfor %}
 
       </ol>
