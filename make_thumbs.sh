@@ -22,11 +22,11 @@ find "$SOURCE_DIR" -type f \( -iname "*.jpg" -o -iname "*.png" -o -iname "*.jpeg
         # echo "target dir doesn't exist - creating"
         mkdir -p "$target_dir"
     fi
-    
+
     if ! [ -f "$target" ]; then
         # echo "target file doesn't exist - creating"
         echo -n "."
-        magick "$img" -resize 100x100 "$target"
+        magick "$img" -resize 100x100 -alpha remove "$target"
     fi
 done
 

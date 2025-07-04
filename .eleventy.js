@@ -48,6 +48,7 @@ module.exports = function (eleventyConfig) {
 
     eleventyConfig.addPassthroughCopy("img");
     eleventyConfig.addPassthroughCopy("thumbs");
+    eleventyConfig.addPassthroughCopy("episode_images");
     eleventyConfig.addPassthroughCopy("snd");
     eleventyConfig.addPassthroughCopy("assets");
     eleventyConfig.addPassthroughCopy("js");

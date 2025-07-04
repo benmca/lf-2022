@@ -7,11 +7,14 @@ from pathlib import Path
 from mutagen.mp3 import MP3
 
 def get_mp3_duration_size(mp3_path):
-    """Get duration in seconds and size in bytes of an MP3 file."""
+    """Get duration in MM:SS format and size in bytes of an MP3 file."""
     try:
         audio = MP3(mp3_path)
+        total_seconds = int(round(audio.info.length))
+        minutes = total_seconds // 60
+        seconds = total_seconds % 60
         return {
-            'duration': int(round(audio.info.length)),
+            'duration': f"{minutes}:{seconds:02d}",
             'length': os.path.getsize(mp3_path)
         }
     except Exception as e:

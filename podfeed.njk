@@ -27,9 +27,9 @@
     <itunes:email>ben@listenfaster.com</itunes:email>
     <itunes:category text="Music" />
     <image>
-      <url>https://www.listenfaster.com/main/img/ben-danette-piano-bw.png</url>
+      <url>https://www.listenfaster.com/main/img/ben-danette-piano-color-cropped-1992x1992.jpg</url>
       <title>Minutes</title>
-      <link>https://www.listenfaster.com/main/</link>
+      <link>https://www.listenfaster.com</link>
     </image>
     <itunes:owner>
       <itunes:name>Ben McAllister</itunes:name>
@@ -37,26 +37,35 @@
     </itunes:owner>
     <itunes:keywords>music, sound, composer, composition, guitar, csound</itunes:keywords>
     <copyright>Listenfaster Music, 2024</copyright>
-    <description>Daily sound journal from composer/guitarist Ben McAllister</description>
-    <googleplay:image href="https://www.listenfaster.com/main/img/ben-danette-piano-bw-podcast.png" />
+    <description>Daily sounds from composer/guitarist Ben McAllister.  Photo by Danette Davis.</description>
+    <googleplay:image href="https://www.listenfaster.com/main/img/ben-danette-piano-color-cropped-1992x1992.jpg" />
     <language>en-us</language>
-    <itunes:explicit>no</itunes:explicit>
-    <pubDate></pubDate>
-    <link>https://www.listenfaster.com/main/minutes.xml</link>
-    <itunes:image href="https://www.listenfaster.com/main/img/ben-danette-piano-bw.png" />
-  {%- for post in collections.posts | reverse %}
-  {%- set absoluteAudioUrl = "http://listenfaster.com/main/snd/1min/" + post.data.postnumber + ".mp3" %}
-  <item>
-    <author>Ben McAllister</author>
-    <itunes:author>Ben McAllister</itunes:author>
-    <title>{{ post.data.title }}</title>
-    <pubDate>{{ post.date | dateToRfc3339 }}</pubDate>
-    <enclosure url="{{ absoluteAudioUrl }}" type="audio/mpeg" length="34216300" />
-    <itunes:duration>1:00</itunes:duration>
-    <guid isPermaLink="false"></guid>
-    <itunes:explicit>no</itunes:explicit>
-    <description>{{ post.templateContent }}</description>
-  </item>
+    <itunes:explicit>false</itunes:explicit>
+    <pubDate>{{ collections.posts | getNewestCollectionItemDate | dateToRfc3339 }}</pubDate>
+    <link>https://www.listenfaster.com</link>
+    <itunes:image href="https://www.listenfaster.com/main/img/ben-danette-piano-color-cropped-1992x1992.jpg" />
+    
+  {% for post in collections.minutes | reverse %}
+    {% if post.data.tags.includes('2025.05.break') or post.data.tags.includes('2025.02.break') %}
+      {% set absoluteAudioUrl = "http://listenfaster.com/main/snd/1min/" + (post.data.postnumber-365) + ".mp3" %}
+      {% set absoluteImageUrl = "http://listenfaster.com/main/episode_images/1min/" + (post.data.postnumber-365) + ".jpg" %}
+    {% else %}
+      {% set absoluteAudioUrl = "http://listenfaster.com/main/snd/1min/" + post.data.postnumber + ".mp3" %}
+      {% set absoluteImageUrl = "http://listenfaster.com/main/episode_images/1min/" + post.data.postnumber + ".jpg" %}
+    {% endif %}
+      <item>
+        <author>Ben McAllister</author>
+        <itunes:author>Ben McAllister</itunes:author>
+        <title>{{ post.data.title }}</title>
+        <pubDate>{{ post.date | dateToRfc3339 }}</pubDate>
+        <enclosure url="{{ absoluteAudioUrl }}" type="audio/mpeg" length="{{ post.data.length }}" />
+        <itunes:duration>{{ post.data.duration }}</itunes:duration>
+        <guid isPermaLink="false"></guid>
+        <itunes:explicit>false</itunes:explicit>
+        <itunes:image href="{{ absoluteImageUrl }}" />
+        <description>{{ post.templateContent }}</description>
+        <link>http://listenfaster.com{{ post.url | url }}</link>
+      </item>
   {%- endfor %}
   </channel>
 </rss>
