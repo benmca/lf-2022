@@ -15,13 +15,9 @@
 }
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://podcastindex.org/namespace/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Minutes</title>
-    <googleplay:author>Ben McAllister</googleplay:author>
-    <rawvoice:rating>TV-G</rawvoice:rating>
-    <rawvoice:location>Olalla, Washington</rawvoice:location>
-    <rawvoice:frequency>Daily</rawvoice:frequency>
     <author>Ben McAllister</author>
     <itunes:author>Ben McAllister</itunes:author>
     <itunes:email>ben@listenfaster.com</itunes:email>
@@ -35,23 +31,23 @@
       <itunes:name>Ben McAllister</itunes:name>
       <itunes:email>ben@listenfaster.com</itunes:email>
     </itunes:owner>
+    <itunes:summary>a sketch, a demo, a field recording, something I heard that day, a thought and a picture.</itunes:summary>
     <itunes:keywords>music, sound, composer, composition, guitar, csound</itunes:keywords>
-    <copyright>Listenfaster Music, 2024</copyright>
-    <description>Daily sounds from composer/guitarist Ben McAllister.  Photo by Danette Davis.</description>
-    <googleplay:image href="https://www.listenfaster.com/main/img/ben-danette-piano-color-cropped-1992x1992.jpg" />
+    <copyright>Listenfaster Music, 1990-2025</copyright>
+    <description><![CDATA[<p>Daily sounds from composer/guitarist Ben McAllister: a sketch, a demo, a field recording, something I heard that day, a thought and a picture. More at <a href="https://www.listenfaster.com">Listenfaster</a></p>]]></description>
     <language>en-us</language>
     <itunes:explicit>false</itunes:explicit>
     <pubDate>{{ collections.posts | getNewestCollectionItemDate | dateToRfc3339 }}</pubDate>
     <link>https://www.listenfaster.com</link>
     <itunes:image href="https://www.listenfaster.com/main/img/ben-danette-piano-color-cropped-1992x1992.jpg" />
-    
+    <atom:link href="https://listenfaster.com/main/minutes.xml" rel="self" type="application/rss+xml" />    
   {% for post in collections.minutes | reverse %}
     {% if post.data.tags.includes('2025.05.break') or post.data.tags.includes('2025.02.break') %}
-      {% set absoluteAudioUrl = "http://listenfaster.com/main/snd/1min/" + (post.data.postnumber-365) + ".mp3" %}
-      {% set absoluteImageUrl = "http://listenfaster.com/main/episode_images/1min/" + (post.data.postnumber-365) + ".jpg" %}
+      {% set absoluteAudioUrl = "https://listenfaster.com/main/snd/1min/" + (post.data.postnumber-365) + ".mp3" %}
+      {% set absoluteImageUrl = "https://listenfaster.com/main/episode_images/1min/" + (post.data.postnumber-365) + ".jpg" %}
     {% else %}
-      {% set absoluteAudioUrl = "http://listenfaster.com/main/snd/1min/" + post.data.postnumber + ".mp3" %}
-      {% set absoluteImageUrl = "http://listenfaster.com/main/episode_images/1min/" + post.data.postnumber + ".jpg" %}
+      {% set absoluteAudioUrl = "https://listenfaster.com/main/snd/1min/" + post.data.postnumber + ".mp3" %}
+      {% set absoluteImageUrl = "https://listenfaster.com/main/episode_images/1min/" + post.data.postnumber + ".jpg" %}
     {% endif %}
       <item>
         <author>Ben McAllister</author>
@@ -60,11 +56,17 @@
         <pubDate>{{ post.date | dateToRfc3339 }}</pubDate>
         <enclosure url="{{ absoluteAudioUrl }}" type="audio/mpeg" length="{{ post.data.length }}" />
         <itunes:duration>{{ post.data.duration }}</itunes:duration>
-        <guid isPermaLink="false"></guid>
-        <itunes:explicit>false</itunes:explicit>
+        <guid isPermaLink="true">http://listenfaster.com{{ post.url | url }}</guid>
         <itunes:image href="{{ absoluteImageUrl }}" />
-        <description>{{ post.templateContent }}</description>
-        <link>http://listenfaster.com{{ post.url | url }}</link>
+        <itunes:explicit>false</itunes:explicit>
+          <description><![CDATA[
+            {{ (post.templateContent | striptags) | truncate(3900) }}  <a href="https://listenfaster.com{{ post.url | url }}">Link to the post.</a>
+          ]]></description>
+        <content:encoded><![CDATA[
+        {{ post.templateContent | safe }}
+        <p><a href="https://listenfaster.com{{ post.url | url }}">Link to the post.</a></p>
+        ]]></content:encoded>
+        <link>https://listenfaster.com{{ post.url | url }}</link>
       </item>
   {%- endfor %}
   </channel>

@@ -39,6 +39,22 @@ def update_front_matter(file_path, mp3_data):
         print(f"Error parsing YAML in {file_path}: {e}")
         return False
     
+    # Check if this is a break post
+    is_break_post = '2025.05.break' in front_matter.get('tags', [])
+    if is_break_post:
+        # Get the post number from the filename
+        post_number = os.path.splitext(os.path.basename(file_path))[0]
+        if post_number.isdigit():
+            # Calculate the corresponding post number from 365 posts ago
+            original_post_number = str(int(post_number) - 365)
+            # Update the front matter to show it's using the break post
+            front_matter['break_post'] = True
+            front_matter['original_post_number'] = original_post_number
+            
+            # Update the MP3 data with the original post number
+            mp3_data['break_post'] = True
+            mp3_data['original_post_number'] = original_post_number
+    
     # Update with MP3 data
     front_matter.update(mp3_data)
     
@@ -67,11 +83,41 @@ def process_minutes():
             print(f"Skipping non-numeric filename: {md_file}")
             continue
         
-        # Find corresponding MP3 file
-        mp3_file = snd_dir / f"{post_number}.mp3"
-        if not mp3_file.exists():
-            print(f"No matching MP3 found for {md_file}")
-            continue
+        # Read and clean the file content
+        with open(md_file, 'r') as f:
+            content = f.read()
+            # Remove tabs and normalize whitespace
+            content = content.replace('\t', ' ')
+            
+            # Split into front matter and content
+            parts = re.split(r'^---\s*$', content, 2, flags=re.MULTILINE)
+            if len(parts) < 3:
+                print(f"No valid front matter found in {md_file}")
+                continue
+                
+            # Clean up the front matter
+            front_matter_str = parts[1].strip()
+            try:
+                front_matter = yaml.safe_load(front_matter_str)
+            except yaml.YAMLError as e:
+                print(f"Error parsing YAML in {md_file}: {e}")
+                continue
+                
+            # Check if this is a break post
+            is_break_post = '2025.05.break' in front_matter.get('tags', [])
+            if is_break_post:
+                # Use the post from 365 days ago
+                original_post_number = str(int(post_number) - 365)
+                mp3_file = snd_dir / f"{original_post_number}.mp3"
+                if not mp3_file.exists():
+                    print(f"No matching MP3 found for break post {md_file}")
+                    continue
+            else:
+                # Regular post
+                mp3_file = snd_dir / f"{post_number}.mp3"
+                if not mp3_file.exists():
+                    print(f"No matching MP3 found for {md_file}")
+                    continue
         
         # Get MP3 metadata
         mp3_data = get_mp3_duration_size(mp3_file)
@@ -84,7 +130,7 @@ def process_minutes():
         if update_front_matter(md_file, mp3_data):
             print(f"Successfully updated {md_file}")
         else:
-            print(f"Failed to update {md_file}")
+            print(f"Failed to update {md_file})")
 
 if __name__ == "__main__":
     process_minutes()

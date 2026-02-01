@@ -58,6 +58,12 @@ eleventyComputed:
         {% endfor %}
     </div>
     <div class="post_content">
+        {% if '2025.05.break' in tags %}
+            {% set lastyear = postnumber - 365 %}
+            <p><a href='/main/{{lastyear}}/'>Link to last year's post.</a></p>
+        {% endif %}
+    </div>
+    <div class="post_content">
         {{ content | safe }}
     </div>
     <div class="post_content">

@@ -5,7 +5,6 @@ layout: base.njk
 <div class="header" >
   <a href="/main/1min/" style="font-size: 3vw;">Calendar view</a>
 </div>
-
   <div id="thing" class="player-wrap cover-art dark" data-title="Minutes" data-artist="Ben Mc" style="background-image: url('');">
     <audio preload></audio>
     <div class="player">
@@ -84,4 +83,14 @@ layout: base.njk
 <script type="text/javascript" src="/main/js/player.js">
 
 </script>
+<br/><br/>
+<div class="header" >Player by tag:</div>
+<div class="post_content">
+  {% for t in collections.tagList %}
+      {% if t not in ["2025.05.break", "break"] %}
+        <br/><br/><a href='/main{{ "/tags/" + t | url }}/'>{{ t }}</a>
+      {% endif %}
+  {% endfor %}
+</div>
+
 </div>

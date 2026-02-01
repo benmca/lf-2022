@@ -23,8 +23,9 @@ find "$SOURCE_DIR" -type f \( -iname "*.jpg" -o -iname "*.png" -o -iname "*.jpeg
         mkdir -p "$target_dir"
     fi
 
-    if ! [ -f "$target" ]; then
-        # echo "target file doesn't exist - creating"
+    if ! [ -f "${target%.*}.jpg" ]; then
+        echo "${target%.*}.jpg"
+        echo "target file doesn't exist - creating"
         echo -n "."
         magick "$img" -resize 3000x3000^ -alpha remove -define jpeg:extent=740KB -extent 3000x3000 -gravity center "${target%.*}.jpg"
     fi

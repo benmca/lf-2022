@@ -22,29 +22,37 @@ I'm an insatiably curious multi-disciplinary artist pulling on threads in music 
 
 ben_at_listenfaster.com
 
-# 2025 Shows
 
-## [**Caudal Peduncle**](https://caudalpeduncle.com/)
+# Latest Projects
 
-- Saturday April 26 at Darrel's Tavern
-- Saturday June 14 at Slim's Last Chance
-- Saturday August 2 at Sunset Tavern
+[**Caudal Peduncle**](https://caudalpeduncle.com/): I stepped into Bob's shoes and play guitar in Cousin Mike's glam punk goodtimes band. 
 
-## [**Medicine Hat**](https://listenfastermusic.bandcamp.com/album/medicine-hat)
+[**Medicine Hat**](https://listenfastermusic.bandcamp.com/album/medicine-hat): [Medicine Hat Facebook Group](https://www.facebook.com/MedicineHatSeattle). Our first album is reissued on vinyl! [You can buy one here.](https://livingfancy.wtf/products/medicine-hat-vinyl-album?pb=0) 
 
-- Saturday August 9 at Showbox Downtown - opening for Blackhappy!
+Some recent coverage:
 
-# Latest Projects (updated Spring 2025)
+[Medicine Hat Live at The Showbox 8-9-25](https://youtu.be/ZuG1HgdgLsg?si=sLUQPlIC5P410k-0)
 
-There's a ton going on all of a sudden, just when I thought I was going to be feeling like a lazy-ass:</br>
+[A Great Seattle Band You've Never Heard Of #18 - MEDICINE HAT](https://youtu.be/Uob2BCLklF8?si=xcNJQTeuy2ZeXD--)
 
-[**Caudal Peduncle**](https://caudalpeduncle.com/): I'm stepping into Bob's shoes and taking over guitar in Cousin Mike's glam punk goodtimes band. I need clothes! 
+Jon and Danette Davis are the best - here's some writing from Jon, writing and lovely photography from Danette:
 
-[**Medicine Hat**](https://listenfastermusic.bandcamp.com/album/medicine-hat): we got together for a well-attended reunion in 2023 and again back in Jan of 2025. We are looking at a vinyl reissue of our first record on [Latent Print](http://latentprintrecords.com/), as well as writing and recording new EP material. [It might sound like this](/main/435/). There's a big show in the works in August, soon to be confirmed. In the meantime, check [that link](https://listenfastermusic.bandcamp.com/album/medicine-hat) or [look at our soon-to-be-migrated facebook page](https://www.facebook.com/MedicineHatSeattle). 
+[Expose.org reviews our 1994 Self-titled record.](http://expose.org/index.php/articles/display/medicine-hat-medicine-hat-2.html)
 
-[**Stropes Foundation Archives**]:(https://www.stropesfoundation.org/) is custodian of a massive archive of fingerstyle guitar recordings and artifacts. I'm working with mentor and publisher [John Stropes](https://stropes.com) to sort things out and make them accessible as we prepare to publish transcriptions by Leo Kottke, Michael Hedges and others this year. I should have some new pieces [up there](https://www.stropes.com/ben-mcallister/) soon, myself. 
+[From Backwards Brubeck to Stage Diving — The Medicine Hat Interview](http://expose.org/index.php/articles/display/from-backwards-brubeck-to-stage-diving-the-medicine-hat-interview-2.html)
 
-[**The Guitar Cult**](https://www.theguitarcult.com/), my electric guitar ensemble. Recording in progress.
+[Medicine Hat: It's Gonna Get Loud](https://www.danettedavis.com/journal-silent-girl-with-the-camera/2023/11/8/medicine-hat-its-gonna-be-loud)
+
+[Sean Bates and Imperfect Perfectness](https://www.danettedavis.com/journal-silent-girl-with-the-camera/2023/12/1/sometimes-i-keep-photos-to-myself-sean-bates-and-imperfect-perfectness)
+
+[Medicine Hat at the Royal Room - You Could Be Happy](https://www.danettedavis.com/journal-silent-girl-with-the-camera/2025/2/19/you-could-be-happy)
+
+[Medicine Hat at the Showbox - Never Let Me Down](https://www.danettedavis.com/journal-silent-girl-with-the-camera/2025/8/20/never-let-me-down)
+
+
+[**Stropes**](https://www.stropes.com/) is custodian of a massive archive of fingerstyle guitar recordings and artifacts. I'm working with [John Stropes](https://stropes.com) to sort things out and make them accessible as we prepare to publish transcriptions by Leo Kottke, Michael Hedges and others this year. [Stropes is also my publisher](https://www.stropes.com/ben-mcallister/). 
+
+[**The Guitar Cult**](https://www.theguitarcult.com/), my electric guitar ensemble is on hiatus, [some scores available at stropes.com](https://www.stropes.com/ben-mcallister/).
 
 [**Chiwas**](https://chiwas.bandcamp.com/). [This](/189/) is one of my favorite Chiwas demos. It's a new project from brother Jason Thomson, bass player from [Medicine Hat](https://listenfastermusic.bandcamp.com/album/medicine-hat), I occasionally play on 'em.
 
@@ -55,7 +63,6 @@ There's a ton going on all of a sudden, just when I thought I was going to be fe
 # Past groups, ever a part of my being
 
 [Degenerate Art Ensemble](https://www.degenerateartensemble.com/) | [Tuktu](https://listenfastermusic.bandcamp.com/album/qayaq-1) | [Wizard Prison](https://wizardprison.bandcamp.com/) | [C'mon C'mon](https://cmoncmon.bandcamp.com/) | [Medicine Hat](https://listenfastermusic.bandcamp.com/album/medicine-hat)
-
 
 
 [Mailing List Signup](http://eepurl.com/bbcGMr) | [Bandcamp](https://listenfastermusic.bandcamp.com/) | [Soundcloud](https://soundcloud.com/listenfaster/) | [YouTube](https://www.youtube.com/channel/UCWBSD3mHhaImuKrzbQ0zHQA) | <a rel="me" href="https://www.facebook.com/ben.mcallister">Facebook</a> |  [Github](https://github.com/benmca/) | <a rel="me" href="https://mas.to/@benmca">Mastodon</a> | <a rel="me" href="https://www.linkedin.com/in/listenfaster/">LinkedIn</a>

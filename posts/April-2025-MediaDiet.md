@@ -1,5 +1,5 @@
 ---
-title: "April 2025: Reading List and Media Diet"
+title: "Winter 2025: Reading List and Media Diet"
 date: 2025-04-06
 tags: blog
 layout: post.njk
