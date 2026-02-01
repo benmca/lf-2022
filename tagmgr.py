@@ -78,7 +78,7 @@ def modify_tags_te_olallan(file_path, add_tags=None, remove_tags=None):
 
     new_lines = lines[0:initial_tag_line_index + 1]
     new_lines.extend(["- " + tag + "\n" for tag in current_tags])
-    new_lines.extend(lines[tag_line_index + 1:])
+    new_lines.extend(lines[tag_line_index:])
     # Write the updated content back to the file
     with open(file_path, 'w') as file:
         file.writelines(new_lines)

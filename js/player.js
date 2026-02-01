@@ -153,9 +153,11 @@ window.addEventListener('load', function() {
         jsPlayer.seekBar.value = jsPlayer.player.currentTime / jsPlayer.player.duration;
       };
       jsPlayer.updateSeek = function jsPlayerUpdateSeek() {
-        if (jsPlayer.player.duration > -1) {
-          jsPlayer.seekBar.value = 100 * (jsPlayer.player.currentTime || 0) / jsPlayer.player.duration;
+        var duration = jsPlayer.player.duration;
+        if (duration && isFinite(duration) && duration > 0) {
+          jsPlayer.seekBar.value = 100 * (jsPlayer.player.currentTime || 0) / duration;
           jsPlayer.currentTime[vDoc.body.textContent ? 'textContent' : 'innerHTML'] = jsPlayer.formatTime(jsPlayer.player.currentTime || 0);
+          jsPlayer.durationTime[vDoc.body.textContent ? 'textContent' : 'innerHTML'] = jsPlayer.formatTime(duration);
         }
       };
       jsPlayer.seekHeld = function jsPlayerSeekHeld() {
@@ -252,6 +254,7 @@ window.addEventListener('load', function() {
           if (jsPlayer.tracks.length > 0 && jsPlayer.player) {
             jsPlayer.player.addEventListener('ended', jsPlayer.mediaEnded, true);
             jsPlayer.player.addEventListener('loadeddata', jsPlayer.setDuration, true);
+            jsPlayer.player.addEventListener('durationchange', jsPlayer.setDuration, true);
             if (jsPlayer.wrapList.tagName) {
               jsPlayer.wrapList.addEventListener('click', jsPlayer.listClicked, true);
             }
