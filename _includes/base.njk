@@ -30,7 +30,10 @@
 
         const randomIndex = Math.floor(Math.random() * images.length);
         document.addEventListener("DOMContentLoaded", function(){
-            document.getElementById("randomImage").src = images[randomIndex];
+            var img = document.getElementById("randomImage");
+            if (img) {
+                img.src = images[randomIndex];
+            }
         });
 
     </script>
