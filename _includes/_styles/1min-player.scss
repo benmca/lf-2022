@@ -107,7 +107,9 @@ input[type=range]::-ms-range-track {
 .player-wrap .pause-button,
 .player-wrap .prev-button,
 .player-wrap .next-button,
-.player-wrap .playlist-button {
+.player-wrap .playlist-button,
+.player-wrap .order-button,
+.player-wrap .shuffle-button {
   position: absolute;
   left: 0;
   bottom: 0;
@@ -124,7 +126,9 @@ input[type=range]::-ms-range-track {
 .player-wrap .pause-button:before,
 .player-wrap .prev-button:before,
 .player-wrap .next-button:before,
-.player-wrap .playlist-button:before {
+.player-wrap .playlist-button:before,
+.player-wrap .order-button:before,
+.player-wrap .shuffle-button:before {
   content: "";
   position: absolute;
   display: block;
@@ -136,7 +140,9 @@ input[type=range]::-ms-range-track {
 }
 .player-wrap .prev-button,
 .player-wrap .next-button,
-.player-wrap .playlist-button {
+.player-wrap .playlist-button,
+.player-wrap .order-button,
+.player-wrap .shuffle-button {
   display: none;
 }
 .player-wrap .big-play-pause,
@@ -177,14 +183,18 @@ input[type=range]::-ms-range-track {
 .player-wrap .pause-button:hover,
 .player-wrap .prev-button:hover,
 .player-wrap .next-button:hover,
-.player-wrap .playlist-button:hover {
+.player-wrap .playlist-button:hover,
+.player-wrap .order-button:hover,
+.player-wrap .shuffle-button:hover {
   color: #46aaff;
 }
 .player-wrap .play-button:hover:before,
 .player-wrap .pause-button:hover:before,
 .player-wrap .prev-button:hover:before,
 .player-wrap .next-button:hover:before,
-.player-wrap .playlist-button:hover:before {
+.player-wrap .playlist-button:hover:before,
+.player-wrap .order-button:hover:before,
+.player-wrap .shuffle-button:hover:before {
   background-color: rgba(70, 170, 255, 0.1);
 }
 .player-wrap .next-button {
@@ -194,6 +204,15 @@ input[type=range]::-ms-range-track {
 .player-wrap .playlist-button {
   color: #888;
   border-radius: 15%;
+}
+.player-wrap .order-button,
+.player-wrap .shuffle-button {
+  color: #888;
+  border-radius: 15%;
+}
+.player-wrap .order-button.active,
+.player-wrap .shuffle-button.active {
+  color: #46aaff;
 }
 .player-wrap .seek-wrap {
   height: 1em;
@@ -334,7 +353,9 @@ input[type=range]::-ms-range-track {
 .player-wrap.cover-art.enabled .play-pause,
 .player-wrap.cover-art.enabled .prev-button,
 .player-wrap.cover-art.enabled .next-button,
-.player-wrap.cover-art.enabled .playlist-button {
+.player-wrap.cover-art.enabled .playlist-button,
+.player-wrap.cover-art.enabled .order-button,
+.player-wrap.cover-art.enabled .shuffle-button {
   display: none;
 }
 .player-wrap.cover-art.enabled.list-view {
@@ -374,7 +395,9 @@ input[type=range]::-ms-range-track {
 .player-wrap.cover-art.enabled.list-view .play-pause,
 .player-wrap.cover-art.enabled.list-view .prev-button,
 .player-wrap.cover-art.enabled.list-view .next-button,
-.player-wrap.cover-art.enabled.list-view .playlist-button {
+.player-wrap.cover-art.enabled.list-view .playlist-button,
+.player-wrap.cover-art.enabled.list-view .order-button,
+.player-wrap.cover-art.enabled.list-view .shuffle-button {
   position: absolute;
   top: 10%;
   display: block;
@@ -382,18 +405,24 @@ input[type=range]::-ms-range-track {
   height: 2em;
 }
 .player-wrap.cover-art.enabled.list-view .play-pause {
-  left: 56%;
+  left: 50%;
 }
 .player-wrap.cover-art.enabled.list-view .prev-button {
-  left: 31%;
+  left: 35%;
 }
 .player-wrap.cover-art.enabled.list-view .next-button {
-  left: 79%;
+  left: 65%;
 }
 .player-wrap.cover-art.enabled.list-view .playlist-button {
-  left: 8%;
+  left: 5%;
   background: none no-repeat center center;
   background-size: cover;
+}
+.player-wrap.cover-art.enabled.list-view .order-button {
+  left: 20%;
+}
+.player-wrap.cover-art.enabled.list-view .shuffle-button {
+  left: 80%;
 }
 .player-wrap.cover-art.enabled.list-view .current-time,
 .player-wrap.cover-art.enabled.list-view .duration-time {
@@ -712,14 +741,18 @@ input.seek-bar[type=range]:focus::-ms-fill-upper {
 .player-wrap.dark .pause-button:hover,
 .player-wrap.dark .prev-button:hover,
 .player-wrap.dark .next-button:hover,
-.player-wrap.dark .playlist-button:hover {
+.player-wrap.dark .playlist-button:hover,
+.player-wrap.dark .order-button:hover,
+.player-wrap.dark .shuffle-button:hover {
   color: #46aaff;
 }
 .player-wrap.dark .play-button:hover:before,
 .player-wrap.dark .pause-button:hover:before,
 .player-wrap.dark .prev-button:hover:before,
 .player-wrap.dark .next-button:hover:before,
-.player-wrap.dark .playlist-button:hover:before {
+.player-wrap.dark .playlist-button:hover:before,
+.player-wrap.dark .order-button:hover:before,
+.player-wrap.dark .shuffle-button:hover:before {
   background-color: rgba(70, 170, 255, 0.1);
 }
 .player-wrap.dark .playlist-button {
