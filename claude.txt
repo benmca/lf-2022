@@ -100,9 +100,14 @@ python tagmgr.py posts/1min/*.md --remove "oldtag"
 python tagmgr.py posts/1min/*.md --process  # Auto-adds implied tags (e.g., op-1 → te → olallan)
 ```
 
+**`copy_minutes_by_tag.sh`** — copies minute posts matching a tag to another location.
+
 ## Key Conventions
 
 - Post filenames are numeric (`1.md` through `755.md`) and correspond to `postnumber`
 - Tags encode instruments, software, and projects (e.g., `op-1`, `te`, `csound`, `olallan`, `notation`)
 - Tag relationships: `ep-133` or `op-1` implies `te`; `thuja` or `c4t` implies `csound`; `te` or `csound` implies `olallan`
 - Images follow `img/1min/{postnumber}.jpg`, thumbnails at `thumbs/1min/{postnumber}.jpg`, episode artwork at `episode_images/1min/{postnumber}.jpg`
+- Site deploys under path prefix `/main/` (not root) — relevant for any generated links or template paths
+- **Break posts** are tagged `2025.05.break` (or similar year/month pattern) and reuse audio from 365 posts earlier; `update_mp3_metadata.py` handles this offset lookup automatically
+- **Do not run `./deploy.sh` autonomously** — it rsyncs directly to production at `benmca@listenfaster.com:listenfaster.com/main`

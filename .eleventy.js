@@ -23,6 +23,7 @@ module.exports = function (eleventyConfig) {
 
     eleventyConfig.addTemplateFormats("scss");
     eleventyConfig.addPlugin(pluginRss);
+    eleventyConfig.ignores.add("AGENTS.md");
 
 
     // Creates the extension for use
@@ -136,7 +137,7 @@ module.exports = function (eleventyConfig) {
         const tagsSet = new Set();
         collection.getAll().forEach(item => {
             if (!item.data.tags) return;
-            item.data.tags.filter(tag => !['posts', 'all', '1min', 'listen', 'blog', '2025.02.break'].includes(tag)).forEach(tag => tagsSet.add(tag));
+            item.data.tags.filter(tag => !['posts', 'all', '1min', 'listen', 'blog', '2025.02.break', 'repost'].includes(tag)).forEach(tag => tagsSet.add(tag));
         });
         return Array.from(tagsSet).sort();
     });
@@ -201,4 +202,3 @@ module.exports = function (eleventyConfig) {
         pathPrefix: "/main/"
     };
 };
-

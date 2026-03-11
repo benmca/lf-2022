@@ -45,6 +45,7 @@ ul, ol {
 p, li {
     margin: 1rem 0;
     font-weight: 100;
+    font-size: 14px;
 }
 
 a:not(.action-button), a:not(.nav-option), a:not(.title){
@@ -68,4 +69,11 @@ h2.block-nav_option {
     font-weight: 400;
     text-decoration: none;
     
+}
+
+.post_content pre {
+    max-width: inherit;
+    white-space: pre-wrap;
+    word-break: break-word;
+    font-size: 12px;
 }

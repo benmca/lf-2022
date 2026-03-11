@@ -1,0 +1,3 @@
+display_name: Repost By Tags
+short_description: Create repost minute entries from tagged source posts.
+default_prompt: Generate repost minute posts from a source tag, avoid reused sources, copy tags/body with a repost link, and duplicate matching audio and PNG assets.
