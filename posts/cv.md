@@ -17,9 +17,12 @@ Seattle, WA 98107
 
 ben@listenfaster.com
 
-I'm a results-driven, action-biased technology leader. I believe in strategic pragmatism, where strategy is spelled out in measurable effort and projected results. I have worked at the nexus of business development, technology and executive leadership as the 'glue' that brings conversations to a fruitful conclusion throughout my career, often acting as translator, facilitator or mediator as the case may be. I've played this role where economic, technical, geographic and cultural gaps exist and emerge with a richer collaboration and communication as a direct result of my involvement. Technical solutions are contingent on the people involved, and I am often the 'people person' in the room. I have been steeping in the economics and infrastructure of the energy transition for the last 5 years and learn something new everyday. 
+I'm a connector and translator — the conduit between technical teams and the audiences they need to reach, whether investors, partners, or leadership. So many technical outcomes depend on the people involved, and I'm often the people person in the room.
 
-As a mentor and member of the community, I advise startups on best approaches to building teams and products. I'm a self-taught engineer, holding music degrees in composition and theory. Most of what you see of me online is music related. I travel by bike whenever possible.
+For the past six years I've been deep in the economics and infrastructure of the energy transition — carbon and renewables markets, digital commodities, trading infrastructure — and I learn something new every day. I'd welcome a conversation with anyone working at that frontier.
+
+I enjoy advising startups as they get to initial revenue. I'm a self-taught engineer with degrees in music theory and composition. I travel by bike whenever possible.
+
 
 # Philosophy
 

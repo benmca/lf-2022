@@ -1,11 +1,11 @@
 ---
-title: Discography
+title: Recordings
 date: 2022-07-12
 mySpecialNote: This is a note!
 tags: listen
 layout: post.njk
 bgImg: /img/default-bg.jpg
-permalink: /discography/
+permalink: /recordings/
 eleventyExcludeFromCollections: true
 ---
 # Guitar Cult:

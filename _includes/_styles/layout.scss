@@ -62,6 +62,10 @@
   margin: inherit;
 }
 
+#home-links{
+  text-align: center;
+}
+
 
 
 
@@ -272,14 +276,19 @@
     right: 0;
     bottom: 0;
     left: 0;
-    z-index: -1;
+    z-index: 0;
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
     background-position: center center;
-    background-blend-mode: lighten;
     background-size: cover;
     opacity: 75%;
+  }
+
+  // Keep the date link painting above the (non-negative) background layer.
+  .daylink {
+    position: relative;
+    z-index: 1;
   }
 
 }

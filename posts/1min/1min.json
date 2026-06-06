@@ -1,3 +1,0 @@
-{
-  "permalink": "1min/{{ page.fileSlug | slugify }}/"
-}

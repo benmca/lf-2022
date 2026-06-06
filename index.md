@@ -6,23 +6,17 @@ title: Listen Faster - Music by Ben McAllister
 
 <div id="home-header">
 
-<p><img id="randomImage" src="" alt=""></p>
+<!-- <p><img id="randomImage" src="" alt=""></p> -->
 
 
-<!-- ![The esteemed composer](/main/img/symbol-designed.png) -->
+![photo of Ben McAllister](/main/img/ben-danette-piano-color-800x800.png)
 <!-- [*Photo by Danette Davis*](https://www.danettedavis.com/) -->
 
-###### Ben McAllister
+###### Ben McAllister 
+#### Composer | Guitarist
+<br/><br/><br/>
 
-Half the time I will just say: "I don't know, I'm just a guitar player", the other half of the time, I will say:</br></br>
-
-I'm an insatiably curious multi-disciplinary artist pulling on threads in music and technology. I play guitar, I compose, I do a lot with computers, I write. I use this site to think, through writing [posts](/main/#blog-menu) and making sounds/demos/audio experiments. Check out [minutes](/main/1min/) for a new minute of sound every day. I think out loud on my [blog](/main/#blog-menu). 
-
-# Like what you hear? Drop me a line:
-
-ben_at_listenfaster.com
-
-
+<!-- 
 # Latest Projects
 
 [**Caudal Peduncle**](https://caudalpeduncle.com/): I stepped into Bob's shoes and play guitar in Cousin Mike's glam punk goodtimes band. 
@@ -63,9 +57,10 @@ Jon and Danette Davis are the best - here's some writing from Jon, writing and l
 # Past groups, ever a part of my being
 
 [Degenerate Art Ensemble](https://www.degenerateartensemble.com/) | [Tuktu](https://listenfastermusic.bandcamp.com/album/qayaq-1) | [Wizard Prison](https://wizardprison.bandcamp.com/) | [C'mon C'mon](https://cmoncmon.bandcamp.com/) | [Medicine Hat](https://listenfastermusic.bandcamp.com/album/medicine-hat)
-
-
-[Mailing List Signup](http://eepurl.com/bbcGMr) | [Bandcamp](https://listenfastermusic.bandcamp.com/) | [Soundcloud](https://soundcloud.com/listenfaster/) | [YouTube](https://www.youtube.com/channel/UCWBSD3mHhaImuKrzbQ0zHQA) | <a rel="me" href="https://www.facebook.com/ben.mcallister">Facebook</a> |  [Github](https://github.com/benmca/) | <a rel="me" href="https://mas.to/@benmca">Mastodon</a> | <a rel="me" href="https://www.linkedin.com/in/listenfaster/">LinkedIn</a>
+ -->
+<div id="home-links">
+  <a href="http://eepurl.com/bbcGMr">Mailing List</a> | <a href="https://listenfastermusic.bandcamp.com/">Bandcamp</a>  | <a href="https://www.youtube.com/channel/UCWBSD3mHhaImuKrzbQ0zHQA">YouTube</a> | <a href="mailto:ben@listenfaster.com">Email</a> | <a href="/main/player">Player</a>
+</div>
 
 </div>
 

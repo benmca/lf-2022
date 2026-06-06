@@ -24,6 +24,8 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addTemplateFormats("scss");
     eleventyConfig.addPlugin(pluginRss);
     eleventyConfig.ignores.add("AGENTS.md");
+    eleventyConfig.ignores.add("CLAUDE.md");
+    eleventyConfig.ignores.add(".agents/");
 
 
     // Creates the extension for use
@@ -115,7 +117,7 @@ module.exports = function (eleventyConfig) {
 
     eleventyConfig.addCollection("minutes", function (collectionApi) {
         return collectionApi.getAll().filter(item => {
-            if (item.data.tags && item.data.tags.includes('1min') && !item.data.tags.includes('2025.02.break') && !item.data.tags.includes('break')) {
+            if (item.data.tags && item.data.tags.includes('1min') && !item.data.tags.includes('2025.02.break') && !item.data.tags.includes('break') && !item.data.tags.includes('2026.05.break')) {
                 return item;
             }
         }).sort((a, b) => a.date - b.date);
@@ -137,7 +139,7 @@ module.exports = function (eleventyConfig) {
         const tagsSet = new Set();
         collection.getAll().forEach(item => {
             if (!item.data.tags) return;
-            item.data.tags.filter(tag => !['posts', 'all', '1min', 'listen', 'blog', '2025.02.break', 'repost'].includes(tag)).forEach(tag => tagsSet.add(tag));
+            item.data.tags.filter(tag => !['posts', 'all', '1min', 'listen', 'blog', '2025.02.break', '2026.05.break', 'repost'].includes(tag)).forEach(tag => tagsSet.add(tag));
         });
         return Array.from(tagsSet).sort();
     });
