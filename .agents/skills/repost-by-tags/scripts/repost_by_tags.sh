@@ -77,8 +77,10 @@ while IFS= read -r line; do
   USED_FROM_REPOSTS+=("$line")
 done < <(
   {
-    rg -No "\[Reposting minute \(([0-9]+)\)\]\(\.\./[0-9]+/\)" posts/1min/*.md | sed -E 's/.*\(([0-9]+)\).*/\1/'
-    rg -No "^From \[[^]]+\]\(\.\./([0-9]+)/\)" posts/1min/*.md | sed -E 's#.*\(\.\./([0-9]+)/\).*#\1#'
+    # `|| true`: rg exits non-zero when a format finds no matches; without this,
+    # set -euo pipefail aborts the group and the used-list silently comes back empty.
+    { rg -No "\[Reposting minute \(([0-9]+)\)\]\(\.\./[0-9]+/\)" posts/1min/*.md || true; } | sed -E 's/.*\(([0-9]+)\).*/\1/'
+    { rg -No "^From \[[^]]+\]\(\.\./([0-9]+)/\)" posts/1min/*.md || true; } | sed -E 's#.*\(\.\./([0-9]+)/\).*#\1#'
   } | sort -n | uniq
 )
 

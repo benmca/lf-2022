@@ -307,10 +307,6 @@ input[type=range]::-ms-range-track {
 /* Cover Art (optional playlist) */
 .player-wrap.cover-art.enabled {
   min-height: 250px;
-  &.tagpage {
-    min-height: 0px;
-    max-height: 175px;
-  }
 }
 
 
