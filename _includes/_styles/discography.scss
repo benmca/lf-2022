@@ -28,7 +28,12 @@
     font-weight: bold;
   }
 
-  & .release_artist {
+  & .release_artist,
+  & .release_roles {
     display: block;
+  }
+
+  & .release_roles {
+    font-style: italic;
   }
 }

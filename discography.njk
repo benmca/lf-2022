@@ -17,6 +17,9 @@ eleventyExcludeFromCollections: true
       <figcaption>
         <span class="release_title">{{ release.title }}</span>
         <span class="release_artist">{{ release.artist }}</span>
+        {% if release.roles %}
+          <span class="release_roles">{{ release.roles | join(", ") }}</span>
+        {% endif %}
       </figcaption>
     </figure>
   {% endfor %}

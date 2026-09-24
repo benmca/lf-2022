@@ -7,6 +7,14 @@
     "url": "https://listenfastermusic.bandcamp.com/album/medicine-hat"
   },
   {
+    "title": "Boyfriend Cyclone - Infinity Mix (Demo)",
+    "artist": "Caudal Peduncle",
+    "year": 2026,
+    "roles": ["guitar"],
+    "image": "boyfriend-cyclone.jpg",
+    "url": "https://caudalpeduncle.bandcamp.com/track/boyfriend-cyclone-infinity-mix-demo"
+  },
+  {
     "title": "Guitar Cult (videos)",
     "artist": "The Guitar Cult",
     "year": 2026,
@@ -77,6 +85,13 @@
     "url": "https://cmoncmon.bandcamp.com/album/cmon-cmon"
   },
   {
+    "title": "Next Cycle",
+    "artist": "Wizard Prison",
+    "year": 2008,
+    "image": "wizard-prison-next-cycle.jpg",
+    "url": "https://wizardprison.bandcamp.com/album/next-cycle"
+  },
+  {
     "title": "Nazca Aerial",
     "artist": "Ben McAllister",
     "year": 2007,
@@ -89,6 +104,14 @@
     "year": 2007,
     "image": "wizard-prison-ii.jpg",
     "url": "https://wizardprison.bandcamp.com/album/ii"
+  },
+  {
+    "title": "Songs From A Small House",
+    "artist": "Kim Virant",
+    "year": 2007,
+    "roles": ["Track: Cozy Little Babies (Songwriter)"],
+    "image": "songs-from-a-small-house.jpg",
+    "url": "https://open.spotify.com/album/1BkFDd3wgma02DouePS39U"
   },
   {
     "title": "The Early Years 1972 - 2005",
