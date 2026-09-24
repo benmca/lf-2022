@@ -3,15 +3,16 @@
 <nav>
     <div class="nav-container">
         <a href="/" class="nav-option">home</a>
-        <a class="nav-option" href="{{ '/main/1min/' }}">sound journal</a>
+        <a class="nav-option" href="{{ '/main/links/' }}">press</a>
         <a class="nav-option" href="{{ '/main/recordings/' }}">recordings</a>
         <a class="nav-option" href="#blog-menu" data="blog">blog</a>
+        <a class="nav-option" href="https://www.stropes.com/ben-mcallister/">scores</a>
+        <a class="nav-option" href="{{ '/main/1min/' }}">sound journal</a>
 {# 
         {% for t in navTags %}
             <a class="nav-option" href="#{{ t }}-menu" data="{{ t }}">{{ t }}</a>
         {% endfor %}
  #}        
-        <a class="nav-option" href="{{ '/main/links/' }}">links</a>
         <a class="nav-option" href="{{ '/main/rss.xml' }}">rss</a>
     </div>
     {% for t in navTags %}
