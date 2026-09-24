@@ -24,32 +24,30 @@
               {{ m.date |
             friendlyDate('yyyy') }}
             </div>
-            {% for w in m %}
-              {% for d in w %}
-                {% if d %}
-                  <li class="day" style="grid-column-start:{{ d.dayOfWeek }}">
-                    {% if '2025.02.break' in d.data.tags %}
-                      {% set thumbImg = '/thumbs/1min/2025.02.break.png' %}
-                      <div class="background_image cover" style="background-image:url('{{ thumbImg | url | thumb }}')"></div>
-                    {% elseif '2026.05.break' in d.data.tags %}
-                      {% set thumbImg = '/thumbs/1min/2026.05.break.png' %}
-                      <div class="background_image cover" style="background-image:url('{{ thumbImg | url | thumb }}')"></div>
-                    {% elseif '2025.05.break' in d.data.tags %}
-                      {% set lastyear = d.data.postnumber - 365 %}
-                      {% set thumbImg = '/thumbs/1min/' + lastyear + '.png' %}
-                      <div class="background_image cover" style="background-image:url('{{ thumbImg | url | thumb }}')"></div>
-                    {% else %}
-                      <div class="background_image cover" style="background-image:url('{{ d.data.bgImg | url | thumb }}')"></div>
-                    {% endif %}
-                    <div class="daylink">
-                      <a href="{{ d.url | url }}">
-                        {{ d.data.date | friendlyDate('d') }}
-                      </a>
-                    </div>
-                  </li>
-                {% endif %}
+            <ul class="month-grid">
+              {% for d in m %}
+                <li class="day" style="grid-column-start:{{ d.dayOfWeek }};grid-row-start:{{ d.weekRow }}">
+                  {% if '2025.02.break' in d.data.tags %}
+                    {% set thumbImg = '/thumbs/1min/2025.02.break.png' %}
+                    <div class="background_image cover" style="background-image:url('{{ thumbImg | url | thumb }}')"></div>
+                  {% elseif '2026.05.break' in d.data.tags %}
+                    {% set thumbImg = '/thumbs/1min/2026.05.break.png' %}
+                    <div class="background_image cover" style="background-image:url('{{ thumbImg | url | thumb }}')"></div>
+                  {% elseif '2025.05.break' in d.data.tags %}
+                    {% set lastyear = d.data.postnumber - 365 %}
+                    {% set thumbImg = '/thumbs/1min/' + lastyear + '.png' %}
+                    <div class="background_image cover" style="background-image:url('{{ thumbImg | url | thumb }}')"></div>
+                  {% else %}
+                    <div class="background_image cover" style="background-image:url('{{ d.data.bgImg | url | thumb }}')"></div>
+                  {% endif %}
+                  <div class="daylink">
+                    <a href="{{ d.url | url }}">
+                      {{ d.data.date | friendlyDate('d') }}
+                    </a>
+                  </div>
+                </li>
               {% endfor %}
-            {% endfor %}
+            </ul>
           {% endfor %}
         </ul>
       </div>

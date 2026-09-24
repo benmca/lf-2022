@@ -14,7 +14,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 # Individual steps from serve.sh:
 rm -rf ./_site/
-./make_thumbs.sh              # ImageMagick: generates 100x100 thumbnails from img/ → thumbs/
+./make_thumbs.sh              # ImageMagick (requires the `magick` binary): 100x100 thumbs from img/ → thumbs/
 python update_mp3_metadata.py # Reads MP3 duration/size, updates YAML frontmatter (requires mutagen)
 npx @11ty/eleventy --serve    # Build + dev server with hot reload
 
@@ -25,7 +25,11 @@ npx @11ty/eleventy --serve    # Build + dev server with hot reload
 npx @11ty/eleventy
 ```
 
-There are no tests, linting, or CI/CD configured.
+## Testing
+
+There are no automated tests, linting, or CI/CD configured. `npm test` intentionally exits with an error — it is a deliberate no-op, not a broken script.
+
+Manual validation: run `./serve.sh` and verify pages, audio players, and feeds in the local server output.
 
 ## Architecture
 
@@ -89,6 +93,8 @@ Styles are in `_includes/_styles/` (modular SCSS: layout, nav, typography, varia
 
 `img/`, `thumbs/`, `episode_images/`, `snd/`, `assets/`, `js/` — all copied directly to output. Audio files (`snd/1min/`) are large (~2GB total) and excluded from git via .gitignore.
 
+Generated output lives in `_site/` — never edit it by hand.
+
 ## Python Utilities
 
 **`update_mp3_metadata.py`** — Reads MP3 files via `mutagen`, writes `duration` and `length` into markdown frontmatter. Handles break posts by looking up the MP3 from 365 posts prior. Run as part of the build pipeline.
@@ -104,10 +110,22 @@ python tagmgr.py posts/1min/*.md --process  # Auto-adds implied tags (e.g., op-1
 
 ## Key Conventions
 
-- Post filenames are numeric (`1.md` through `755.md`) and correspond to `postnumber`
 - Tags encode instruments, software, and projects (e.g., `op-1`, `te`, `csound`, `olallan`, `notation`)
 - Tag relationships: `ep-133` or `op-1` implies `te`; `thuja` or `c4t` implies `csound`; `te` or `csound` implies `olallan`
 - Images follow `img/1min/{postnumber}.jpg`, thumbnails at `thumbs/1min/{postnumber}.jpg`, episode artwork at `episode_images/1min/{postnumber}.jpg`
 - Site deploys under path prefix `/main/` (not root) — relevant for any generated links or template paths
 - **Break posts** are tagged `2025.05.break` (or similar year/month pattern) and reuse audio from 365 posts earlier; `update_mp3_metadata.py` handles this offset lookup automatically
 - **Do not run `./deploy.sh` autonomously** — it rsyncs directly to production at `benmca@listenfaster.com:listenfaster.com/main`
+
+## Code Style
+
+- Match existing files: 2-space indentation in JS and SCSS
+- Keep template lines short and wrapped
+- Frontmatter keys stay consistent: `title`, `date`, `tags`, `postnumber`, `eleventyComputed`
+
+## Commit & PR Guidelines
+
+- Commit messages are short, lowercase, and descriptive (e.g., `add player order controls`, `add script to copy minutes by tag`)
+- Keep commits focused — don't mix content changes and tooling changes in one commit
+- PRs should explain what changed and why; include before/after screenshots or sample links for visual or content edits
+- Call out feed or asset changes explicitly (new `posts/1min/` entries, edits to `podfeed.njk`)

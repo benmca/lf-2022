@@ -1,0 +1,3 @@
+display_name: Repost By Year
+short_description: Create repost minute entries from the same calendar day in a previous year.
+default_prompt: Generate repost minute posts for a date range by reusing the post from the same day one year earlier, stepping back another year when that post is itself a repost or break post, copying tags/body with a repost link, and duplicating matching audio and PNG assets.

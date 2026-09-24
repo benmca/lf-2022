@@ -147,41 +147,39 @@ module.exports = function (eleventyConfig) {
     // Tags
     eleventyConfig.addCollection('minutesByMonth', collection => {
         const months = new Set();
-        let week = new Array(7);
-        week.fill(null);
         let month = new Set();
+        let currentMonthKey = null;
 
-        items = collection.getFilteredByTag("1min").forEach(item => {
-            dayOfMonth = parseInt(DateTime.fromJSDate(item.date, { zone: 'utc' }).toFormat('d'));
-            dayOfWeek = parseInt(DateTime.fromJSDate(item.date, { zone: 'utc' }).toFormat('c'));
+        collection.getFilteredByTag("1min").forEach(item => {
+            const dt = DateTime.fromJSDate(item.date, { zone: 'utc' });
+            const dayOfMonth = parseInt(dt.toFormat('d'));
+
+            // Sunday-first columns: 1 = Sunday ... 7 = Saturday
+            let dayOfWeek = parseInt(dt.toFormat('c'));
             if (dayOfWeek == 7) dayOfWeek = 1; else dayOfWeek = dayOfWeek + 1;
             item.dayOfWeek = dayOfWeek;
 
-            if (dayOfMonth == 1) {
+            // Column of the 1st of this month (same Sunday-first convention)
+            let firstDow = parseInt(dt.startOf('month').toFormat('c'));
+            if (firstDow == 7) firstDow = 1; else firstDow = firstDow + 1;
+            // 0-based calendar week within the month
+            const absWeek = Math.floor(((firstDow - 1) + (dayOfMonth - 1)) / 7);
+
+            const monthKey = dt.toFormat('yyyy-MM');
+            if (monthKey !== currentMonthKey) {
+                currentMonthKey = monthKey;
                 month = new Set();
                 month.date = item.date;
+                month.firstWeek = absWeek; // rows are relative → no leading blank weeks on partial months
                 months.add(month);
-
-                week = new Array(7);
-                week.fill(null);
-                month.add(week);
-            } else if (dayOfWeek == 1) {
-                week = new Array(7);
-                week.fill(null);
-                month.add(week);
             }
 
-            week[dayOfWeek - 1] = item;
+            // 1-based grid row; interior gaps stay as empty rows, but the month never
+            // starts with blank weeks even when its first post isn't in week one.
+            item.weekRow = absWeek - month.firstWeek + 1;
+            month.add(item);
         });
-        months.forEach(month => {
-            month.forEach(week => {
-                week.forEach(day => {
-                    if (day && day.data.tags.includes('break')) {
-                        day.isBreak = true;
-                    }
-                });
-            });
-        });
+
         return Array.from(months).sort((a, b) => b.date - a.date);
     });
 
