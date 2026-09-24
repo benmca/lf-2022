@@ -56,6 +56,9 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("assets");
     eleventyConfig.addPassthroughCopy("js");
 
+    // Dev server serves passthrough files from source instead of copying ~4GB into _site
+    eleventyConfig.setServerPassthroughCopyBehavior("passthrough");
+
     eleventyConfig.addFilter("readableDate", dateObj => {
         return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat("dd LLL yyyy");
     });

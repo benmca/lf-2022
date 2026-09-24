@@ -5,7 +5,7 @@ mySpecialNote: This is a note!
 tags: listen
 layout: post.njk
 bgImg: /img/default-bg.jpg
-permalink: /recordings/
+permalink: false
 eleventyExcludeFromCollections: true
 ---
 # Guitar Cult:

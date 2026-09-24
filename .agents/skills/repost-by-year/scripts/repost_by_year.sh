@@ -13,7 +13,7 @@ Usage:
 
 Behavior:
   - For each date in the range, pick the minute post from the same month/day one year earlier.
-  - If that post is a repost (repost tag, break_post: true, or a "From [...](../n/)" header),
+  - If that post is a repost (repost tag, break_post: true, or a "Reposted from [...](../n/)" header),
     step back another year until an original is found.
   - Dates that already have a minute post are skipped.
   - Copy source tags/body into each target, add "repost" tag, prepend repost link, copy duration/length.
@@ -102,7 +102,8 @@ is_repost() {
   local f="$1"
   grep -qE '^break_post:[[:space:]]*true[[:space:]]*$' "$f" && return 0
   grep -qE '^-[[:space:]]*repost[[:space:]]*$' "$f" && return 0
-  grep -qE '^From \[[^]]+\]\(\.\./[0-9]+/\)' "$f" && return 0
+  # Any link form: ../n/, /main/n/, or an absolute listenfaster.com/main/n/ URL
+  grep -qE '^(Reposted from|From) \[[^]]+\]\([^)]*/[0-9]+/\)' "$f" && return 0
   grep -qE 'Reposting minute \([0-9]+\)' "$f" && return 0
   return 1
 }
@@ -207,7 +208,7 @@ postnumber: $t
 duration: $duration
 length: $length
 ---
-From [$source_date_title](../$src/):
+Reposted from [$source_date_title](../$src/):
 
 $body
 EOF2

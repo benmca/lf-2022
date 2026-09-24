@@ -16,7 +16,7 @@ Use this skill for the `lf-2022` minute repost workflow.
 - Keep target `title`, `date`, `layout`, and `postnumber` if the file already exists.
 - Copy `tags` and body text from the source.
 - Add tag `repost` to target tags.
-- Add a first body line: `From <source date>:` formatted as `Month D, YYYY`, with the date linked via a relative path to the source minute.
+- Add a first body line: `Reposted from <source date>:` formatted as `Month D, YYYY`, with the date linked via a relative path to the source minute (e.g. `Reposted from [February 13, 2026](../123/):`).
 - Copy source `duration` and `length` to target.
 5. Copy assets:
 - `snd/1min/<source>.mp3` -> `snd/1min/<target>.mp3`

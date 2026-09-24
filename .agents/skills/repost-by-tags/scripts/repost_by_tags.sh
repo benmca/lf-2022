@@ -72,6 +72,7 @@ fi
 # Support both old and new formats:
 # - [Reposting minute (123)](../123/)
 # - From [February 13, 2026](../123/)
+# - Reposted from [February 13, 2026](../123/)
 USED_FROM_REPOSTS=()
 while IFS= read -r line; do
   USED_FROM_REPOSTS+=("$line")
@@ -80,7 +81,7 @@ done < <(
     # `|| true`: rg exits non-zero when a format finds no matches; without this,
     # set -euo pipefail aborts the group and the used-list silently comes back empty.
     { rg -No "\[Reposting minute \(([0-9]+)\)\]\(\.\./[0-9]+/\)" posts/1min/*.md || true; } | sed -E 's/.*\(([0-9]+)\).*/\1/'
-    { rg -No "^From \[[^]]+\]\(\.\./([0-9]+)/\)" posts/1min/*.md || true; } | sed -E 's#.*\(\.\./([0-9]+)/\).*#\1#'
+    { rg -No "^(Reposted from|From) \[[^]]+\]\(\.\./([0-9]+)/\)" posts/1min/*.md || true; } | sed -E 's#.*\(\.\./([0-9]+)/\).*#\1#'
   } | sort -n | uniq
 )
 
@@ -114,6 +115,9 @@ for n in "${ALL_SOURCES[@]}"; do
     continue
   fi
   if rg -q "Reposting minute \([0-9]+\)" "posts/1min/$n.md"; then
+    continue
+  fi
+  if rg -q "^(Reposted from|From) \[[^]]+\]\([^)]*/[0-9]+/\)" "posts/1min/$n.md"; then
     continue
   fi
   CANDIDATES+=("$n")
@@ -219,7 +223,7 @@ duration: $duration
 length: $length
 ---
 
-From [$source_date_title](../$s/):
+Reposted from [$source_date_title](../$s/):
 
 $body
 EOF2

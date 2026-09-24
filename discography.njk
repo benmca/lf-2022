@@ -1,0 +1,23 @@
+---
+title: Recordings
+layout: base.njk
+bgImg: /img/default-bg.jpg
+permalink: /recordings/
+eleventyExcludeFromCollections: true
+---
+
+<div class="discography">
+  {% for release in discography | sort(true, false, "year") %}
+    <figure class="release">
+      <a href="{{ release.url }}" target="_blank">
+        <img src="{{ ('/img/discography/' + release.image) | url }}"
+          alt="{{ release.title }} by {{ release.artist }}"
+          width="1024" height="1024" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="release_title">{{ release.title }}</span>
+        <span class="release_artist">{{ release.artist }}</span>
+      </figcaption>
+    </figure>
+  {% endfor %}
+</div>
